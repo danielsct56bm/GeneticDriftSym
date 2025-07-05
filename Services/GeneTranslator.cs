@@ -1,4 +1,4 @@
-﻿namespace SimulationEvolucion.Utils;
+﻿namespace SimulationEvolucion.Services;
 
 public class GeneTranslator
 {

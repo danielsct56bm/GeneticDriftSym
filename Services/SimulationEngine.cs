@@ -1,4 +1,5 @@
-﻿using SimulationEvolucion.Models;
+﻿using SimulationEvolucion.Core.Models;
+using SimulationEvolucion.Models;
 using SimulationEvolucion.Utils;
 
 namespace SimulationEvolucion.Services;
