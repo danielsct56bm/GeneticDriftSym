@@ -1,4 +1,6 @@
-﻿namespace SimulationEvolucion.Models;
+﻿using SimulationEvolucion.Models;
+
+namespace SimulationEvolucion.Services;
 
 public class Enviroment
 {

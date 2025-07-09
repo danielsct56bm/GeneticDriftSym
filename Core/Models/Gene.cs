@@ -1,4 +1,4 @@
-﻿namespace SimulationEvolucion.Models;
+﻿namespace SimulationEvolucion.Core.Models;
 
 public class Gene
 {
