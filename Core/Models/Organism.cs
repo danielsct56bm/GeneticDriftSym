@@ -10,12 +10,19 @@ public class Organism: IOrganism
     public string Id { get; private set; }
     public IList<IGene> Genes { get; private set; }
     public IList<IOrgan> Organs { get; private set; }
-    public void Consume(char nutrient)
+    
+    public IList<char> nutrients { get; private set; }
+    public bool Consume(char nutrient)
     {
-        //  TODO: mejorar lógica de nutrición
-        // Por ahora solo regenera un poco de salud
-        if (health < 100)
-            health += 1;
+        if (nutrients.Contains(nutrient))
+        {
+            nutrients.Remove(nutrient);
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 
     public void ProcessOrgans()
