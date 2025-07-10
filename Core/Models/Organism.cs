@@ -11,12 +11,15 @@ public class Organism: IOrganism
     public IList<IGene> Genes { get; private set; }
     public IList<IOrgan> Organs { get; private set; }
     
-    public IList<char> nutrients { get; private set; }
+    private int health = 100;
+    public Dictionary<char, int> Nutrients { get; set; }
+    public int DefenseBonus { get; set; } = 0;
+    
     public bool Consume(char nutrient)
     {
-        if (nutrients.Contains(nutrient))
+        if (Nutrients.ContainsKey(nutrient) && Nutrients[nutrient] > 0)
         {
-            nutrients.Remove(nutrient);
+            Nutrients[nutrient] -= 1;
             return true;
         }
         else
@@ -56,10 +59,6 @@ public class Organism: IOrganism
 
         return new Organism(offspringId, newGenes, new List<IOrgan>());
     }
-
-    private int health = 100;
-    public Dictionary<char, int> Nutrients { get; set; }
-    public int DefenseBonus { get; set; } = 0;
     
     private static Random _rng = new Random();
 
@@ -90,7 +89,7 @@ public class Organism: IOrganism
         }
     }
     
-    public Organ SelectRandomOrganToBuild()
+    public IOrgan SelectRandomOrganToBuild()
     {
         // Aquí deberías tener un catálogo de órganos disponibles.
         // Por ahora devolvemos un órgano de prueba.
@@ -100,7 +99,7 @@ public class Organism: IOrganism
             new OrganUse(OrganUseType.Heal, new Dictionary<char, int> { { 'A', 1 } }, effectValue: 2)
         };
 
-        return new Organ("LIVER", 5, 10, buildCost: 3, maintenanceCost: 1, residueChar: 'X', uses: testUses, space: 1);
+        return new IOrgan("LIVER", 5, 10, buildCost: 3, maintenanceCost: 1, residueChar: 'X', uses: testUses, space: 1);
     }
 
     public bool CanAffordOrganBuild(int buildCost)
