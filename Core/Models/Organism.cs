@@ -1,251 +1,95 @@
-﻿using SimulationEvolucion.Core.Enums;
+using SimulationEvolucion.Core.Enums;
 using SimulationEvolucion.Core.Interfaces;
-using SimulationEvolucion.Services;
-using SimulationEvolucion.Utils;
 
 namespace SimulationEvolucion.Core.Models;
 
-public class Organism: IOrganism
+/// <summary>
+/// Implementación de un organismo con genes
+/// </summary>
+public class Organism : IOrganism
 {
+    public List<IGene> Genes { get; private set; }
     public string Id { get; private set; }
-    public IList<IGene> Genes { get; private set; }
-    public IList<IOrgan> Organs { get; private set; }
+    public int Position { get; set; }
     
-    private int health = 100;
-    public Dictionary<char, int> Nutrients { get; set; }
-    public int DefenseBonus { get; set; } = 0;
+    private static int _nextId = 1;
     
-    public bool Consume(char nutrient)
+    public Organism(List<IGene> genes, int position = 0)
     {
-        if (Nutrients.ContainsKey(nutrient) && Nutrients[nutrient] > 0)
-        {
-            Nutrients[nutrient] -= 1;
-            return true;
-        }
-        else
-        {
-            return false;
-        }
-    }
-
-    public void ProcessOrgans()
-    {
-        foreach (var organ in Organs)
-        {
-            if (!organ.IsDestroyed())
-            {
-                organ.ActivateRandomUse(this);
-            }
-        }
-    }
-
-    public void TakeDamage(int amount)
-    {
-        health -= amount;
-        if (health < 0) health = 0;
-    }
-
-    public bool IsAlive()
-    {
-        return health > 0;
-    }
-
-    public IOrganism Reproduce(string offspringId, double mutationRate=0.01)
-    {
-        // Copia genética con posibilidad de mutaciones
-        var newGenes = Genes
-            .Select(g => _rng.NextDouble() < mutationRate ? g.Mutate() : g)
-            .ToList();
-
-        return new Organism(offspringId, newGenes, new List<IOrgan>());
+        Genes = new List<IGene>(genes);
+        Position = position;
+        Id = $"Organism_{_nextId++}";
     }
     
-    private static Random _rng = new Random();
-
-    public Organism(string id, IList<IGene> genes, IList<IOrgan> organs)
+    public Organism(int position, Random random, int geneCount = 10, int geneLength = 20, Dictionary<GeneType, string>? initialSequences = null) : this(new List<IGene>(), position)
     {
-        Id = id;
-        Genes = genes;
-        Organs = organs;
-        Nutrients = new Dictionary<char, int>();
-    }
-    
-    public bool CanAfford(Dictionary<char, int> costs)
-    {
-        foreach (var cost in costs)
-        {
-            if (!Nutrients.ContainsKey(cost.Key) || Nutrients[cost.Key] < cost.Value)
-                return false;
-        }
-        return true;
-    }
-    
-    public void PayCost(Dictionary<char, int> costs)
-    {
-        foreach (var cost in costs)
-        {
-            if (Nutrients.ContainsKey(cost.Key))
-                Nutrients[cost.Key] -= cost.Value;
-        }
-    }
-    
-    public IOrgan SelectRandomOrganToBuild()
-    {
-        // Aquí deberías tener un catálogo de órganos disponibles.
-        // Por ahora devolvemos un órgano de prueba.
-
-        var testUses = new List<OrganUse>
-        {
-            new OrganUse(OrganUseType.Heal, new Dictionary<char, int> { { 'A', 1 } }, effectValue: 2)
-        };
-
-        return new IOrgan("LIVER", 5, 10, buildCost: 3, maintenanceCost: 1, residueChar: 'X', uses: testUses, space: 1);
-    }
-
-    public bool CanAffordOrganBuild(int buildCost)
-    {
-        return Nutrients.Values.Sum() >= buildCost;
-    }
-    
-    public void PayBuildCost(int buildCost)
-    {
-        // Restar nutrientes hasta completar el costo
-        int remainingCost = buildCost;
-
-        foreach (var key in Nutrients.Keys.ToList())
-        {
-            if (remainingCost == 0)
-                break;
-
-            int used = Math.Min(Nutrients[key], remainingCost);
-            Nutrients[key] -= used;
-            remainingCost -= used;
-        }
-    }
-    
-    public IOrgan SelectRandomOrgan()
-    {
-        if (Organs == null || Organs.Count == 0)
-            return null;
-
-        return Organs[_rng.Next(Organs.Count)];
-    }
-    
-    public void AddNutrient(char nutrient, int amount)
-    {
-        if (!Nutrients.ContainsKey(nutrient))
-            Nutrients[nutrient] = 0;
-
-        Nutrients[nutrient] += amount;
-
-        Console.WriteLine($"[Organismo {Id}] Gana +{amount} de {nutrient}");
-    }
-    
-    public void Synthesize(char source, char target, int amount)
-    {
-        if (!Nutrients.ContainsKey(source) || Nutrients[source] < amount)
-        {
-            Console.WriteLine($"[Organismo {Id}] No tiene suficiente {source} para sintetizar.");
-            return;
-        }
-
-        Nutrients[source] -= amount;
-
-        if (!Nutrients.ContainsKey(target))
-            Nutrients[target] = 0;
-
-        Nutrients[target] += amount;
-
-        Console.WriteLine($"[Organismo {Id}] Sintetizó {amount} {source} → {target}");
-    }
-    
-    public void Discard(char nutrient, int amount)
-    {
-        if (!Nutrients.ContainsKey(nutrient))
-            return;
-
-        Nutrients[nutrient] -= amount;
-
-        if (Nutrients[nutrient] < 0)
-            Nutrients[nutrient] = 0;
-
-        Console.WriteLine($"[Organismo {Id}] Descarta {amount} de {nutrient}");
-    }
-    /*
-    public void TryReproduce(ISimulationEngine engine, int currentPosition)
-    {
-        Console.WriteLine($"[Organismo {Id}] Intenta reproducirse.");
-
-        var offspring = this.Reproduce(IdGenerator.GetNextId(), mutationRate: 0.05);
+        var selectedCount = (int)(geneCount * 0.3);  // 30% genes seleccionados
+        var neutralCount = geneCount - selectedCount; // 70% genes neutrales
         
-        // Buscar espacio
-        int[] possiblePositions = {currentPosition +1, currentPosition - 1};
-        foreach (var pos in possiblePositions)
+        // Crear genes seleccionados con secuencia inicial común
+        for (int i = 0; i < selectedCount; i++)
         {
-            if (engine.IsValidPosition(pos) && engine.IsEmptyPosition(pos))
-            {
-                engine.PlaceOrganismAt(pos, offspring);
-                Console.WriteLine($"[Organismo {Id}] Reprodujo nuevo organismo en posición {pos}.");
-                return;
-            }
+            var initialSeq = initialSequences?[GeneType.Selected] ?? null;
+            var gene = new Gene(GeneType.Selected, geneLength, random, initialSeq);
+            Genes.Add(gene);
         }
         
-        Console.WriteLine($"[Organismo {Id} no encontro espacio"); 
-    }*/
-    
-    public void TryAttackNearby(int attackPower)
-    {
-        Console.WriteLine($"[Organismo {Id}] Ataca a un organismo cercano con poder {attackPower}.");
-        // Aquí debes coordinar con el engine para seleccionar organismos vecinos
-    }
-    /*
-    public static Organism GenerateOrganism(string id, int geneCount)
-    {
-        var genes = new IList<IGene>();
-
-        for (int i = 0; i < geneCount; i++)
+        // Crear genes neutrales con secuencia inicial común
+        for (int i = 0; i < neutralCount; i++)
         {
-            genes.Add(Gene.GenerateRandom());
+            var initialSeq = initialSequences?[GeneType.Neutral] ?? null;
+            var gene = new Gene(GeneType.Neutral, geneLength, random, initialSeq);
+            Genes.Add(gene);
         }
-        return new Organism(id, genes, new List<IOrgan>());
-    }*/
-/*
-    public Organism Reproduce(string offspring, double mutationRate = 0.01)
+    }
+    
+    public double CalculateFitness()
     {
-        var newGenes = new List<Gene>();
-
+        // Fitness total es el promedio ponderado de genes seleccionados y neutrales
+        var selectedGenes = GetGenesByType(GeneType.Selected);
+        var neutralGenes = GetGenesByType(GeneType.Neutral);
+        
+        var selectedFitness = selectedGenes.Any() ? selectedGenes.Average(g => g.CalculateFitness()) : 1.0;
+        var neutralFitness = neutralGenes.Any() ? neutralGenes.Average(g => g.CalculateFitness()) : 1.0;
+        
+        // Los genes seleccionados tienen más peso en el fitness
+        return selectedFitness * 0.7 + neutralFitness * 0.3;
+    }
+    
+    public IOrganism Reproduce(Random random, double mutationRate)
+    {
+        var offspringGenes = new List<IGene>();
+        
         foreach (var gene in Genes)
         {
-            var newGene = new Gene(gene.Symbol);
-
-            if (_rng.NextDouble() < mutationRate)
+            var offspringGene = gene.Clone();
+            
+            // Aplicar mutaciones con probabilidad mutationRate
+            if (random.NextDouble() < mutationRate)
             {
-                newGene.Mutate();
+                var mutationTypes = Enum.GetValues<MutationType>();
+                var mutationType = mutationTypes[random.Next(mutationTypes.Length)];
+                offspringGene.Mutate(mutationType, random);
             }
             
-            newGenes.Add(newGene);
+            offspringGenes.Add(offspringGene);
         }
         
-        return new Organism(offspring, newGenes, new List<Organ>());
-    }*/
-
-    public string GetGenomeText()
-    {
-        var genome = "";
-
-        for (int i = 0; i < Genes.Count; i+=3)
-        {
-            if (i+2 >= Genes.Count) break;
-            
-            string triplet = $"{Genes[i].Symbol}{Genes[i + 1].Symbol}{Genes[i + 2].Symbol}";
-            genome += GeneTranslator.Translate(triplet);
-        }
+        // Posición inicial aleatoria para el descendiente
+        var newPosition = random.Next(0, 100); // Mundo de tamaño 100 por defecto
         
-        return genome;
+        return new Organism(offspringGenes, newPosition);
     }
-
-    public string GetGeneSequence()
+    
+    public List<IGene> GetGenesByType(GeneType type)
     {
-        return string.Join("", Genes.Select(g => g.Symbol));
+        return Genes.Where(g => g.Type == type).ToList();
+    }
+    
+    public override string ToString()
+    {
+        var selectedCount = GetGenesByType(GeneType.Selected).Count;
+        var neutralCount = GetGenesByType(GeneType.Neutral).Count;
+        return $"{Id} at pos {Position}: {selectedCount} selected, {neutralCount} neutral genes, fitness: {CalculateFitness():F2}";
     }
 }

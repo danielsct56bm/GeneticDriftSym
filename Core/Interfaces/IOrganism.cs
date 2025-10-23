@@ -1,14 +1,27 @@
-﻿namespace SimulationEvolucion.Core.Interfaces;
+using SimulationEvolucion.Core.Enums;
 
+namespace SimulationEvolucion.Core.Interfaces;
+
+/// <summary>
+/// Interfaz para organismos que contienen genes
+/// </summary>
 public interface IOrganism
 {
-    string Id { get; }
-    IList<IGene> Genes { get; }
-    IList<IOrgan> Organs { get; }
+    /// <summary>Lista de genes del organismo</summary>
+    List<IGene> Genes { get; }
     
-    bool Consume(char nutrient);
-    void ProcessOrgans();
-    void TakeDamage(int amount);
-    bool IsAlive();
-    IOrganism Reproduce(string offspringId, double mutationRate = 0.01);
+    /// <summary>ID único del organismo</summary>
+    string Id { get; }
+    
+    /// <summary>Posición en el mundo 1D</summary>
+    int Position { get; set; }
+    
+    /// <summary>Calcula la aptitud total del organismo</summary>
+    double CalculateFitness();
+    
+    /// <summary>Crea un descendiente con mutaciones</summary>
+    IOrganism Reproduce(Random random, double mutationRate);
+    
+    /// <summary>Obtiene genes por tipo</summary>
+    List<IGene> GetGenesByType(GeneType type);
 }
