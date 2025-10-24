@@ -13,9 +13,7 @@ public class FossilManager
     private readonly List<Fossil> _fossils;
     private readonly double _fossilizationProbability;
     private readonly int _fossilHalfLife;
-    private readonly double _totalLossProbability;
-    private readonly double _geneLossProbability;
-    private readonly double _partialDamageProbability;
+    private readonly double _physicalDamageProbability;
     
     public IReadOnlyList<Fossil> Fossils => _fossils.AsReadOnly();
     public int TotalFossils => _fossils.Count;
@@ -26,10 +24,8 @@ public class FossilManager
         _fossilizationProbability = fossilizationProbability;
         _fossilHalfLife = fossilHalfLife;
         
-        // Decay probabilities (per generation of age)
-        _totalLossProbability = 0.00001;
-        _geneLossProbability = 0.0001;
-        _partialDamageProbability = 0.001;
+        // Physical damage probability per fossil
+        _physicalDamageProbability = 0.001; // 0.1% chance of physical damage per fossil
     }
     
     /// <summary>
@@ -87,11 +83,7 @@ public class FossilManager
             preservedSequence.Add(gene.Sequence[i]);
         }
         
-        // Fill remaining slots with null to represent unpreserved nucleotides
-        while (preservedSequence.Count < maxPreservedLength)
-        {
-            preservedSequence.Add(null);
-        }
+        // Don't fill with null - genes should have their natural preserved length
         
         return new FossilGene(preservedSequence);
     }
@@ -121,33 +113,22 @@ public class FossilManager
         {
             var age = currentGeneration - fossil.GenerationFormed;
             
-            // Apply total fossil loss
-            if (ShouldApplyTotalLoss(age, random))
-            {
-                fossilsToRemove.Add(fossil);
-                continue;
-            }
-            
-            // Apply decay to each gene
-            var genesToRemove = new List<FossilGene>();
-            
+            // Apply nucleotide decay (chemical decay)
             foreach (var gene in fossil.Genes)
             {
-                if (ShouldApplyGeneLoss(age, random))
-                {
-                    genesToRemove.Add(gene);
-                    continue;
-                }
-                
-                // Apply nucleotide decay and partial damage
                 ApplyNucleotideDecay(gene, age, random);
-                ApplyPartialDamage(gene, age, random);
             }
             
-            // Remove lost genes from fossil
-            foreach (var gene in genesToRemove)
+            // Apply physical damage (0.1% chance per fossil)
+            if (random.NextDouble() < _physicalDamageProbability)
             {
-                fossil.Genes.Remove(gene);
+                ApplyPhysicalDamage(fossil, random);
+            }
+            
+            // Remove fossils with no genes left
+            if (fossil.Genes.Count == 0)
+            {
+                fossilsToRemove.Add(fossil);
             }
         }
         
@@ -159,21 +140,86 @@ public class FossilManager
     }
     
     /// <summary>
-    /// Determines if a fossil should be completely lost
+    /// Applies physical damage to a fossil
     /// </summary>
-    private bool ShouldApplyTotalLoss(int age, Random random)
+    private void ApplyPhysicalDamage(Fossil fossil, Random random)
     {
-        var probability = 1.0 - Math.Pow(1.0 - _totalLossProbability, age);
-        return random.NextDouble() < probability;
+        // Count total nucleotides in all preserved sequences (including decayed ones)
+        var totalNucleotides = fossil.Genes.Sum(g => g.PreservedSequence.Length);
+        
+        if (totalNucleotides == 0) return;
+        
+        // Roll for damage type
+        var damageRoll = random.NextDouble();
+        
+        if (damageRoll < 1.0 / 20.0) // 0 ~ 1/20: No damage
+        {
+            return; // No damage
+        }
+        else if (damageRoll < 19.0 / 20.0) // 1/20 ~ 19/20: Proportional damage
+        {
+            // Calculate number of d5 dice to roll: nucleotides * damageRoll * 0.5
+            var diceCount = (int)(totalNucleotides * damageRoll * 0.5);
+            
+            // Simulate rolling diceCount d5 dice and sum the results
+            var totalDamage = SimulateD5Rolls(diceCount, random);
+            
+            // Apply damage by removing nucleotides from the end of genes
+            ApplyPhysicalDamageToGenes(fossil, totalDamage, random);
+        }
+        else // 19/20 ~ 1: Total fossil loss
+        {
+            fossil.Genes.Clear();
+        }
+        
+        // Remove fossil if no nucleotides left
+        var remainingNucleotides = fossil.Genes.Sum(g => g.PreservedSequence.Length);
+        if (remainingNucleotides == 0)
+        {
+            fossil.Genes.Clear();
+        }
     }
     
     /// <summary>
-    /// Determines if a gene should be completely lost
+    /// Simulates rolling multiple d5 dice and returns the sum
+    /// d5 values: [0, 1, 1, 2, 3]
     /// </summary>
-    private bool ShouldApplyGeneLoss(int age, Random random)
+    private int SimulateD5Rolls(int diceCount, Random random)
     {
-        var probability = 1.0 - Math.Pow(1.0 - _geneLossProbability, age);
-        return random.NextDouble() < probability;
+        int totalDamage = 0;
+        var d5Values = new int[] { 0, 1, 1, 2, 3 };
+        
+        for (int i = 0; i < diceCount; i++)
+        {
+            totalDamage += d5Values[random.Next(d5Values.Length)];
+        }
+        return totalDamage;
+    }
+    
+    /// <summary>
+    /// Applies physical damage by removing nucleotides from the end of genes
+    /// </summary>
+    private void ApplyPhysicalDamageToGenes(Fossil fossil, int damageAmount, Random random)
+    {
+        var remainingDamage = damageAmount;
+        
+        // Process genes in random order
+        var genesToProcess = fossil.Genes.OrderBy(x => random.Next()).ToList();
+        
+        foreach (var gene in genesToProcess)
+        {
+            if (remainingDamage <= 0) break;
+            
+            var currentLength = gene.PreservedSequence.Length;
+            var nucleotidesToRemove = Math.Min(remainingDamage, currentLength);
+            
+            if (nucleotidesToRemove > 0)
+            {
+                // Remove nucleotides from the end
+                gene.PreservedSequence = gene.PreservedSequence.Substring(0, currentLength - nucleotidesToRemove);
+                remainingDamage -= nucleotidesToRemove;
+            }
+        }
     }
     
     /// <summary>
@@ -203,30 +249,6 @@ public class FossilManager
         gene.PreservedSequence = new string(sequenceArray);
     }
     
-    /// <summary>
-    /// Applies partial damage (removes nucleotides from the end)
-    /// </summary>
-    private void ApplyPartialDamage(FossilGene gene, int age, Random random)
-    {
-        if (gene.PreservedSequence.All(c => c == '*')) return;
-        
-        var probability = 1.0 - Math.Pow(1.0 - _partialDamageProbability, age);
-        
-        if (random.NextDouble() < probability)
-        {
-            // Find the last non-* nucleotide and replace it with *
-            var sequenceArray = gene.PreservedSequence.ToCharArray();
-            for (int i = sequenceArray.Length - 1; i >= 0; i--)
-            {
-                if (sequenceArray[i] != '*')
-                {
-                    sequenceArray[i] = '*';
-                    break;
-                }
-            }
-            gene.PreservedSequence = new string(sequenceArray);
-        }
-    }
     
     /// <summary>
     /// Saves fossils to JSON file
@@ -238,17 +260,13 @@ public class FossilManager
             fossils = _fossils.Select(f => new
             {
                 position = f.Position,
-                generationFormed = f.GenerationFormed,
-                maxPreservedLength = f.MaxPreservedLength,
-                organismId = f.OrganismId,
-                genes = f.Genes.Select(g => new
-                {
-                    preservedSequence = g.PreservedSequence
-                }).ToArray()
+                generation = f.GenerationFormed,
+                sequences = f.Genes.Select(g => g.PreservedSequence).ToArray()
             }).ToArray(),
             metadata = new
             {
                 totalFossils = _fossils.Count,
+                totalGenes = _fossils.SelectMany(f => f.Genes).Count(),
                 fossilizationProbability = _fossilizationProbability,
                 fossilHalfLife = _fossilHalfLife,
                 decayApplied = true
@@ -288,23 +306,16 @@ public class FossilManager
             foreach (var fossilElement in fossilsArray.EnumerateArray())
             {
                 var position = fossilElement.GetProperty("position").GetInt32();
-                var generationFormed = fossilElement.GetProperty("generationFormed").GetInt32();
-                var maxPreservedLength = fossilElement.GetProperty("maxPreservedLength").GetInt32();
-                var organismId = fossilElement.GetProperty("organismId").GetString() ?? "";
+                var generation = fossilElement.GetProperty("generation").GetInt32();
                 
-                var fossil = new Fossil(position, generationFormed, maxPreservedLength, organismId);
+                var fossil = new Fossil(position, generation, 0, $"LoadedFossil_{position}_{generation}");
                 
-                if (fossilElement.TryGetProperty("genes", out var genesArray))
+                if (fossilElement.TryGetProperty("sequences", out var sequencesArray))
                 {
-                    foreach (var geneElement in genesArray.EnumerateArray())
+                    foreach (var sequenceElement in sequencesArray.EnumerateArray())
                     {
-                        var preservedSequence = "";
-                        if (geneElement.TryGetProperty("preservedSequence", out var sequenceProperty))
-                        {
-                            preservedSequence = sequenceProperty.GetString() ?? "";
-                        }
-                        
-                        var fossilGene = new FossilGene(preservedSequence);
+                        var sequence = sequenceElement.GetString() ?? "";
+                        var fossilGene = new FossilGene(sequence);
                         fossil.Genes.Add(fossilGene);
                     }
                 }
