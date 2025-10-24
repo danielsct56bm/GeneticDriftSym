@@ -56,6 +56,27 @@ class Program
         simulation.ExportResults(resultsPath);
         Console.WriteLine($"\nResultados exportados a: {resultsPath}");
         
+        // Exportar registro fósil
+        if (config.EnableFossilRecord)
+        {
+            var fossilsPath = "fosiles.json";
+            simulation.ExportFossils(fossilsPath);
+            
+            // Mostrar estadísticas de fósiles
+            var fossilStats = simulation.GetFossilStatistics();
+            if (fossilStats != null)
+            {
+                Console.WriteLine("\n=== ESTADÍSTICAS DEL REGISTRO FÓSIL ===");
+                Console.WriteLine($"Total de fósiles: {fossilStats.TotalFossils}");
+                Console.WriteLine($"Promedio de genes por fósil: {fossilStats.AverageGenesPerFossil:F2}");
+                Console.WriteLine($"Longitud promedio preservada: {fossilStats.AveragePreservedLength:F2}");
+                Console.WriteLine($"Genes seleccionados: {fossilStats.SelectedGenesCount}");
+                Console.WriteLine($"Genes neutrales: {fossilStats.NeutralGenesCount}");
+                Console.WriteLine($"Genes vacíos: {fossilStats.EmptyGenesCount}");
+                Console.WriteLine($"Tasa de preservación: {fossilStats.PreservationRate:P2}");
+            }
+        }
+        
         // Mostrar algunos organismos finales como ejemplo
         ShowSampleOrganisms(simulation);
         
@@ -76,6 +97,12 @@ class Program
                 // Exportar resultados actualizados
                 simulation.ExportResults(resultsPath);
                 Console.WriteLine($"\nResultados actualizados exportados a: {resultsPath}");
+                
+                // Exportar registro fósil actualizado
+                if (config.EnableFossilRecord)
+                {
+                    simulation.ExportFossils("fosiles.json");
+                }
                 
                 // Mostrar algunos organismos finales como ejemplo
                 ShowSampleOrganisms(simulation);

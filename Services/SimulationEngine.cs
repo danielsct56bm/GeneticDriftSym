@@ -12,14 +12,17 @@ public class SimulationEngine : ISimulationEngine
     public IWorld1D World { get; private set; }
     public SimulationConfig Config { get; private set; }
     public List<PopulationStatistics> History { get; private set; }
+    public FossilManager? FossilManager { get; private set; }
     
     private Random _random;
+    private int _currentGeneration;
     
     public SimulationEngine(SimulationConfig config, int? seed = null)
     {
         Config = config;
         _random = seed.HasValue ? new Random(seed.Value) : new Random();
         History = new List<PopulationStatistics>();
+        _currentGeneration = 0;
         
         World = new World1D(
             config.WorldSize,
@@ -27,6 +30,13 @@ public class SimulationEngine : ISimulationEngine
             config.SelectionStrength,
             config.CarryingCapacity
         );
+        
+        // Initialize fossil manager if fossil record is enabled
+        if (config.EnableFossilRecord)
+        {
+            FossilManager = new FossilManager(config.FossilizationProbability, config.FossilHalfLife);
+            World.FossilManager = FossilManager;
+        }
     }
     
     public void Initialize(Random? random = null)
@@ -89,10 +99,20 @@ public class SimulationEngine : ISimulationEngine
         }
         
         Console.WriteLine("\nSimulación completada!");
+        
+        // Apply fossil decay if fossil record is enabled
+        if (Config.EnableFossilRecord && FossilManager != null)
+        {
+            Console.WriteLine("Aplicando decadencia de fósiles...");
+            FossilManager.ApplyDecay(_currentGeneration, _random);
+            Console.WriteLine($"Fósiles después de decadencia: {FossilManager.TotalFossils}");
+        }
     }
     
     public void RunGeneration()
     {
+        _currentGeneration++;
+        World.CurrentGeneration = _currentGeneration;
         World.Evolve(_random);
         var stats = World.GetStatistics();
         History.Add(stats);
@@ -214,5 +234,29 @@ public class SimulationEngine : ISimulationEngine
         var denominator = Math.Sqrt((n * sumX2 - sumX * sumX) * (n * sumY2 - sumY * sumY));
         
         return denominator == 0 ? 0 : numerator / denominator;
+    }
+    
+    /// <summary>
+    /// Exports fossil record to JSON file
+    /// </summary>
+    public void ExportFossils(string filePath)
+    {
+        if (Config.EnableFossilRecord && FossilManager != null)
+        {
+            FossilManager.SaveToJson(filePath);
+            Console.WriteLine($"Registro fósil exportado a: {filePath}");
+        }
+    }
+    
+    /// <summary>
+    /// Gets fossil statistics
+    /// </summary>
+    public FossilStatistics? GetFossilStatistics()
+    {
+        if (Config.EnableFossilRecord && FossilManager != null)
+        {
+            return FossilManager.GetStatistics();
+        }
+        return null;
     }
 }

@@ -1,5 +1,6 @@
 using SimulationEvolucion.Core.Enums;
 using SimulationEvolucion.Core.Interfaces;
+using SimulationEvolucion.Services;
 
 namespace SimulationEvolucion.Core.Models;
 
@@ -14,6 +15,10 @@ public class World1D : IWorld1D
     private readonly double _mutationRate;
     private readonly double _selectionStrength;
     private readonly int _carryingCapacity;
+    
+    // Reference to fossil manager for recording deaths
+    public FossilManager? FossilManager { get; set; }
+    public int CurrentGeneration { get; set; }
     
     public World1D(int size, double mutationRate = 0.01, double selectionStrength = 0.5, int carryingCapacity = 1000)
     {
@@ -81,6 +86,11 @@ public class World1D : IWorld1D
         
         foreach (var organism in organismsToRemove)
         {
+            // Record death for fossilization before removing
+            if (FossilManager != null)
+            {
+                FossilManager.RecordDeath(organism, CurrentGeneration, new Random());
+            }
             RemoveOrganism(organism.Id);
         }
     }
@@ -159,6 +169,11 @@ public class World1D : IWorld1D
             
             foreach (var organism in organismsToRemove)
             {
+                // Record death for fossilization before removing
+                if (FossilManager != null)
+                {
+                    FossilManager.RecordDeath(organism, CurrentGeneration, new Random());
+                }
                 RemoveOrganism(organism.Id);
             }
         }

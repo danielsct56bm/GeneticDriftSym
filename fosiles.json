@@ -1,0 +1,6654 @@
+{
+  "fossils": [
+    {
+      "position": 0,
+      "generationFormed": 17,
+      "maxPreservedLength": 18,
+      "organismId": "Organism_806",
+      "genes": [
+        {
+          "preservedSequence": "AT*G***GA*CGA*CGA*"
+        },
+        {
+          "preservedSequence": "AT*G*T**ATCGAT*GA*"
+        },
+        {
+          "preservedSequence": "*T*C*ATCGATCG*T*GA"
+        },
+        {
+          "preservedSequence": "GC**G*A**C**G*TA*C"
+        },
+        {
+          "preservedSequence": "G*TAG*TAGC**G***G*"
+        },
+        {
+          "preservedSequence": "CTAGCT**C*AGCTAG*T"
+        },
+        {
+          "preservedSequence": "**T***T***C**A****"
+        },
+        {
+          "preservedSequence": "*C*A*CT***T*GCTA*C"
+        },
+        {
+          "preservedSequence": "*CT**C*A*CT*G*TAG*"
+        },
+        {
+          "preservedSequence": "****GC*A*C*AGCTAG*"
+        }
+      ]
+    },
+    {
+      "position": 83,
+      "generationFormed": 17,
+      "maxPreservedLength": 16,
+      "organismId": "Organism_1087",
+      "genes": [
+        {
+          "preservedSequence": "*TCGATC**T*GA*CG"
+        },
+        {
+          "preservedSequence": "**CGATC****GA*CG"
+        },
+        {
+          "preservedSequence": "A*CGAT*GAT***TC*"
+        },
+        {
+          "preservedSequence": "*G*TACT**CT****A"
+        },
+        {
+          "preservedSequence": "*CTA*CTA*C**GC*A"
+        },
+        {
+          "preservedSequence": "GCT**CTAGCTA*CT*"
+        },
+        {
+          "preservedSequence": "GC*A*C*AGCTAGCTA"
+        },
+        {
+          "preservedSequence": "*CTA*CT*GCTA*C*A"
+        },
+        {
+          "preservedSequence": "**TA*C*A*CT**CT*"
+        },
+        {
+          "preservedSequence": "G*TAG*TA*CTA**TC"
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "generationFormed": 17,
+      "maxPreservedLength": 23,
+      "organismId": "Organism_1113",
+      "genes": [
+        {
+          "preservedSequence": "AT******ATC**TCGATCG***"
+        },
+        {
+          "preservedSequence": "AT**ATCG*T**ATCG*TCG***"
+        },
+        {
+          "preservedSequence": "*TCG***GATCG*T*GATC****"
+        },
+        {
+          "preservedSequence": "GG*TAC**GC***CTA**TA***"
+        },
+        {
+          "preservedSequence": "GC*AG*TA**TAGCTAG**A***"
+        },
+        {
+          "preservedSequence": "G*T**CTAGCTAGC*A*******"
+        },
+        {
+          "preservedSequence": "**T*GC****T*G**A***A***"
+        },
+        {
+          "preservedSequence": "G**AGC**GCTAG*TA*C*A***"
+        },
+        {
+          "preservedSequence": "GCTAGCT*G*T*GC*AG*TA***"
+        },
+        {
+          "preservedSequence": "*CTA***A**T*GCTC*G*TA**"
+        }
+      ]
+    },
+    {
+      "position": 44,
+      "generationFormed": 17,
+      "maxPreservedLength": 21,
+      "organismId": "Organism_809",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGAT***TCGA**G*"
+        },
+        {
+          "preservedSequence": "*TC***C*ATC*A*CGA*CG*"
+        },
+        {
+          "preservedSequence": "ATC**TCGATCGA*TCG****"
+        },
+        {
+          "preservedSequence": "G*TA*C***CTAGCTA*CT**"
+        },
+        {
+          "preservedSequence": "*C**GCT*G*TAGCT**CTA*"
+        },
+        {
+          "preservedSequence": "GCT***AG*T*GC***CTA**"
+        },
+        {
+          "preservedSequence": "GCTAG*TAG*TAGCT*G**A*"
+        },
+        {
+          "preservedSequence": "G*TAGCT**C***CT*G*T**"
+        },
+        {
+          "preservedSequence": "G***GC*AG*TA***AGCTA*"
+        },
+        {
+          "preservedSequence": "G*TAG*T*G*TAGCTA**TA*"
+        }
+      ]
+    },
+    {
+      "position": 51,
+      "generationFormed": 18,
+      "maxPreservedLength": 23,
+      "organismId": "Organism_901",
+      "genes": [
+        {
+          "preservedSequence": "AT**ATCG*T*GA**GATCG***"
+        },
+        {
+          "preservedSequence": "AT**ATC*ATCGATC***CG***"
+        },
+        {
+          "preservedSequence": "ATCGA*CGAT*G*****TC****"
+        },
+        {
+          "preservedSequence": "G*T**CA*GC*AGCTA*C*****"
+        },
+        {
+          "preservedSequence": "GCT**C*A**T*G*TAG*T****"
+        },
+        {
+          "preservedSequence": "C*A*C*A**T*GCTAGC******"
+        },
+        {
+          "preservedSequence": "G*TAG*TAGCT*G*TAG**A***"
+        },
+        {
+          "preservedSequence": "*CTAG*TAG*T*GCT***TA***"
+        },
+        {
+          "preservedSequence": "G**AGTAG*TAGCTA**TAGCTA"
+        },
+        {
+          "preservedSequence": "GCT*G*T*G****CTAG*TA***"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "generationFormed": 18,
+      "maxPreservedLength": 19,
+      "organismId": "Organism_1097",
+      "genes": [
+        {
+          "preservedSequence": "AT*GATCGATCGA*C*A*C"
+        },
+        {
+          "preservedSequence": "ATC**T*G*TCGAT*GATC"
+        },
+        {
+          "preservedSequence": "AT*GAT*G*TCGAT**ATC"
+        },
+        {
+          "preservedSequence": "GCTAGC***C**GC*AGC*"
+        },
+        {
+          "preservedSequence": "G**A***A**TA**TA***"
+        },
+        {
+          "preservedSequence": "**T*GCTA**TAGCTAGC*"
+        },
+        {
+          "preservedSequence": "GCT*GCT*G**A*C*A**T"
+        },
+        {
+          "preservedSequence": "*CTAGC***CTAGCTAGC*"
+        },
+        {
+          "preservedSequence": "GCTA**TA*CT**CT*GCT"
+        },
+        {
+          "preservedSequence": "GC**G*GT*CTA*C***GC"
+        }
+      ]
+    },
+    {
+      "position": 54,
+      "generationFormed": 18,
+      "maxPreservedLength": 18,
+      "organismId": "Organism_501",
+      "genes": [
+        {
+          "preservedSequence": "**CGAGTC****A**GAT"
+        },
+        {
+          "preservedSequence": "*T*G*TCG*TCGATC**T"
+        },
+        {
+          "preservedSequence": "*TC**TC*A**GATC**T"
+        },
+        {
+          "preservedSequence": "GC*AGCTA**TAG*TAG*"
+        },
+        {
+          "preservedSequence": "***A**TAGCTAGC***C"
+        },
+        {
+          "preservedSequence": "G*TAGA*C**G**AGCTA"
+        },
+        {
+          "preservedSequence": "G**A*CTA*C*AGCTA*C"
+        },
+        {
+          "preservedSequence": "GCT*GCTA*CTAGCTA**"
+        },
+        {
+          "preservedSequence": "*C*A**TA*C*AG*T*GC"
+        },
+        {
+          "preservedSequence": "*C*AGCTAGCT*G*TA*C"
+        }
+      ]
+    },
+    {
+      "position": 24,
+      "generationFormed": 18,
+      "maxPreservedLength": 17,
+      "organismId": "Organism_1723",
+      "genes": [
+        {
+          "preservedSequence": "ATCGAT**A*CGAT**A"
+        },
+        {
+          "preservedSequence": "*T**ATC*A**GATC**"
+        },
+        {
+          "preservedSequence": "A*CGAT*G**CGA*CGA"
+        },
+        {
+          "preservedSequence": "GG**A*TAGCTA*CTAG"
+        },
+        {
+          "preservedSequence": "**T*G*TAGC***CTA*"
+        },
+        {
+          "preservedSequence": "G***GC*AG*T****A*"
+        },
+        {
+          "preservedSequence": "GC*AG*TAGCTAG*TA*"
+        },
+        {
+          "preservedSequence": "GCTA*C*AG*T*GCT*G"
+        },
+        {
+          "preservedSequence": "G*TA*C*AGCT**CTAG"
+        },
+        {
+          "preservedSequence": "GCTAGCTAG**AG*TC*"
+        }
+      ]
+    },
+    {
+      "position": 26,
+      "generationFormed": 19,
+      "maxPreservedLength": 21,
+      "organismId": "Organism_1443",
+      "genes": [
+        {
+          "preservedSequence": "A**GATCGAT*GATCG*T***"
+        },
+        {
+          "preservedSequence": "*T***TC*A*C*ATCG*TC**"
+        },
+        {
+          "preservedSequence": "AT*GA*CG****ATCGATCG*"
+        },
+        {
+          "preservedSequence": "GC**G**AG*T*GCT*GCT**"
+        },
+        {
+          "preservedSequence": "**T**C*AGC**GCT***TA*"
+        },
+        {
+          "preservedSequence": "GCTAG*G**AGC*AGC*****"
+        },
+        {
+          "preservedSequence": "G*T*GC*A*CTAG*T*G**A*"
+        },
+        {
+          "preservedSequence": "GCT*GCTAGCT*GCT**CT**"
+        },
+        {
+          "preservedSequence": "*CTA***AGC*AGCTAGCTA*"
+        },
+        {
+          "preservedSequence": "G*T*GCTAGCTA**TAG**A*"
+        }
+      ]
+    },
+    {
+      "position": 81,
+      "generationFormed": 19,
+      "maxPreservedLength": 16,
+      "organismId": "Organism_2200",
+      "genes": [
+        {
+          "preservedSequence": "A**GA*C****G***G"
+        },
+        {
+          "preservedSequence": "*T**A*CGATCGATC*"
+        },
+        {
+          "preservedSequence": "*T*G*TCGA*CGATC*"
+        },
+        {
+          "preservedSequence": "GC***CTCAGCT****"
+        },
+        {
+          "preservedSequence": "GCTA**TAG****CT*"
+        },
+        {
+          "preservedSequence": "G*TA*CTA**T*G*TA"
+        },
+        {
+          "preservedSequence": "G*T*GCA*TAG**A*C"
+        },
+        {
+          "preservedSequence": "**T*GCT*G*TAG***"
+        },
+        {
+          "preservedSequence": "*CTA*C*A*CTA*C*A"
+        },
+        {
+          "preservedSequence": "GGCTAG***G****C*"
+        }
+      ]
+    },
+    {
+      "position": 82,
+      "generationFormed": 19,
+      "maxPreservedLength": 20,
+      "organismId": "Organism_1566",
+      "genes": [
+        {
+          "preservedSequence": "A*C*ATC*A*CGATCG*TC*"
+        },
+        {
+          "preservedSequence": "ATCGATCGAT***TCGATC*"
+        },
+        {
+          "preservedSequence": "*TCG*T*GAT*GA*C*A*C*"
+        },
+        {
+          "preservedSequence": "GCTAGCT*GCTAG**AGC**"
+        },
+        {
+          "preservedSequence": "*CTAGCT*G*TAGC***CTA"
+        },
+        {
+          "preservedSequence": "GCTAGT*G**A*CT******"
+        },
+        {
+          "preservedSequence": "GCT*G*T*GCTAG**TAG*T"
+        },
+        {
+          "preservedSequence": "****GCT**CTAG*T**CT*"
+        },
+        {
+          "preservedSequence": "GCT**CTA*CTA*CTAGCT*"
+        },
+        {
+          "preservedSequence": "*CTA*CTAGC***CTA**TA"
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "generationFormed": 19,
+      "maxPreservedLength": 18,
+      "organismId": "Organism_1445",
+      "genes": [
+        {
+          "preservedSequence": "A***ATCGAT*G***G**"
+        },
+        {
+          "preservedSequence": "AT**A**GATCGAT*G*T"
+        },
+        {
+          "preservedSequence": "***GA***AT*G***GAT"
+        },
+        {
+          "preservedSequence": "*C*A*CTAGC*AGC**GC"
+        },
+        {
+          "preservedSequence": "G*TAGCT*GCT*G*TA**"
+        },
+        {
+          "preservedSequence": "*C*AG*TA*CT*G*T*G*"
+        },
+        {
+          "preservedSequence": "*CTAGC**GC**GC**G*"
+        },
+        {
+          "preservedSequence": "GC*A*CT**CTA***A*C"
+        },
+        {
+          "preservedSequence": "G*TAGCTA*C*AG*TAGC"
+        },
+        {
+          "preservedSequence": "*C*A*CT*GC*A*C*AGC"
+        }
+      ]
+    },
+    {
+      "position": 58,
+      "generationFormed": 19,
+      "maxPreservedLength": 21,
+      "organismId": "Organism_1253",
+      "genes": [
+        {
+          "preservedSequence": "**C*AT*GA**G*TCGA**G*"
+        },
+        {
+          "preservedSequence": "A*CG*T*GATC*AT*GATCG*"
+        },
+        {
+          "preservedSequence": "**T*GATCGA**GATCG**CG"
+        },
+        {
+          "preservedSequence": "*C*AGCA*GCT**CTAGC***"
+        },
+        {
+          "preservedSequence": "GCTAG**AG*T*GCTAGC*A*"
+        },
+        {
+          "preservedSequence": "*TAGCTA*C**G****C*A**"
+        },
+        {
+          "preservedSequence": "GCT***T**CTAGC***C*A*"
+        },
+        {
+          "preservedSequence": "GC*A*C*A*C*A**TA*CT**"
+        },
+        {
+          "preservedSequence": "GCTA**TAG*T*GC*AGCTA*"
+        },
+        {
+          "preservedSequence": "*GCTAGCT*GCTA**T***T*"
+        }
+      ]
+    },
+    {
+      "position": 35,
+      "generationFormed": 19,
+      "maxPreservedLength": 18,
+      "organismId": "Organism_715",
+      "genes": [
+        {
+          "preservedSequence": "*TCGA**GA*CGA*C*A*"
+        },
+        {
+          "preservedSequence": "A***A**G*TC*ATCG**"
+        },
+        {
+          "preservedSequence": "*TCG*TC*A*C**T*G*T"
+        },
+        {
+          "preservedSequence": "*CT**C***CTAG*TA*G"
+        },
+        {
+          "preservedSequence": "G**A*CTA*CTAGCTAGC"
+        },
+        {
+          "preservedSequence": "G*T*GCT*GCT*GC*AGC"
+        },
+        {
+          "preservedSequence": "G**AG*TA*C*AG*T*GC"
+        },
+        {
+          "preservedSequence": "GC*A***AGC*AGCTA**"
+        },
+        {
+          "preservedSequence": "GCTAG*TA*CTA*CTA*C"
+        },
+        {
+          "preservedSequence": "GC**G*T*G*T*G*TAG*"
+        }
+      ]
+    },
+    {
+      "position": 25,
+      "generationFormed": 19,
+      "maxPreservedLength": 15,
+      "organismId": "Organism_285",
+      "genes": [
+        {
+          "preservedSequence": "ATCGAT*GA*C*ATC"
+        },
+        {
+          "preservedSequence": "**CGA*CGA*****C"
+        },
+        {
+          "preservedSequence": "***GATC*AT***TC"
+        },
+        {
+          "preservedSequence": "GC**GCTA*C*AG**"
+        },
+        {
+          "preservedSequence": "GCTAGC**G*TAGC*"
+        },
+        {
+          "preservedSequence": "*C*AGCTAG*TAGCT"
+        },
+        {
+          "preservedSequence": "*****C**G*TAG*T"
+        },
+        {
+          "preservedSequence": "GCT**C**GCTAGCT"
+        },
+        {
+          "preservedSequence": "*C**G*TAGCT*GCT"
+        },
+        {
+          "preservedSequence": "G*TA*C***CTAGC*"
+        }
+      ]
+    },
+    {
+      "position": 34,
+      "generationFormed": 19,
+      "maxPreservedLength": 26,
+      "organismId": "Organism_1125",
+      "genes": [
+        {
+          "preservedSequence": "*AT*GTC*ATC*A*CGATCG******"
+        },
+        {
+          "preservedSequence": "**C**TCGATC*A**GATC*******"
+        },
+        {
+          "preservedSequence": "**C******TCGATCGA**G******"
+        },
+        {
+          "preservedSequence": "GGC*A*TAGCT*GCT*GC*A******"
+        },
+        {
+          "preservedSequence": "GCTAGCTA**T*G*TA**TA******"
+        },
+        {
+          "preservedSequence": "*CT*AGC*GC**GCT**C*A******"
+        },
+        {
+          "preservedSequence": "GCTAGCT*G*TAA**TA*********"
+        },
+        {
+          "preservedSequence": "GC**G*T***T**CTA*CTA******"
+        },
+        {
+          "preservedSequence": "GCTA**TA*C*AGCT*GCT*******"
+        },
+        {
+          "preservedSequence": "G**AGC**GCT*G*T*AGC*A*****"
+        }
+      ]
+    },
+    {
+      "position": 32,
+      "generationFormed": 19,
+      "maxPreservedLength": 20,
+      "organismId": "Organism_34",
+      "genes": [
+        {
+          "preservedSequence": "A*CGAT*G*T*GATC*A***"
+        },
+        {
+          "preservedSequence": "A*CGA*CGAT**ATC**TCG"
+        },
+        {
+          "preservedSequence": "*TC*ATCG*T****CGA***"
+        },
+        {
+          "preservedSequence": "G*T**CTAGCTA****G*T*"
+        },
+        {
+          "preservedSequence": "GC*AGC*AGCTACTAG*TA*"
+        },
+        {
+          "preservedSequence": "*CT*GC*A*CT*GC**G*TG"
+        },
+        {
+          "preservedSequence": "*CTAGCT*GC**GCTAGCT*"
+        },
+        {
+          "preservedSequence": "G*TA*CTAGCTAG*T**CT*"
+        },
+        {
+          "preservedSequence": "**TAGCTAG*T*GCTA****"
+        },
+        {
+          "preservedSequence": "GCTAGCT**CTA*C*A**TA"
+        }
+      ]
+    },
+    {
+      "position": 50,
+      "generationFormed": 19,
+      "maxPreservedLength": 20,
+      "organismId": "Organism_1812",
+      "genes": [
+        {
+          "preservedSequence": "*TC***CGA*CG*TCGATCG"
+        },
+        {
+          "preservedSequence": "ATCGA**GA*CGATC***CG"
+        },
+        {
+          "preservedSequence": "*TCG*TCGA*CG*TCG**C*"
+        },
+        {
+          "preservedSequence": "*CT*GC**GC*A*C**GCTA"
+        },
+        {
+          "preservedSequence": "GCT*GC*AGCTAGC**GCT*"
+        },
+        {
+          "preservedSequence": "GC*A***CTA*C*AGCTA**"
+        },
+        {
+          "preservedSequence": "***A**TAG**A**T**CTA"
+        },
+        {
+          "preservedSequence": "*C*AGCT*G*TA****G**A"
+        },
+        {
+          "preservedSequence": "GCTAG*T***TA*CTAG**A"
+        },
+        {
+          "preservedSequence": "G***G***GCT*GCT**CT*"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "generationFormed": 20,
+      "maxPreservedLength": 22,
+      "organismId": "Organism_2314",
+      "genes": [
+        {
+          "preservedSequence": "A*CGAT**A*C*AT**ATC***"
+        },
+        {
+          "preservedSequence": "A*CGA*C*A*CGA*CG******"
+        },
+        {
+          "preservedSequence": "A*C*ATCG****A*C*AT****"
+        },
+        {
+          "preservedSequence": "GCT*G**AGC**GCTA*C****"
+        },
+        {
+          "preservedSequence": "***AGC***CTAG*TAG*TA**"
+        },
+        {
+          "preservedSequence": "GCTA*C***C*AGCG*T*****"
+        },
+        {
+          "preservedSequence": "GCTA*CTAGC**GC***CTA**"
+        },
+        {
+          "preservedSequence": "GCT**CTAGCTA**G*A*CT**"
+        },
+        {
+          "preservedSequence": "GCTAGCTAG*T**CTAGCTA**"
+        },
+        {
+          "preservedSequence": "*CT***T*GC*A*CTA**T***"
+        }
+      ]
+    },
+    {
+      "position": 47,
+      "generationFormed": 20,
+      "maxPreservedLength": 15,
+      "organismId": "Organism_2428",
+      "genes": [
+        {
+          "preservedSequence": "ATCGA*CGATCG*T*"
+        },
+        {
+          "preservedSequence": "*TC*ATC***CGA*C"
+        },
+        {
+          "preservedSequence": "ATCGA*C*A*C*ATC"
+        },
+        {
+          "preservedSequence": "**T*G**T*CTA*C*"
+        },
+        {
+          "preservedSequence": "GC*A****GCT*GG*"
+        },
+        {
+          "preservedSequence": "CTA*CT*GC*AG***"
+        },
+        {
+          "preservedSequence": "**TAGCTAGCTA*CT"
+        },
+        {
+          "preservedSequence": "GCTAG*T*G**A*C*"
+        },
+        {
+          "preservedSequence": "**TA**T***T*GCT"
+        },
+        {
+          "preservedSequence": "*CTAGCTAGCTAGCT"
+        }
+      ]
+    },
+    {
+      "position": 81,
+      "generationFormed": 20,
+      "maxPreservedLength": 19,
+      "organismId": "Organism_2425",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCG*TCG*TC*ATC"
+        },
+        {
+          "preservedSequence": "***GA*CG**CGAT**AT*"
+        },
+        {
+          "preservedSequence": "ATCGATC**TCGA*CGAT*"
+        },
+        {
+          "preservedSequence": "GC**G*TAG*TAG*T***T"
+        },
+        {
+          "preservedSequence": "**T*GCTAGCT*GCTAGCT"
+        },
+        {
+          "preservedSequence": "*CT*G***GCTA*CT*G*T"
+        },
+        {
+          "preservedSequence": "GCT*GC**GC*A*CT***T"
+        },
+        {
+          "preservedSequence": "***AA**TAG***G*TAGC"
+        },
+        {
+          "preservedSequence": "**TAGCTAGCTA*CTAGC*"
+        },
+        {
+          "preservedSequence": "*C*AGC*AGCT*GCTA*CT"
+        }
+      ]
+    },
+    {
+      "position": 35,
+      "generationFormed": 20,
+      "maxPreservedLength": 17,
+      "organismId": "Organism_2001",
+      "genes": [
+        {
+          "preservedSequence": "A*C*ATCG*T*GA*C*A"
+        },
+        {
+          "preservedSequence": "AT*GAT*GA*CGATC*A"
+        },
+        {
+          "preservedSequence": "*TC*A****T**ATC**"
+        },
+        {
+          "preservedSequence": "*CT*G*T*****G*TA*"
+        },
+        {
+          "preservedSequence": "GCTA*CTAGCT*GCT*G"
+        },
+        {
+          "preservedSequence": "GC**G*TAG*TA*CTAG"
+        },
+        {
+          "preservedSequence": "T*C*GCTA*CT*G*T*G"
+        },
+        {
+          "preservedSequence": "G***GCT**C*A*C***"
+        },
+        {
+          "preservedSequence": "GCT*GCT*GCTAGC**G"
+        },
+        {
+          "preservedSequence": "GCTAGC**GC**T*CA*"
+        }
+      ]
+    },
+    {
+      "position": 72,
+      "generationFormed": 20,
+      "maxPreservedLength": 20,
+      "organismId": "Organism_631",
+      "genes": [
+        {
+          "preservedSequence": "*TCGATCGATCGA*CGA**G"
+        },
+        {
+          "preservedSequence": "*T**ATCG**C*ATC*ATCG"
+        },
+        {
+          "preservedSequence": "*T***TC*ATCGA*****C*"
+        },
+        {
+          "preservedSequence": "GCT**C*TG*T**C****T*"
+        },
+        {
+          "preservedSequence": "G*TA*C**GCT*GCT**CTA"
+        },
+        {
+          "preservedSequence": "*T*G*T*GCTAG***G*TA*"
+        },
+        {
+          "preservedSequence": "G***GCTA**TAGC*AG*TA"
+        },
+        {
+          "preservedSequence": "*CTAG*T**CT*GCT*GCT*"
+        },
+        {
+          "preservedSequence": "GCTAGTAGC*A**T*GCTA*"
+        },
+        {
+          "preservedSequence": "*C*AGCT*GCT*G***G*TA"
+        }
+      ]
+    },
+    {
+      "position": 23,
+      "generationFormed": 20,
+      "maxPreservedLength": 23,
+      "organismId": "Organism_1974",
+      "genes": [
+        {
+          "preservedSequence": "A***ATCGATCGA*CGATCG***"
+        },
+        {
+          "preservedSequence": "AT*GA*CG*TCGATCGATC****"
+        },
+        {
+          "preservedSequence": "***GA*CGAT*G**CGAT*G***"
+        },
+        {
+          "preservedSequence": "**TAGCT*GCTAG*TAG*T****"
+        },
+        {
+          "preservedSequence": "G*T*GCT*GC*A*CTAG*TA***"
+        },
+        {
+          "preservedSequence": "GCTA*CT*G***GC*AGC*A***"
+        },
+        {
+          "preservedSequence": "G**AGCT*GC*A*CT*G**A***"
+        },
+        {
+          "preservedSequence": "GC*A*GCC*A*CTAG*TAG*TA*"
+        },
+        {
+          "preservedSequence": "*CTAG**AGCT*GCG*TA*****"
+        },
+        {
+          "preservedSequence": "G**AG*TA*C***CTAGCTA***"
+        }
+      ]
+    },
+    {
+      "position": 64,
+      "generationFormed": 20,
+      "maxPreservedLength": 16,
+      "organismId": "Organism_1425",
+      "genes": [
+        {
+          "preservedSequence": "ATC*A*CG*T*GA*C*"
+        },
+        {
+          "preservedSequence": "ATCGA*C*ATCGAT**"
+        },
+        {
+          "preservedSequence": "**C*AT*GATCGATCG"
+        },
+        {
+          "preservedSequence": "*CTA*CT*GCTAGCTT"
+        },
+        {
+          "preservedSequence": "GCTA***AG*T*GCT*"
+        },
+        {
+          "preservedSequence": "GCT*GCTAG**AGC*A"
+        },
+        {
+          "preservedSequence": "*C***C**AGC*AGCT"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGC*A**T*"
+        },
+        {
+          "preservedSequence": "GC*A*CTAGCTA**TA"
+        },
+        {
+          "preservedSequence": "*C**GCCTAG*AGCTA"
+        }
+      ]
+    },
+    {
+      "position": 23,
+      "generationFormed": 20,
+      "maxPreservedLength": 20,
+      "organismId": "Organism_2120",
+      "genes": [
+        {
+          "preservedSequence": "A**GAT*GATCGA**GA*CG"
+        },
+        {
+          "preservedSequence": "ATC*ATCGATCGA*CGATC*"
+        },
+        {
+          "preservedSequence": "A*CGATC*ATC*AT**G***"
+        },
+        {
+          "preservedSequence": "GC*AGCTAGCTAGCTA****"
+        },
+        {
+          "preservedSequence": "GC**GCT*A*C*G*TAGCT*"
+        },
+        {
+          "preservedSequence": "*CT*CTA*C**G*TAG*TA*"
+        },
+        {
+          "preservedSequence": "G*T*G*T***T*GCTA*C*A"
+        },
+        {
+          "preservedSequence": "***AGCTAGGC*A**T***T"
+        },
+        {
+          "preservedSequence": "**T*GC*AGC*****AGC*A"
+        },
+        {
+          "preservedSequence": "G*T*G*TA**T**C*AGCTA"
+        }
+      ]
+    },
+    {
+      "position": 87,
+      "generationFormed": 21,
+      "maxPreservedLength": 15,
+      "organismId": "Organism_2718",
+      "genes": [
+        {
+          "preservedSequence": "A*CGATCG**CGATC"
+        },
+        {
+          "preservedSequence": "*TCG****ATCGA**"
+        },
+        {
+          "preservedSequence": "A*CG*TCGAT*GA**"
+        },
+        {
+          "preservedSequence": "GCTA*CTAG*TA**T"
+        },
+        {
+          "preservedSequence": "GCTAGCT*GC*AGCT"
+        },
+        {
+          "preservedSequence": "GC*A*C*A*CTAGC*"
+        },
+        {
+          "preservedSequence": "GCT*GC*AGC***CT"
+        },
+        {
+          "preservedSequence": "G*TAG***GCTA*C*"
+        },
+        {
+          "preservedSequence": "**T**CT*G**A*CT"
+        },
+        {
+          "preservedSequence": "**TAGCT*G*TAGC*"
+        }
+      ]
+    },
+    {
+      "position": 72,
+      "generationFormed": 21,
+      "maxPreservedLength": 21,
+      "organismId": "Organism_2522",
+      "genes": [
+        {
+          "preservedSequence": "A*CGATCG*TCGAT*GA*CG*"
+        },
+        {
+          "preservedSequence": "AT*G*TCG***GA*CGAT***"
+        },
+        {
+          "preservedSequence": "A*CGAT**AT**ATCGA*CG*"
+        },
+        {
+          "preservedSequence": "GCT*GCTA**TAGC**GCTA*"
+        },
+        {
+          "preservedSequence": "GCTAG***GC*TA**T**C**"
+        },
+        {
+          "preservedSequence": "G*TAGCTAGCTA*CTA*CTA*"
+        },
+        {
+          "preservedSequence": "G**A*C**GCT*GCTAGCT**"
+        },
+        {
+          "preservedSequence": "G**A*CTA**T*G*TA*C*A*"
+        },
+        {
+          "preservedSequence": "**T*GCC**GA*CTAG*TAG*"
+        },
+        {
+          "preservedSequence": "G*T*GC*AGCTA****GC***"
+        }
+      ]
+    },
+    {
+      "position": 97,
+      "generationFormed": 21,
+      "maxPreservedLength": 20,
+      "organismId": "Organism_2651",
+      "genes": [
+        {
+          "preservedSequence": "ATCG*TC**TCG*TCGATC*"
+        },
+        {
+          "preservedSequence": "*TC**TC***CG*TC*A*CG"
+        },
+        {
+          "preservedSequence": "**CGATCG*TCG*T*GA*C*"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGC**G*TA*C*A"
+        },
+        {
+          "preservedSequence": "GCTAG*AGCC**G****TA*"
+        },
+        {
+          "preservedSequence": "GC*AGCTAGCTAGCT**CTA"
+        },
+        {
+          "preservedSequence": "**TA*C*AG*TAG*TAGC*A"
+        },
+        {
+          "preservedSequence": "***A**TAGCTA****G*TA"
+        },
+        {
+          "preservedSequence": "GCTAGCT*GC**A*TAG***"
+        },
+        {
+          "preservedSequence": "GCTAGC**G*TAGCTAGC*A"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "generationFormed": 21,
+      "maxPreservedLength": 13,
+      "organismId": "Organism_3064",
+      "genes": [
+        {
+          "preservedSequence": "**CGATCGA***A"
+        },
+        {
+          "preservedSequence": "***GA*C*A*CGA"
+        },
+        {
+          "preservedSequence": "*TCGA*CG*TCG*"
+        },
+        {
+          "preservedSequence": "*CTAG**A*CT*G"
+        },
+        {
+          "preservedSequence": "GC*AGCTA*CT**"
+        },
+        {
+          "preservedSequence": "G*TAGA*****CT"
+        },
+        {
+          "preservedSequence": "***AG**AGCTAG"
+        },
+        {
+          "preservedSequence": "G*TAGCTAGCTA*"
+        },
+        {
+          "preservedSequence": "GCTAGTC*GCTA*"
+        },
+        {
+          "preservedSequence": "GCT***TAGCTAG"
+        }
+      ]
+    },
+    {
+      "position": 31,
+      "generationFormed": 21,
+      "maxPreservedLength": 19,
+      "organismId": "Organism_3232",
+      "genes": [
+        {
+          "preservedSequence": "*TC***CGATCG**C**TC"
+        },
+        {
+          "preservedSequence": "ATCGAT**ATCGA**G*T*"
+        },
+        {
+          "preservedSequence": "A**GAT*GATCG*T*GA**"
+        },
+        {
+          "preservedSequence": "GCTAG**A***A***AG**"
+        },
+        {
+          "preservedSequence": "***AGC*AGC***CT*GCT"
+        },
+        {
+          "preservedSequence": "*CTA*CTAG*CTAGCT***"
+        },
+        {
+          "preservedSequence": "GC*A**TAG*T**CTAG*T"
+        },
+        {
+          "preservedSequence": "GC*AG*TAGC*AGC*AG**"
+        },
+        {
+          "preservedSequence": "***AGCTAG*T*G**AGC*"
+        },
+        {
+          "preservedSequence": "*CTA*CT*G*TA*CT*GC*"
+        }
+      ]
+    },
+    {
+      "position": 75,
+      "generationFormed": 22,
+      "maxPreservedLength": 25,
+      "organismId": "Organism_2002",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGAT**ATC**TC******"
+        },
+        {
+          "preservedSequence": "ATCGAT*G*TCGA*CGATCG*****"
+        },
+        {
+          "preservedSequence": "ATCGATCG***GA**G*TCG*****"
+        },
+        {
+          "preservedSequence": "G*CT*CTA*C**GC*AGC*******"
+        },
+        {
+          "preservedSequence": "G**AG*TAG*T*GC*A*C*******"
+        },
+        {
+          "preservedSequence": "GC*AG*TAGCTAGCA*TA*CTA***"
+        },
+        {
+          "preservedSequence": "*CTAGCTAGCTAGCT**CT******"
+        },
+        {
+          "preservedSequence": "GCT*GCTA*CTAGCTA*CT******"
+        },
+        {
+          "preservedSequence": "**T*G*TAGC*A*CTA*CTA*****"
+        },
+        {
+          "preservedSequence": "G**AG*TAG*T***T**GCTA****"
+        }
+      ]
+    },
+    {
+      "position": 98,
+      "generationFormed": 22,
+      "maxPreservedLength": 20,
+      "organismId": "Organism_3198",
+      "genes": [
+        {
+          "preservedSequence": "ATCGAGTC*T****CG**C*"
+        },
+        {
+          "preservedSequence": "**C*AT**AT*G*TCGATC*"
+        },
+        {
+          "preservedSequence": "*T**ATCG***GA*CG***G"
+        },
+        {
+          "preservedSequence": "*CTAG*TAG*TATG*T*GCT"
+        },
+        {
+          "preservedSequence": "GC*AG*T*GCT**C*****A"
+        },
+        {
+          "preservedSequence": "G*TAGA*CT*GCTAGC*A**"
+        },
+        {
+          "preservedSequence": "*C*A*CT*GCT***CTACT*"
+        },
+        {
+          "preservedSequence": "G*TAGCTA*CT*G*TA*C*A"
+        },
+        {
+          "preservedSequence": "GC*A*CTAGC***C*AGCT*"
+        },
+        {
+          "preservedSequence": "G**AGCTAGC*AG*T*G*TA"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "generationFormed": 22,
+      "maxPreservedLength": 13,
+      "organismId": "Organism_2488",
+      "genes": [
+        {
+          "preservedSequence": "A***AT*G*TC*A"
+        },
+        {
+          "preservedSequence": "AT**AT*G**CGA"
+        },
+        {
+          "preservedSequence": "**C*A*CGA*CGA"
+        },
+        {
+          "preservedSequence": "*GCTACTAG*TAG"
+        },
+        {
+          "preservedSequence": "GC*AGCTAGCT**"
+        },
+        {
+          "preservedSequence": "G*TAGCTAGCTAG"
+        },
+        {
+          "preservedSequence": "GCT*G*T*G*T*G"
+        },
+        {
+          "preservedSequence": "G*TA*CTA*C*AG"
+        },
+        {
+          "preservedSequence": "*CTCTAG*T**CT"
+        },
+        {
+          "preservedSequence": "GC*AGCT*GC*A*"
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "generationFormed": 23,
+      "maxPreservedLength": 18,
+      "organismId": "Organism_3852",
+      "genes": [
+        {
+          "preservedSequence": "ATC*ATC*AT**A*CG*T"
+        },
+        {
+          "preservedSequence": "A*C**TCGA*CGATC*AT"
+        },
+        {
+          "preservedSequence": "ATCGATCG***GATCG*T"
+        },
+        {
+          "preservedSequence": "GCTA*CTAGC*A**TA**"
+        },
+        {
+          "preservedSequence": "**TAG*TA*C*AGC*CTA"
+        },
+        {
+          "preservedSequence": "*C*A*C*AGC*AGCTAG*"
+        },
+        {
+          "preservedSequence": "GCTAGCTA**TAGCT*GC"
+        },
+        {
+          "preservedSequence": "G*T***TAG**AG**AGC"
+        },
+        {
+          "preservedSequence": "*CTAGCTAGC*AGCTAG*"
+        },
+        {
+          "preservedSequence": "*CT***TAGCTA*CT*G*"
+        }
+      ]
+    },
+    {
+      "position": 31,
+      "generationFormed": 23,
+      "maxPreservedLength": 23,
+      "organismId": "Organism_1335",
+      "genes": [
+        {
+          "preservedSequence": "ATC*ATCGAT*GA*C*ATC****"
+        },
+        {
+          "preservedSequence": "ATCG*TCGAT*GAT**AT*****"
+        },
+        {
+          "preservedSequence": "ATCG*T*G*TCGATCGATCG***"
+        },
+        {
+          "preservedSequence": "*GCT*CT*GCTAGACTGCTA***"
+        },
+        {
+          "preservedSequence": "**TAGCTAG*TAG*TAGC*****"
+        },
+        {
+          "preservedSequence": "*C*AGG*TAGCTAG*TAG**A**"
+        },
+        {
+          "preservedSequence": "GCTA*CTAG**A***A*******"
+        },
+        {
+          "preservedSequence": "*CT*G*T*GCT*G*T**C*****"
+        },
+        {
+          "preservedSequence": "*C*C*A*CTAGC***C*A*****"
+        },
+        {
+          "preservedSequence": "GC*AG*TAGC*A*CTCAGCT***"
+        }
+      ]
+    },
+    {
+      "position": 36,
+      "generationFormed": 23,
+      "maxPreservedLength": 18,
+      "organismId": "Organism_1317",
+      "genes": [
+        {
+          "preservedSequence": "ATCGA*CG**CGA*C*A*"
+        },
+        {
+          "preservedSequence": "ATCGATCGA*CGA**GA*"
+        },
+        {
+          "preservedSequence": "ATCGA*CGATC****GA*"
+        },
+        {
+          "preservedSequence": "*CTAGC*A**TA*C**GC"
+        },
+        {
+          "preservedSequence": "GC*AG***GC*A*C*AGC"
+        },
+        {
+          "preservedSequence": "G*TAG**A*CTAGC*AG*"
+        },
+        {
+          "preservedSequence": "**TAG*TAGCTAG*T*GC"
+        },
+        {
+          "preservedSequence": "*C*A*CTA*GCTA**T**"
+        },
+        {
+          "preservedSequence": "*CT*GCT*GC**GC*AG*"
+        },
+        {
+          "preservedSequence": "GCTA*C*AGC*AGC*AG*"
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "generationFormed": 23,
+      "maxPreservedLength": 18,
+      "organismId": "Organism_3364",
+      "genes": [
+        {
+          "preservedSequence": "A***A*C*ATC*A*CG**"
+        },
+        {
+          "preservedSequence": "ATCG**CGA*CGATC*A*"
+        },
+        {
+          "preservedSequence": "A*C**TC*A***A*CGAT"
+        },
+        {
+          "preservedSequence": "GCTA*CTA*CT*G*T**C"
+        },
+        {
+          "preservedSequence": "GCT*GCTA*CTAGC*GCT"
+        },
+        {
+          "preservedSequence": "GCT*G*TA*CTAGCT*GC"
+        },
+        {
+          "preservedSequence": "G*TAG**A*CTAGCTAG*"
+        },
+        {
+          "preservedSequence": "GCTAGCT**CTAG**A**"
+        },
+        {
+          "preservedSequence": "*CT*GCTAGCT*G*TTA*"
+        },
+        {
+          "preservedSequence": "GCT*GCGTACT*GCTCA*"
+        }
+      ]
+    },
+    {
+      "position": 51,
+      "generationFormed": 24,
+      "maxPreservedLength": 20,
+      "organismId": "Organism_2781",
+      "genes": [
+        {
+          "preservedSequence": "*TCGA*CG**C*AT*G*T*G"
+        },
+        {
+          "preservedSequence": "A*C*ATCGATCGA*TCGA**"
+        },
+        {
+          "preservedSequence": "AT*G*T**A*CG***GA*CG"
+        },
+        {
+          "preservedSequence": "G***GC**GC**GCTAG*TA"
+        },
+        {
+          "preservedSequence": "GC***C**GC*AG*T*G*T*"
+        },
+        {
+          "preservedSequence": "GCTAG*TAGCTA*C*AGCTT"
+        },
+        {
+          "preservedSequence": "*C*A****G**AG*TC**CT"
+        },
+        {
+          "preservedSequence": "*C**GCT*G**AGC*A*CT*"
+        },
+        {
+          "preservedSequence": "GCTAGCTA*CTAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "GCTAGC*A*CTAG*T*GCTA"
+        }
+      ]
+    },
+    {
+      "position": 76,
+      "generationFormed": 24,
+      "maxPreservedLength": 19,
+      "organismId": "Organism_3529",
+      "genes": [
+        {
+          "preservedSequence": "ATCG**CGAT*GA**G*GT"
+        },
+        {
+          "preservedSequence": "ATCCG*TCTG**G***GAT"
+        },
+        {
+          "preservedSequence": "ATCGATC*ATCG*TCG*TC"
+        },
+        {
+          "preservedSequence": "GC*AG*TAGCT***TAGCT"
+        },
+        {
+          "preservedSequence": "GCTAGCG*ACTA**T*G*T"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAG*TAG**"
+        },
+        {
+          "preservedSequence": "*CT**CT**CTAGCTA*GC"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCT**CTA*CT"
+        },
+        {
+          "preservedSequence": "*CTAGCTAGCG*T*AGCT*"
+        },
+        {
+          "preservedSequence": "GC*A**T**C*A*C*AG*T"
+        }
+      ]
+    },
+    {
+      "position": 55,
+      "generationFormed": 24,
+      "maxPreservedLength": 16,
+      "organismId": "Organism_3881",
+      "genes": [
+        {
+          "preservedSequence": "*TCG*T****CGATCG"
+        },
+        {
+          "preservedSequence": "AT*GATCGA*CGATC*"
+        },
+        {
+          "preservedSequence": "ATCGATCGAT*GA*C*"
+        },
+        {
+          "preservedSequence": "***AGCT*GCT*GC**"
+        },
+        {
+          "preservedSequence": "*CTAGCTAGC*AGCTA"
+        },
+        {
+          "preservedSequence": "**T**C**GC*A*C*A"
+        },
+        {
+          "preservedSequence": "*CTA*****CTAGC*A"
+        },
+        {
+          "preservedSequence": "G*T**CTAGC*A**T*"
+        },
+        {
+          "preservedSequence": "GCTA*CTA***A*CTA"
+        },
+        {
+          "preservedSequence": "G*TAGC***CTAGC*A"
+        }
+      ]
+    },
+    {
+      "position": 32,
+      "generationFormed": 24,
+      "maxPreservedLength": 15,
+      "organismId": "Organism_4543",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATC*ATCGAT*"
+        },
+        {
+          "preservedSequence": "*TC*ATCG**CG*T*"
+        },
+        {
+          "preservedSequence": "ATCGA*CGATCG**C"
+        },
+        {
+          "preservedSequence": "GCTAG*TAG*TA**T"
+        },
+        {
+          "preservedSequence": "G*TA*C*AGCTA**T"
+        },
+        {
+          "preservedSequence": "GCT*GCTA***AG**"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCT*G*T"
+        },
+        {
+          "preservedSequence": "GCTA*C*A*CTA***"
+        },
+        {
+          "preservedSequence": "G*TAGACTG*TAG*T"
+        },
+        {
+          "preservedSequence": "GC**GCTAGCT*GC*"
+        }
+      ]
+    },
+    {
+      "position": 43,
+      "generationFormed": 24,
+      "maxPreservedLength": 16,
+      "organismId": "Organism_4289",
+      "genes": [
+        {
+          "preservedSequence": "A*C**TCGATCGATC*"
+        },
+        {
+          "preservedSequence": "ATCGATCGAT*GATCG"
+        },
+        {
+          "preservedSequence": "AT*G*CA*CG**C*AT"
+        },
+        {
+          "preservedSequence": "G*T**CTAG*TAG*T*"
+        },
+        {
+          "preservedSequence": "GCTAGC**G*T****A"
+        },
+        {
+          "preservedSequence": "GCTA*C**G***GCT*"
+        },
+        {
+          "preservedSequence": "G**A****GC*A*C*A"
+        },
+        {
+          "preservedSequence": "GC**GC*AG*T*****"
+        },
+        {
+          "preservedSequence": "G*TAGCTA*GCTA*C*"
+        },
+        {
+          "preservedSequence": "GCTAG**AGCT*GCTA"
+        }
+      ]
+    },
+    {
+      "position": 73,
+      "generationFormed": 24,
+      "maxPreservedLength": 21,
+      "organismId": "Organism_4277",
+      "genes": [
+        {
+          "preservedSequence": "A*CGAT**ATCGATCGAT*G*"
+        },
+        {
+          "preservedSequence": "A****TCG**C*A**G*TCG*"
+        },
+        {
+          "preservedSequence": "*TCGATC*ATCGA**G*A*CG"
+        },
+        {
+          "preservedSequence": "GGCTAC**GT***CTGCTA**"
+        },
+        {
+          "preservedSequence": "GC*A**TAG**AGCT*GCTA*"
+        },
+        {
+          "preservedSequence": "*CT**CTAGC*A*CTA*CTA*"
+        },
+        {
+          "preservedSequence": "*CTAGCT*GCTAGCT*G*T**"
+        },
+        {
+          "preservedSequence": "*CTAGC**GC**G**AGCT**"
+        },
+        {
+          "preservedSequence": "GC*CT*GCTAGCTA*******"
+        },
+        {
+          "preservedSequence": "**TA*CTA*CTAGCTCAGC*A"
+        }
+      ]
+    },
+    {
+      "position": 49,
+      "generationFormed": 25,
+      "maxPreservedLength": 19,
+      "organismId": "Organism_4785",
+      "genes": [
+        {
+          "preservedSequence": "A*CGAT*GATCGATCG***"
+        },
+        {
+          "preservedSequence": "ATCGAT**ATCGATC*A*C"
+        },
+        {
+          "preservedSequence": "ATCGAT***T*GAT**ATC"
+        },
+        {
+          "preservedSequence": "GCTA**CATGC*AGCTA*C"
+        },
+        {
+          "preservedSequence": "G*T***TAGC**GC**GCT"
+        },
+        {
+          "preservedSequence": "GC*AGCTAGCTA**TAG*T"
+        },
+        {
+          "preservedSequence": "G*TAGCTA*CTAGCTA*CT"
+        },
+        {
+          "preservedSequence": "**C***C*AGC*AGCT*G*"
+        },
+        {
+          "preservedSequence": "*C**GC*A*CTAGC*AGC*"
+        },
+        {
+          "preservedSequence": "*CTAG**A**TAGCT**CT"
+        }
+      ]
+    },
+    {
+      "position": 76,
+      "generationFormed": 26,
+      "maxPreservedLength": 22,
+      "organismId": "Organism_4866",
+      "genes": [
+        {
+          "preservedSequence": "ATCG*TCG*T*G**CG***G**"
+        },
+        {
+          "preservedSequence": "ATCGA*C****GATCGA*****"
+        },
+        {
+          "preservedSequence": "A*CG*TCGATC*ATCGATCG**"
+        },
+        {
+          "preservedSequence": "*CTAGCT*G*TA*CT**C*A**"
+        },
+        {
+          "preservedSequence": "GCTAG*TAGCTA*CTAA*****"
+        },
+        {
+          "preservedSequence": "GCTA*CTAGCTA****TA****"
+        },
+        {
+          "preservedSequence": "G**AGC*AG*TA**T***TA**"
+        },
+        {
+          "preservedSequence": "G*TA*CTAGCT*G*TAGCTA**"
+        },
+        {
+          "preservedSequence": "G*T*G**AG*TAG*T*G*TA**"
+        },
+        {
+          "preservedSequence": "*CT*G*T*GCTA*CT**CT***"
+        }
+      ]
+    },
+    {
+      "position": 74,
+      "generationFormed": 26,
+      "maxPreservedLength": 27,
+      "organismId": "Organism_5596",
+      "genes": [
+        {
+          "preservedSequence": "ATT*GAT*GA**GATCG*T********"
+        },
+        {
+          "preservedSequence": "**CG**CGATC*A**GT*CG*******"
+        },
+        {
+          "preservedSequence": "A*CGAGATC**TCG**CGATCG*****"
+        },
+        {
+          "preservedSequence": "**TAGC****T*GCTAGCTAC******"
+        },
+        {
+          "preservedSequence": "G*TA*CT*G*T***T*GCT********"
+        },
+        {
+          "preservedSequence": "C**GCTAG*T**CTAG*TA********"
+        },
+        {
+          "preservedSequence": "G*TAGCTAG*TAG**A**TA*******"
+        },
+        {
+          "preservedSequence": "*CTAGCTAGC****T**CTA*******"
+        },
+        {
+          "preservedSequence": "GC*A*CT**CTAGCTA*CT********"
+        },
+        {
+          "preservedSequence": "G***GCT*GCT*GCTAGCTA*******"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "generationFormed": 26,
+      "maxPreservedLength": 18,
+      "organismId": "Organism_4681",
+      "genes": [
+        {
+          "preservedSequence": "***GA***AT*GA**G**"
+        },
+        {
+          "preservedSequence": "ATC**T*GAT*GA***AT"
+        },
+        {
+          "preservedSequence": "AT*GATCGATC*ATCG**"
+        },
+        {
+          "preservedSequence": "GCT*GCTA***AGCTA*C"
+        },
+        {
+          "preservedSequence": "*CTAG**AG*TAG*TA**"
+        },
+        {
+          "preservedSequence": "A*CTT*GCTAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "**TA***AGCT*GCT**C"
+        },
+        {
+          "preservedSequence": "G**AG*TAGC*AGCTAGC"
+        },
+        {
+          "preservedSequence": "*C*AGCTA*C***CTA*C"
+        },
+        {
+          "preservedSequence": "GC**GC**ACTAGC***G"
+        }
+      ]
+    },
+    {
+      "position": 0,
+      "generationFormed": 26,
+      "maxPreservedLength": 18,
+      "organismId": "Organism_2465",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGATC**TCGAT"
+        },
+        {
+          "preservedSequence": "A**GAT*GATCG*TCGAT"
+        },
+        {
+          "preservedSequence": "**CGAT*GATCGATC*AT"
+        },
+        {
+          "preservedSequence": "**T*GCTA**TAGC*AGC"
+        },
+        {
+          "preservedSequence": "GCTAGCTAG*TAGC*AGC"
+        },
+        {
+          "preservedSequence": "GCT*GC**G*TAGCTAG*"
+        },
+        {
+          "preservedSequence": "GCT*GC*A**TAGCTAG*"
+        },
+        {
+          "preservedSequence": "G*TAG***GC*AGCT*T*"
+        },
+        {
+          "preservedSequence": "G**A*CT***TAGC*AGC"
+        },
+        {
+          "preservedSequence": "GCT*G*T*GCT*GCTC**"
+        }
+      ]
+    },
+    {
+      "position": 31,
+      "generationFormed": 26,
+      "maxPreservedLength": 18,
+      "organismId": "Organism_5436",
+      "genes": [
+        {
+          "preservedSequence": "A*CGA*CG*TCGATCGAT"
+        },
+        {
+          "preservedSequence": "ATC*CGATC****GAT**"
+        },
+        {
+          "preservedSequence": "ATCGAT**A*CGA*CGTC"
+        },
+        {
+          "preservedSequence": "*GCTACTAGC*A**T***"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAG*T*GC"
+        },
+        {
+          "preservedSequence": "*CTA*CTA*C**GCTAGC"
+        },
+        {
+          "preservedSequence": "GCT*GCTAGCTA*CTA*C"
+        },
+        {
+          "preservedSequence": "*CT***TAG*****TA*C"
+        },
+        {
+          "preservedSequence": "GC*C*AGCTA*CTTAG*A"
+        },
+        {
+          "preservedSequence": "GCT*G*TAGCTA*CTC**"
+        }
+      ]
+    },
+    {
+      "position": 37,
+      "generationFormed": 27,
+      "maxPreservedLength": 16,
+      "organismId": "Organism_5533",
+      "genes": [
+        {
+          "preservedSequence": "A*C*ATCGA*C*ATC*"
+        },
+        {
+          "preservedSequence": "*ATCGAT*G*TC*TA*"
+        },
+        {
+          "preservedSequence": "**CG*TCGATC*AT**"
+        },
+        {
+          "preservedSequence": "GCTAGC*TG**AGCTA"
+        },
+        {
+          "preservedSequence": "*CT**CTAGC*A*CTC"
+        },
+        {
+          "preservedSequence": "CTAG*TAG*TAGCTA*"
+        },
+        {
+          "preservedSequence": "G*TAGC*A*C**GCT*"
+        },
+        {
+          "preservedSequence": "GCT*G**AGCTAGCTA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCT**C*A"
+        },
+        {
+          "preservedSequence": "GCT*GC*AGCT*GCTA"
+        }
+      ]
+    },
+    {
+      "position": 95,
+      "generationFormed": 27,
+      "maxPreservedLength": 23,
+      "organismId": "Organism_3065",
+      "genes": [
+        {
+          "preservedSequence": "AT*GAT*GA*CGAT*GATC****"
+        },
+        {
+          "preservedSequence": "A*CGATCGA*CGA*CG*TCG***"
+        },
+        {
+          "preservedSequence": "ATC**T*GATCGA*C*ATC****"
+        },
+        {
+          "preservedSequence": "G***GCT*GCTAG*TGA*TA***"
+        },
+        {
+          "preservedSequence": "G*TA*CTAGCTA*C**GC*A***"
+        },
+        {
+          "preservedSequence": "G*TAGCTAGCTAGCT*AAG*T**"
+        },
+        {
+          "preservedSequence": "**T*GC**G*TAGCTAGCA****"
+        },
+        {
+          "preservedSequence": "G*TAGCTAGCTAG*T*GCTA***"
+        },
+        {
+          "preservedSequence": "GCTA*CTA*CTAG*TAGCTA***"
+        },
+        {
+          "preservedSequence": "GC*AG***GCT*GCTA*CTA***"
+        }
+      ]
+    },
+    {
+      "position": 55,
+      "generationFormed": 27,
+      "maxPreservedLength": 21,
+      "organismId": "Organism_2568",
+      "genes": [
+        {
+          "preservedSequence": "*T*GATCGA*CG*TC*AT*G*"
+        },
+        {
+          "preservedSequence": "ATCTGA****CGA**G*T*G*"
+        },
+        {
+          "preservedSequence": "ATC*ATCG**C*AT**A*CG*"
+        },
+        {
+          "preservedSequence": "GCTAGCATG**A*CTA*GCTC"
+        },
+        {
+          "preservedSequence": "GCTA*C*AG*TAGCTAGCTA*"
+        },
+        {
+          "preservedSequence": "*TA*CT*GCTAG****C*A**"
+        },
+        {
+          "preservedSequence": "G*TA**TA*C**GCT*G****"
+        },
+        {
+          "preservedSequence": "*CTAGCTAGCTAGCTAGCTA*"
+        },
+        {
+          "preservedSequence": "*CTAG*T*GC***CTAG*T**"
+        },
+        {
+          "preservedSequence": "G**AG*G*TA*C*A*******"
+        }
+      ]
+    },
+    {
+      "position": 42,
+      "generationFormed": 27,
+      "maxPreservedLength": 20,
+      "organismId": "Organism_6186",
+      "genes": [
+        {
+          "preservedSequence": "AT*GATCGAT*GATCGATCG"
+        },
+        {
+          "preservedSequence": "A*C*AT*GATCGATC*ATCG"
+        },
+        {
+          "preservedSequence": "ATCGATC*A*CGA*C*AT*G"
+        },
+        {
+          "preservedSequence": "*CTAGC*AGCTAGCTGACT*"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCT*GC*A"
+        },
+        {
+          "preservedSequence": "*CTAGCTAG*T*GCTA***A"
+        },
+        {
+          "preservedSequence": "GC*AGCTA*CTAGC*A*C**"
+        },
+        {
+          "preservedSequence": "GC*AG*TAGCTAGCTA*CT*"
+        },
+        {
+          "preservedSequence": "GC*AGCTAGC**GCTA*CT*"
+        },
+        {
+          "preservedSequence": "*CTAGCTAGCT**CT*GCTA"
+        }
+      ]
+    },
+    {
+      "position": 27,
+      "generationFormed": 27,
+      "maxPreservedLength": 19,
+      "organismId": "Organism_5046",
+      "genes": [
+        {
+          "preservedSequence": "AT*G*TCGATCGATCGATC"
+        },
+        {
+          "preservedSequence": "ATC*ATCG*TCGATCGATC"
+        },
+        {
+          "preservedSequence": "ATC*A*CGATCG*T*GATC"
+        },
+        {
+          "preservedSequence": "GGCTACTAG*GCTAGC*A*"
+        },
+        {
+          "preservedSequence": "*CTAGCTAG*TAGC*AGC*"
+        },
+        {
+          "preservedSequence": "G*TA*CT*GA*T***AGC*"
+        },
+        {
+          "preservedSequence": "**TAGCTAGCT*GCT*GCT"
+        },
+        {
+          "preservedSequence": "GCTAGC**CT*ACT*GC**"
+        },
+        {
+          "preservedSequence": "GCTGCCTAGC*AGCTAGC*"
+        },
+        {
+          "preservedSequence": "G****CTAGCTA*CTC**C"
+        }
+      ]
+    },
+    {
+      "position": 66,
+      "generationFormed": 27,
+      "maxPreservedLength": 27,
+      "organismId": "Organism_2764",
+      "genes": [
+        {
+          "preservedSequence": "AT**ATG*T**G*TCGATC***C****"
+        },
+        {
+          "preservedSequence": "A*C***CGA**G*TCGATCG*******"
+        },
+        {
+          "preservedSequence": "ATC*A*CGAT*G*TCGA*CG*******"
+        },
+        {
+          "preservedSequence": "GCTA*CT*G*T*G*****TA*******"
+        },
+        {
+          "preservedSequence": "GCTA**TA**T**C*************"
+        },
+        {
+          "preservedSequence": "GCTAGAGCTAG*TAGCTA*********"
+        },
+        {
+          "preservedSequence": "*AG*TAGC*A*C*AGCCT*********"
+        },
+        {
+          "preservedSequence": "GC*AGCTA*CTAGCTA*C*A*******"
+        },
+        {
+          "preservedSequence": "GC**GT*AG**AGCTAGCTA*******"
+        },
+        {
+          "preservedSequence": "G*T*GCT***T*GC*A***A*******"
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "generationFormed": 28,
+      "maxPreservedLength": 20,
+      "organismId": "Organism_4516",
+      "genes": [
+        {
+          "preservedSequence": "AT*GATCGATCGATCGA*C*"
+        },
+        {
+          "preservedSequence": "ATCG*ACGATCG*TCGATCG"
+        },
+        {
+          "preservedSequence": "ATCGATC*ATCGATCGATCG"
+        },
+        {
+          "preservedSequence": "***AG*TAG*TAG**AG*TA"
+        },
+        {
+          "preservedSequence": "GCT*GCTA*C**GCTAGCTA"
+        },
+        {
+          "preservedSequence": "GC*AG*TAGCT*GCTAGCTA"
+        },
+        {
+          "preservedSequence": "G*TA*CT***TAGC*AGCTA"
+        },
+        {
+          "preservedSequence": "GCTAG***GCTAG****C**"
+        },
+        {
+          "preservedSequence": "*CTAGCTAGCTA****G*TA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTA*CTCAGCT"
+        }
+      ]
+    },
+    {
+      "position": 35,
+      "generationFormed": 28,
+      "maxPreservedLength": 23,
+      "organismId": "Organism_6204",
+      "genes": [
+        {
+          "preservedSequence": "*TCGA***ATCG*TCGATCG***"
+        },
+        {
+          "preservedSequence": "A**GATCGATCGA*CGATCG***"
+        },
+        {
+          "preservedSequence": "ATCGAATCG**G*TCGATC****"
+        },
+        {
+          "preservedSequence": "**TA*CTAG*TAGCTAGCT****"
+        },
+        {
+          "preservedSequence": "GCTAG*T*G*TAGCTAGC*A***"
+        },
+        {
+          "preservedSequence": "GC**GCTA**TAGCT*GCTA***"
+        },
+        {
+          "preservedSequence": "*CTA*CTAG*TA**TAGCTA***"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCT*GCTAG*TA***"
+        },
+        {
+          "preservedSequence": "*CTAGCTA**TA*CTAGCT****"
+        },
+        {
+          "preservedSequence": "GCT***T*G*T**CT*AGC*A**"
+        }
+      ]
+    },
+    {
+      "position": 22,
+      "generationFormed": 28,
+      "maxPreservedLength": 24,
+      "organismId": "Organism_6512",
+      "genes": [
+        {
+          "preservedSequence": "AT**AT*GAT*GATCGATCG****"
+        },
+        {
+          "preservedSequence": "ATCGA*C**T*GA*C*A*******"
+        },
+        {
+          "preservedSequence": "A**GATCGATCGA*CGATCG****"
+        },
+        {
+          "preservedSequence": "G*CCT****AGC*AGC*AG*TA**"
+        },
+        {
+          "preservedSequence": "GCT*G**A*CTA*CTAG**A****"
+        },
+        {
+          "preservedSequence": "*CT*GCTAG*TAG*TAG**A****"
+        },
+        {
+          "preservedSequence": "GCAG*TT*GC**GC****TA*CTA"
+        },
+        {
+          "preservedSequence": "GCT*G*TAG*TAGCTATGCTA***"
+        },
+        {
+          "preservedSequence": "GC*AG*T*GC*AGCT*G*T*****"
+        },
+        {
+          "preservedSequence": "GCT*GCTA**TAG*TCAGCTA***"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "generationFormed": 28,
+      "maxPreservedLength": 17,
+      "organismId": "Organism_6507",
+      "genes": [
+        {
+          "preservedSequence": "*T*GATC*A**GATCGA"
+        },
+        {
+          "preservedSequence": "**C*AT*GA**GATC*T"
+        },
+        {
+          "preservedSequence": "ATC**TCGAT*GAT*GA"
+        },
+        {
+          "preservedSequence": "GCTA**ATG*T*G**AG"
+        },
+        {
+          "preservedSequence": "GCTA*CT*GCT*GCT*G"
+        },
+        {
+          "preservedSequence": "C*AG*TAGCTAG*TAGC"
+        },
+        {
+          "preservedSequence": "GCTA*CT**C**GC*AG"
+        },
+        {
+          "preservedSequence": "GCT**C*A**T*GC*AG"
+        },
+        {
+          "preservedSequence": "GCTA*CTA*C*AGCTA*"
+        },
+        {
+          "preservedSequence": "*CT*G*T******CTAG"
+        }
+      ]
+    },
+    {
+      "position": 96,
+      "generationFormed": 28,
+      "maxPreservedLength": 19,
+      "organismId": "Organism_6352",
+      "genes": [
+        {
+          "preservedSequence": "ATC*A*CGAT*GATCGATC"
+        },
+        {
+          "preservedSequence": "*TCGAT**ATCGA*CGAT*"
+        },
+        {
+          "preservedSequence": "AT*GATC*A****TCG*TC"
+        },
+        {
+          "preservedSequence": "GCTAGC**GC**GCTAGCT"
+        },
+        {
+          "preservedSequence": "GC**GCTAG*T*GC****T"
+        },
+        {
+          "preservedSequence": "C*A*C*AGCTAGCTAG**A"
+        },
+        {
+          "preservedSequence": "*CTAGC*A*C*A**TA*CA"
+        },
+        {
+          "preservedSequence": "GC*AGCTA***AGC*A*CT"
+        },
+        {
+          "preservedSequence": "G*TAGC*A**T*G*TAGCT"
+        },
+        {
+          "preservedSequence": "*CT*GCTAG**A*CT*GC*"
+        }
+      ]
+    },
+    {
+      "position": 80,
+      "generationFormed": 28,
+      "maxPreservedLength": 18,
+      "organismId": "Organism_4901",
+      "genes": [
+        {
+          "preservedSequence": "*TCGAG*CATACGA*CG*"
+        },
+        {
+          "preservedSequence": "**CGATC*ATCGA*CGA*"
+        },
+        {
+          "preservedSequence": "A*CGATCG*TC*ATC*A*"
+        },
+        {
+          "preservedSequence": "G**A*CT*GCTAG*TAGC"
+        },
+        {
+          "preservedSequence": "G*TAGC*A*CT*GCTA*C"
+        },
+        {
+          "preservedSequence": "GCTAGA**T*GCTAGC*A"
+        },
+        {
+          "preservedSequence": "*G**A**TAGCTAGC*AG"
+        },
+        {
+          "preservedSequence": "GC**GCT*GCTAGC*AGC"
+        },
+        {
+          "preservedSequence": "GCT*GCTAGC*AGCTA*C"
+        },
+        {
+          "preservedSequence": "GCTAGCTA*CTAGCTAGC"
+        }
+      ]
+    },
+    {
+      "position": 46,
+      "generationFormed": 29,
+      "maxPreservedLength": 20,
+      "organismId": "Organism_6890",
+      "genes": [
+        {
+          "preservedSequence": "AT*G*T**GATCG*TCG*TC"
+        },
+        {
+          "preservedSequence": "**CGA**GATCG*T**ATCG"
+        },
+        {
+          "preservedSequence": "AT*GA*CGATC****GA*C*"
+        },
+        {
+          "preservedSequence": "G****CTAGCTAGCTA*C*A"
+        },
+        {
+          "preservedSequence": "*CT**CTA*CT*GCTA*C*A"
+        },
+        {
+          "preservedSequence": "GCT***TAGC*AG*T*G*T*"
+        },
+        {
+          "preservedSequence": "GCTA*CTAGC**GCTA*CT*"
+        },
+        {
+          "preservedSequence": "*CT**C*AGCTAG*TA*GCT"
+        },
+        {
+          "preservedSequence": "GCTAGC**G*TA*CTA**TA"
+        },
+        {
+          "preservedSequence": "GCTA*CTAG*T*G*TCAGCT"
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "generationFormed": 29,
+      "maxPreservedLength": 17,
+      "organismId": "Organism_6998",
+      "genes": [
+        {
+          "preservedSequence": "A**CGTCGA*C*ATC*A"
+        },
+        {
+          "preservedSequence": "ATC**TCGATC*ATC**"
+        },
+        {
+          "preservedSequence": "ATCG*TCG*T*GATCGA"
+        },
+        {
+          "preservedSequence": "GGCT*CT**CTA**TA*"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTA*"
+        },
+        {
+          "preservedSequence": "GCTCC**GCTAGCT***"
+        },
+        {
+          "preservedSequence": "**TAGCTAG**AGCTA*"
+        },
+        {
+          "preservedSequence": "GC*A*CTAGCTAGCT**"
+        },
+        {
+          "preservedSequence": "GT**GC*A*CTAGCTAG"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGC*AGCTC*"
+        }
+      ]
+    },
+    {
+      "position": 64,
+      "generationFormed": 29,
+      "maxPreservedLength": 19,
+      "organismId": "Organism_6334",
+      "genes": [
+        {
+          "preservedSequence": "A**G*TC*AT*G*TC**TC"
+        },
+        {
+          "preservedSequence": "*TC*ATCGA*CGA**GAT*"
+        },
+        {
+          "preservedSequence": "ATCGA*C*AT**ATCGATC"
+        },
+        {
+          "preservedSequence": "G***G**AG*T*GCTAG*T"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTA*CT**CA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAG*TAGCTAG*T"
+        },
+        {
+          "preservedSequence": "GCT*GCTAGCTAGC*AGCT"
+        },
+        {
+          "preservedSequence": "G*TAG*TAGCTA**TAGC*"
+        },
+        {
+          "preservedSequence": "***TAGCTAGC*AGCTAGC"
+        },
+        {
+          "preservedSequence": "GCT*GCTAGCTAGC*AG*T"
+        }
+      ]
+    },
+    {
+      "position": 42,
+      "generationFormed": 29,
+      "maxPreservedLength": 23,
+      "organismId": "Organism_6415",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCG*T*GATCG*T*G***"
+        },
+        {
+          "preservedSequence": "AAT*GA*CGATCGAT*GA*CG**"
+        },
+        {
+          "preservedSequence": "*TCG*TCG*TC*ATCGATCG***"
+        },
+        {
+          "preservedSequence": "GCTA*C*AG***GC**GCTA***"
+        },
+        {
+          "preservedSequence": "G*T*G*T*GC*A*CTAGCTA***"
+        },
+        {
+          "preservedSequence": "*CT*GCTAGCTAG*TAG**A***"
+        },
+        {
+          "preservedSequence": "*CT*GCTGACT***TAGCT****"
+        },
+        {
+          "preservedSequence": "GC*AGC*ATAGCTAGC*A*****"
+        },
+        {
+          "preservedSequence": "GC*AGC*AGC*AGCTA***A***"
+        },
+        {
+          "preservedSequence": "G*TAG*TAGC*AGCTAGTCTA**"
+        }
+      ]
+    },
+    {
+      "position": 93,
+      "generationFormed": 29,
+      "maxPreservedLength": 20,
+      "organismId": "Organism_6851",
+      "genes": [
+        {
+          "preservedSequence": "A*CG*T*GA*CG*TCG*T**"
+        },
+        {
+          "preservedSequence": "ATCGA**GATCG****ATCG"
+        },
+        {
+          "preservedSequence": "G*TAGCA*GCTA***AG*TA"
+        },
+        {
+          "preservedSequence": "G**AG**A*CTA*G*TAC*A"
+        },
+        {
+          "preservedSequence": "C*A*C*AG*TAGCTAGC*A*"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGC*AGCTAG**A"
+        },
+        {
+          "preservedSequence": "GC*AGCTAGCT*GC***CT*"
+        },
+        {
+          "preservedSequence": "GCTAG*T*GCTA*CTAGC*A"
+        },
+        {
+          "preservedSequence": "GCTAG**A***AGCT**CTA"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "generationFormed": 30,
+      "maxPreservedLength": 18,
+      "organismId": "Organism_7338",
+      "genes": [
+        {
+          "preservedSequence": "ATCGA*C*ATCG*TCGA*"
+        },
+        {
+          "preservedSequence": "ATC**TC*ATC**T*GAT"
+        },
+        {
+          "preservedSequence": "A***ATCGA*CGAT*CG*"
+        },
+        {
+          "preservedSequence": "GCTAGCTA*CTA*C**AG"
+        },
+        {
+          "preservedSequence": "G*CAGC*AAGCT**TA*C"
+        },
+        {
+          "preservedSequence": "G*****AGCATGCTAGC*"
+        },
+        {
+          "preservedSequence": "GC*A*CT*GC*AGCTA*C"
+        },
+        {
+          "preservedSequence": "*CTAGCGC*ATAGGCTAG"
+        },
+        {
+          "preservedSequence": "GC*AG*T*GCTAGCTAGC"
+        },
+        {
+          "preservedSequence": "*CTAG*TA*CTAG*TAGC"
+        }
+      ]
+    },
+    {
+      "position": 51,
+      "generationFormed": 30,
+      "maxPreservedLength": 24,
+      "organismId": "Organism_5982",
+      "genes": [
+        {
+          "preservedSequence": "ATCG**C**TCGATCG**CG****"
+        },
+        {
+          "preservedSequence": "A**GAT*GATC*A*C*A*CG****"
+        },
+        {
+          "preservedSequence": "AT***TCGATCG*TCG*TCG****"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGC*A****"
+        },
+        {
+          "preservedSequence": "G*TAGCTAGCTAGCTAGC*A****"
+        },
+        {
+          "preservedSequence": "GCTAGCTA*C*AG*TAGCTA****"
+        },
+        {
+          "preservedSequence": "*CTAG*TA**TAG*TA*C******"
+        },
+        {
+          "preservedSequence": "*CTAG**A**TAGT*GC*A*****"
+        },
+        {
+          "preservedSequence": "GCTAG*TAGCTAG*TA*CT*****"
+        },
+        {
+          "preservedSequence": "GCTAGCT**CTA**T*G*TA****"
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "generationFormed": 31,
+      "maxPreservedLength": 18,
+      "organismId": "Organism_7279",
+      "genes": [
+        {
+          "preservedSequence": "AT*GATCGATCGATC*AT"
+        },
+        {
+          "preservedSequence": "*TCGAT*GATCG*T*GAT"
+        },
+        {
+          "preservedSequence": "AT**ATCGA*CGAT**A*"
+        },
+        {
+          "preservedSequence": "*CTA*CTAGC*AGCTGAC"
+        },
+        {
+          "preservedSequence": "GCTAGCTA*CT*GC*A*C"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGC*AG*T*GC"
+        },
+        {
+          "preservedSequence": "GCTAGCT*G**AGC*AGC"
+        },
+        {
+          "preservedSequence": "GCT*GCTA**T*GCTAGC"
+        },
+        {
+          "preservedSequence": "GCTAG*TA**TAG*T*GC"
+        }
+      ]
+    },
+    {
+      "position": 27,
+      "generationFormed": 31,
+      "maxPreservedLength": 25,
+      "organismId": "Organism_8209",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGATCGAT**ATCG*****"
+        },
+        {
+          "preservedSequence": "*TCGATCG*TC*AT*G*T*G*****"
+        },
+        {
+          "preservedSequence": "*TCG*T**ATC*ATCGATCG*****"
+        },
+        {
+          "preservedSequence": "GCTAG*T*GCATGC*A*CTAGCTA*"
+        },
+        {
+          "preservedSequence": "G*TAGCTAG**AG*TAG*T******"
+        },
+        {
+          "preservedSequence": "GCT*GCTAGCTAG*T*GCTA*****"
+        },
+        {
+          "preservedSequence": "GCT*GCTAGCTAG*****T******"
+        },
+        {
+          "preservedSequence": "GCTAGC*A*CTA**TAGCT******"
+        },
+        {
+          "preservedSequence": "GCT*GCTA*CTAGCTAG*T******"
+        },
+        {
+          "preservedSequence": "GC**GCTAG*TAG*T*GC*A*****"
+        }
+      ]
+    },
+    {
+      "position": 66,
+      "generationFormed": 32,
+      "maxPreservedLength": 16,
+      "organismId": "Organism_8140",
+      "genes": [
+        {
+          "preservedSequence": "*TC*ATCG*TCG**C*"
+        },
+        {
+          "preservedSequence": "ATCGA*CGAT****C*"
+        },
+        {
+          "preservedSequence": "AT*GATC**TC*****"
+        },
+        {
+          "preservedSequence": "GCTAAGC*T*CTAG**"
+        },
+        {
+          "preservedSequence": "G*TA*CT*GCT*G*TA"
+        },
+        {
+          "preservedSequence": "C*A***AGCT*GCTAG"
+        },
+        {
+          "preservedSequence": "*CTAGCTAGC*AGCTA"
+        },
+        {
+          "preservedSequence": "G**AGCT**CTA*C**"
+        },
+        {
+          "preservedSequence": "GCTAGC*AGCGCT**C"
+        },
+        {
+          "preservedSequence": "GC*A*CTAGCTAGCTA"
+        }
+      ]
+    },
+    {
+      "position": 80,
+      "generationFormed": 32,
+      "maxPreservedLength": 22,
+      "organismId": "Organism_6547",
+      "genes": [
+        {
+          "preservedSequence": "ATCG*TC*ATCG*TCGAT*G**"
+        },
+        {
+          "preservedSequence": "ATCGATCGA*TCGTC*A*CG**"
+        },
+        {
+          "preservedSequence": "*TCG*TCGATCGATC*A*CG**"
+        },
+        {
+          "preservedSequence": "GC*AGCT**C**GCCTAGCTA*"
+        },
+        {
+          "preservedSequence": "*CTAG*T*GCTAGC*A**TA**"
+        },
+        {
+          "preservedSequence": "G*TA*CT*G**A*CTAGCTA**"
+        },
+        {
+          "preservedSequence": "GC*AGCTAGC*AGCTA*CTA**"
+        },
+        {
+          "preservedSequence": "GCTA*CTAGCTA*CTAGCT***"
+        },
+        {
+          "preservedSequence": "GCTAGCT*GCTAGCTAG*****"
+        },
+        {
+          "preservedSequence": "G*TAGCTAGCTAGCTAGC*A**"
+        }
+      ]
+    },
+    {
+      "position": 82,
+      "generationFormed": 32,
+      "maxPreservedLength": 14,
+      "organismId": "Organism_8253",
+      "genes": [
+        {
+          "preservedSequence": "AT*GAT*GA**GAT"
+        },
+        {
+          "preservedSequence": "A*CGAT*GATCGAT"
+        },
+        {
+          "preservedSequence": "ATCGAT*GATCGA*"
+        },
+        {
+          "preservedSequence": "G*TAGCTAGCTA*C"
+        },
+        {
+          "preservedSequence": "GC*A*CT**CTAGC"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGC****"
+        },
+        {
+          "preservedSequence": "G*TA*CTAGCTAGC"
+        },
+        {
+          "preservedSequence": "GCTAGCTA*CTA**"
+        },
+        {
+          "preservedSequence": "GCT*GC**GCTAG*"
+        },
+        {
+          "preservedSequence": "G*TAG**AGCTA**"
+        }
+      ]
+    },
+    {
+      "position": 73,
+      "generationFormed": 32,
+      "maxPreservedLength": 12,
+      "organismId": "Organism_7206",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCG*TCG"
+        },
+        {
+          "preservedSequence": "AT*GA*CGATCG"
+        },
+        {
+          "preservedSequence": "ATCGATCG*ATC"
+        },
+        {
+          "preservedSequence": "GC****TAGC*A"
+        },
+        {
+          "preservedSequence": "*C*AGCT*G*TT"
+        },
+        {
+          "preservedSequence": "*CTA*CT*GCT*"
+        },
+        {
+          "preservedSequence": "GCTA*CTAGCTA"
+        },
+        {
+          "preservedSequence": "GC*AGC*AGCTA"
+        },
+        {
+          "preservedSequence": "GC*AGCAGCTAG"
+        },
+        {
+          "preservedSequence": "GCTAG*TA**T*"
+        }
+      ]
+    },
+    {
+      "position": 86,
+      "generationFormed": 32,
+      "maxPreservedLength": 23,
+      "organismId": "Organism_7535",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGA*CGATCGATCG***"
+        },
+        {
+          "preservedSequence": "A*CG*TCGATCGATCG**CG***"
+        },
+        {
+          "preservedSequence": "ATCGA*CG**CGATCGATCG***"
+        },
+        {
+          "preservedSequence": "G*TAGCTAGCT*GCTAGCTA***"
+        },
+        {
+          "preservedSequence": "GCTA*CTAGCTAGCTA*CTA***"
+        },
+        {
+          "preservedSequence": "TGC*AGCTA**T*GCT***TA**"
+        },
+        {
+          "preservedSequence": "GCTAGC*AGCTA*C*AG*TA***"
+        },
+        {
+          "preservedSequence": "GCTAGC*AGG*TAGC****TA**"
+        },
+        {
+          "preservedSequence": "GC**GCTAGCTAGCT*G**A***"
+        },
+        {
+          "preservedSequence": "G*TA*CTAGCTAGCTAGCTA***"
+        }
+      ]
+    },
+    {
+      "position": 59,
+      "generationFormed": 32,
+      "maxPreservedLength": 23,
+      "organismId": "Organism_8056",
+      "genes": [
+        {
+          "preservedSequence": "ATCG*TTC**T*GATCGATCG**"
+        },
+        {
+          "preservedSequence": "A*C*ATCGATC**T**ATCG***"
+        },
+        {
+          "preservedSequence": "*T*CGA*CGTCGATCGATCG***"
+        },
+        {
+          "preservedSequence": "*CT*GC**GCTA*CTAGCTA***"
+        },
+        {
+          "preservedSequence": "*CTAG*TAGCTAGC*AGCT****"
+        },
+        {
+          "preservedSequence": "C*AGC*A*CTAGCTAG*TA****"
+        },
+        {
+          "preservedSequence": "*C*A*CT*GCT*G*T*GCTA***"
+        },
+        {
+          "preservedSequence": "GCTAG*TAGCT*GCT*GCT****"
+        },
+        {
+          "preservedSequence": "*GCTAC*A*CTA*CTAGCA****"
+        },
+        {
+          "preservedSequence": "GC*AGCTAG*TAGCTAGC*A***"
+        }
+      ]
+    },
+    {
+      "position": 32,
+      "generationFormed": 32,
+      "maxPreservedLength": 19,
+      "organismId": "Organism_7787",
+      "genes": [
+        {
+          "preservedSequence": "A*CGA*C*ATC*ATCGATC"
+        },
+        {
+          "preservedSequence": "*TCGATCG**CG*TC*ATC"
+        },
+        {
+          "preservedSequence": "AT**ATC*A*CGA*ATCG*"
+        },
+        {
+          "preservedSequence": "GC**GC*AG*TAGCTA**T"
+        },
+        {
+          "preservedSequence": "GC**GCT*GCTA*C*A*CT"
+        },
+        {
+          "preservedSequence": "G**AGCTAGCTAGCTA**T"
+        },
+        {
+          "preservedSequence": "GCTAG**AGCTA**TA*C*"
+        },
+        {
+          "preservedSequence": "GC*AG*TA*CTAGCTAG**"
+        },
+        {
+          "preservedSequence": "GC*AGC**GCTAGC*A*C*"
+        },
+        {
+          "preservedSequence": "GCT*GCTAG*****TA**T"
+        }
+      ]
+    },
+    {
+      "position": 58,
+      "generationFormed": 32,
+      "maxPreservedLength": 26,
+      "organismId": "Organism_3134",
+      "genes": [
+        {
+          "preservedSequence": "ATCG*TCGA*CGATCG*TCG******"
+        },
+        {
+          "preservedSequence": "AT*G*TCG*T*GATCGA*CG******"
+        },
+        {
+          "preservedSequence": "ATATCGC*A*CG*TCGATC*ATCG**"
+        },
+        {
+          "preservedSequence": "*CTA*C*AGCTAGCTAGC*A******"
+        },
+        {
+          "preservedSequence": "GCTAGC*A*CTAGCTA*CTA******"
+        },
+        {
+          "preservedSequence": "GC*AG*TAGCT*GCT**CTTA*****"
+        },
+        {
+          "preservedSequence": "TGCAGCTAGC*A*CTAGCTA******"
+        },
+        {
+          "preservedSequence": "G*T*GCTAG*TAGCT*GCTA******"
+        },
+        {
+          "preservedSequence": "GCTAGCTA*CTAGCTA**********"
+        },
+        {
+          "preservedSequence": "GC*AGCTAG**ATGCAG*********"
+        }
+      ]
+    },
+    {
+      "position": 36,
+      "generationFormed": 32,
+      "maxPreservedLength": 23,
+      "organismId": "Organism_8508",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGATC**CTCGA*CG**"
+        },
+        {
+          "preservedSequence": "ATCGATCG**CGATCGATCG***"
+        },
+        {
+          "preservedSequence": "G*TCGATCGATCG*TCGATCG**"
+        },
+        {
+          "preservedSequence": "GC*AGCATG*T*G*TAGCTA***"
+        },
+        {
+          "preservedSequence": "GCTAGC*AGCTA*CT*GCT****"
+        },
+        {
+          "preservedSequence": "C**GC*AGCTAGC*AGC*A****"
+        },
+        {
+          "preservedSequence": "*CT***CTA*CTA*CT*G*T***"
+        },
+        {
+          "preservedSequence": "G*T**CTAGC*AG*TAGCTA***"
+        },
+        {
+          "preservedSequence": "***AGCTA*GCT*GC***CTA**"
+        },
+        {
+          "preservedSequence": "*G*TA**TAGCTAGCT**CTA**"
+        }
+      ]
+    },
+    {
+      "position": 32,
+      "generationFormed": 33,
+      "maxPreservedLength": 26,
+      "organismId": "Organism_8653",
+      "genes": [
+        {
+          "preservedSequence": "ATCGAT**AT*G**CGAT*G******"
+        },
+        {
+          "preservedSequence": "A*CA*C*GAT***TCGATCG**CG**"
+        },
+        {
+          "preservedSequence": "ATCG*TCG*TC*AT*G*TCG******"
+        },
+        {
+          "preservedSequence": "GC*A*CTAGCT*GCTAG*TA******"
+        },
+        {
+          "preservedSequence": "GCTAGCTA*C*AGCTAG*TA******"
+        },
+        {
+          "preservedSequence": "GC**GCTAGCTC*AGCTA********"
+        },
+        {
+          "preservedSequence": "GC**GC*AG*T*GCC*AGTA******"
+        },
+        {
+          "preservedSequence": "*CCTAGTAGC*AGCTAGC*A******"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGC*A******"
+        },
+        {
+          "preservedSequence": "GCTATG*TAG*TAG*TA**T******"
+        }
+      ]
+    },
+    {
+      "position": 59,
+      "generationFormed": 33,
+      "maxPreservedLength": 19,
+      "organismId": "Organism_6751",
+      "genes": [
+        {
+          "preservedSequence": "ATCG*TCGATCGA*CGGAT"
+        },
+        {
+          "preservedSequence": "AT*GATCG*TC*ATC*AT*"
+        },
+        {
+          "preservedSequence": "*TCG*TCGAT*G**TCGA*"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGC*AGCTAGCT"
+        },
+        {
+          "preservedSequence": "G*TA*CTA**TA*CTA*C*"
+        },
+        {
+          "preservedSequence": "GCT**CTAGGCTAGCTA**"
+        },
+        {
+          "preservedSequence": "GCTAG*TAGCTAG*TAGCT"
+        },
+        {
+          "preservedSequence": "GCTAGCTA*CTAGC*A*A*"
+        },
+        {
+          "preservedSequence": "GCTAGCTT**CAG*TA*CT"
+        },
+        {
+          "preservedSequence": "TAGCTATGC*GCTAGC*A*"
+        }
+      ]
+    },
+    {
+      "position": 37,
+      "generationFormed": 33,
+      "maxPreservedLength": 22,
+      "organismId": "Organism_8943",
+      "genes": [
+        {
+          "preservedSequence": "ATCG*TCGAT*GATCG***G**"
+        },
+        {
+          "preservedSequence": "*TCGATC*AT*GATCGA**G**"
+        },
+        {
+          "preservedSequence": "A*CGAT*GAT*GATCGA**G**"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTA*CTA*CTA**"
+        },
+        {
+          "preservedSequence": "GCTAGCT***TAGCTAGC*A**"
+        },
+        {
+          "preservedSequence": "G*T*GCT*GCTCTAGCTA****"
+        },
+        {
+          "preservedSequence": "GCTAGC*A**TAGCTA*CT***"
+        },
+        {
+          "preservedSequence": "*CC*AGT*GCT**C*AGCT***"
+        },
+        {
+          "preservedSequence": "GCTAG*TAGCTAGCTAGCTA**"
+        },
+        {
+          "preservedSequence": "G**AGCT*GC*AGCTAGCTA**"
+        }
+      ]
+    },
+    {
+      "position": 39,
+      "generationFormed": 33,
+      "maxPreservedLength": 25,
+      "organismId": "Organism_7569",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCG*TC*A*CGATCG*****"
+        },
+        {
+          "preservedSequence": "AT*GATCGA*CGA**GATCG*****"
+        },
+        {
+          "preservedSequence": "A*C*ATC*ATCGATCGATCG*****"
+        },
+        {
+          "preservedSequence": "G*TA*CTAGC***CTAG*TA*****"
+        },
+        {
+          "preservedSequence": "*CTA*CTAGC**GC*AGC*A*****"
+        },
+        {
+          "preservedSequence": "TG*TAG*TA****GCTAGCTA****"
+        },
+        {
+          "preservedSequence": "*CTAGCTAGCT**G*A*CTA*****"
+        },
+        {
+          "preservedSequence": "GCTA*CTAGCTA*CTAT**TA****"
+        },
+        {
+          "preservedSequence": "*GCTAT*GCT*GCTAGCT*GCTA**"
+        },
+        {
+          "preservedSequence": "GCTAG*T**CTA*C*CAGCTA****"
+        }
+      ]
+    },
+    {
+      "position": 92,
+      "generationFormed": 34,
+      "maxPreservedLength": 20,
+      "organismId": "Organism_8798",
+      "genes": [
+        {
+          "preservedSequence": "A*CGA*C*ATCGATCGATC*"
+        },
+        {
+          "preservedSequence": "ATC*AT*GATCGAT*GATCG"
+        },
+        {
+          "preservedSequence": "ATCGAT***GA**GATCG**"
+        },
+        {
+          "preservedSequence": "G*TAG**AGCATGCTA*CTA"
+        },
+        {
+          "preservedSequence": "*CTAGCT*GCTAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "GACTG*TAG*TAGCT*GCTA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCT**C*AG*TA"
+        },
+        {
+          "preservedSequence": "GCTAG*TAGCTAGCT**CTA"
+        },
+        {
+          "preservedSequence": "*CTA*CTAGCTA**TA*CT*"
+        },
+        {
+          "preservedSequence": "GC*AGC*AGCTAGC***CT*"
+        }
+      ]
+    },
+    {
+      "position": 76,
+      "generationFormed": 34,
+      "maxPreservedLength": 17,
+      "organismId": "Organism_9049",
+      "genes": [
+        {
+          "preservedSequence": "ATCGAC*CG*TC*TCGA"
+        },
+        {
+          "preservedSequence": "AT*GA*C*ATCGAT**A"
+        },
+        {
+          "preservedSequence": "ATCGATCGA*CGATC*A"
+        },
+        {
+          "preservedSequence": "*CTAGC*AGC*AG*T*G"
+        },
+        {
+          "preservedSequence": "*CTAGCTA*CTA*C*AG"
+        },
+        {
+          "preservedSequence": "GCT**CTA*CTAG**AG"
+        },
+        {
+          "preservedSequence": "GC***C*A*C*AG*TAG"
+        },
+        {
+          "preservedSequence": "G*TAG*TA*CTATGC*A"
+        },
+        {
+          "preservedSequence": "GC*AG*TA*CTAGCTAG"
+        },
+        {
+          "preservedSequence": "G*TAGC*AGC**GCTA*"
+        }
+      ]
+    },
+    {
+      "position": 50,
+      "generationFormed": 34,
+      "maxPreservedLength": 20,
+      "organismId": "Organism_9455",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATC**T*GATCGAT*G"
+        },
+        {
+          "preservedSequence": "ATCG*T*GATCGGATCG***"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGA**GATCG"
+        },
+        {
+          "preservedSequence": "GCTAGC*AG*TAGCT*G**A"
+        },
+        {
+          "preservedSequence": "GCTAGC**GC*AGCTAGCT*"
+        },
+        {
+          "preservedSequence": "GCTAGAGCTTAGCA*CTA**"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCCT*G*T"
+        },
+        {
+          "preservedSequence": "*CTAGCTAGCTAGCTAG*TA"
+        },
+        {
+          "preservedSequence": "**TA*CTAGCTA**TAGC*A"
+        },
+        {
+          "preservedSequence": "GCT*GC*TG*TAG*TAGC*A"
+        }
+      ]
+    },
+    {
+      "position": 29,
+      "generationFormed": 34,
+      "maxPreservedLength": 14,
+      "organismId": "Organism_9348",
+      "genes": [
+        {
+          "preservedSequence": "*TCGATCG**CGAT"
+        },
+        {
+          "preservedSequence": "A*CGATCGATCG**"
+        },
+        {
+          "preservedSequence": "ATCGAATCGAT**A"
+        },
+        {
+          "preservedSequence": "*CTA*GCAT*CTA*"
+        },
+        {
+          "preservedSequence": "G*TAGCTAGCTAGC"
+        },
+        {
+          "preservedSequence": "C**GCTAGCTAG*T"
+        },
+        {
+          "preservedSequence": "GCTAG**AGCTAG*"
+        },
+        {
+          "preservedSequence": "GCTAG*TTAG*TAG"
+        },
+        {
+          "preservedSequence": "GCTAGCTA*C*AG*"
+        },
+        {
+          "preservedSequence": "*CTAGCTA*C***C"
+        }
+      ]
+    },
+    {
+      "position": 48,
+      "generationFormed": 34,
+      "maxPreservedLength": 16,
+      "organismId": "Organism_5083",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGATCG*TCG"
+        },
+        {
+          "preservedSequence": "ATCGA*CGATCGA**G"
+        },
+        {
+          "preservedSequence": "AT*GATCGATCGAT*G"
+        },
+        {
+          "preservedSequence": "GCTAGCTAG**AGCT*"
+        },
+        {
+          "preservedSequence": "**TAGCT*GC*AG*TA"
+        },
+        {
+          "preservedSequence": "GC*AGCTAG***AGT*"
+        },
+        {
+          "preservedSequence": "GCTA*CT*GCT*GCTA"
+        },
+        {
+          "preservedSequence": "**T**C*A*CTA*CTA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGC*AGC**"
+        },
+        {
+          "preservedSequence": "GCTAGCGTACTAG*TC"
+        }
+      ]
+    },
+    {
+      "position": 50,
+      "generationFormed": 35,
+      "maxPreservedLength": 21,
+      "organismId": "Organism_9436",
+      "genes": [
+        {
+          "preservedSequence": "AT*G*TCGA*CGATCG**C**"
+        },
+        {
+          "preservedSequence": "ATCG*T*GATCG*TCGATCG*"
+        },
+        {
+          "preservedSequence": "ATCGATCG**CGATCG*TCG*"
+        },
+        {
+          "preservedSequence": "G*TAGCTAGCTAGCT*GCT**"
+        },
+        {
+          "preservedSequence": "GCTAG**AGCTAGCT*GC*A*"
+        },
+        {
+          "preservedSequence": "G*T****C*AG*TAGCTA***"
+        },
+        {
+          "preservedSequence": "GCTAGCCT*GCTAGCTA****"
+        },
+        {
+          "preservedSequence": "*CT*GCT*GCT*G**AGCTA*"
+        },
+        {
+          "preservedSequence": "GCTAGT*AGCTAGCTAGCTA*"
+        },
+        {
+          "preservedSequence": "GC*AGCTA*CTAG*T**C***"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "generationFormed": 35,
+      "maxPreservedLength": 18,
+      "organismId": "Organism_8123",
+      "genes": [
+        {
+          "preservedSequence": "*TCGA*CGATCGA*CGAT"
+        },
+        {
+          "preservedSequence": "ATCG**CGATCGAT*GAT"
+        },
+        {
+          "preservedSequence": "ATCGATCGA*CGATCGAT"
+        },
+        {
+          "preservedSequence": "GCTAGCT**CTAG*TAGC"
+        },
+        {
+          "preservedSequence": "GCTA*CTAGC*AGC*AGC"
+        },
+        {
+          "preservedSequence": "GCTA*C*AGCTAGCTAGC"
+        },
+        {
+          "preservedSequence": "GC*AGCTAG*TAGCTA*C"
+        },
+        {
+          "preservedSequence": "GC*A**TAGCTAG**ACG"
+        },
+        {
+          "preservedSequence": "G*GCTAG*TAGC*A*CTA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGC*AGCTA*C"
+        }
+      ]
+    },
+    {
+      "position": 60,
+      "generationFormed": 35,
+      "maxPreservedLength": 19,
+      "organismId": "Organism_10051",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATC*ATC*ATC*ATC"
+        },
+        {
+          "preservedSequence": "ATCGA*CGA*CGA*CGATC"
+        },
+        {
+          "preservedSequence": "ATCGA**G*TCG**CGATC"
+        },
+        {
+          "preservedSequence": "GCTAGCTA*CTAGCTAGCT"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGACTA**TAGC"
+        },
+        {
+          "preservedSequence": "GCT*GC**GCCTAGTA**T"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCT"
+        },
+        {
+          "preservedSequence": "GCTA*CTAGCT*GCTA*CT"
+        },
+        {
+          "preservedSequence": "GCTA*CTAGCTAGCTAGC*"
+        },
+        {
+          "preservedSequence": "***A*CGTACTAGCT*A*C"
+        }
+      ]
+    },
+    {
+      "position": 99,
+      "generationFormed": 35,
+      "maxPreservedLength": 17,
+      "organismId": "Organism_8617",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGATC*A*CGA"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCGA"
+        },
+        {
+          "preservedSequence": "A*CGATCGATC*ATC*A"
+        },
+        {
+          "preservedSequence": "G*T*GCT*GCTAGCTTA"
+        },
+        {
+          "preservedSequence": "GCTAGCT*GCTAGCTA*"
+        },
+        {
+          "preservedSequence": "*CT*GCTAGCTAGCT*G"
+        },
+        {
+          "preservedSequence": "GCTAGCTATAGCTAGC*"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGC**G"
+        },
+        {
+          "preservedSequence": "GCT*GCT*G**G*CGTA"
+        },
+        {
+          "preservedSequence": "*C*AGC*AG*TAG*T*G"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "generationFormed": 35,
+      "maxPreservedLength": 24,
+      "organismId": "Organism_9691",
+      "genes": [
+        {
+          "preservedSequence": "*T*GAT*GA*CG*TCG**CG****"
+        },
+        {
+          "preservedSequence": "*GTCGATCG*TCGATCG*TCG***"
+        },
+        {
+          "preservedSequence": "ATCGA*CG*TCGATCGA*CG****"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTA*CT*GCTA****"
+        },
+        {
+          "preservedSequence": "*C*AGC*AGCTAGC*A***A****"
+        },
+        {
+          "preservedSequence": "*CTA*CTAGCT*GCTA*CTA****"
+        },
+        {
+          "preservedSequence": "GCTAG*TA****GCTAGCTA****"
+        },
+        {
+          "preservedSequence": "GCT*GCTAG*TAGC*ACTA*****"
+        },
+        {
+          "preservedSequence": "G*GCTAGCTAGCTAGCTA*CTA**"
+        },
+        {
+          "preservedSequence": "GC*AGCTA*CTAGGC*AGGCT***"
+        }
+      ]
+    },
+    {
+      "position": 26,
+      "generationFormed": 35,
+      "maxPreservedLength": 19,
+      "organismId": "Organism_9480",
+      "genes": [
+        {
+          "preservedSequence": "*TCGA***AT**ATCGATC"
+        },
+        {
+          "preservedSequence": "ATC*ATCGATCGATCGA*C"
+        },
+        {
+          "preservedSequence": "A*CGA****TCG*T*GA**"
+        },
+        {
+          "preservedSequence": "**TAGC*TGCTAGCTAGCT"
+        },
+        {
+          "preservedSequence": "GCTAGC**GC*AGGC*ACT"
+        },
+        {
+          "preservedSequence": "CTAG*TAG*TAGC*AGC**"
+        },
+        {
+          "preservedSequence": "GCTAG*TAGCTAG**A*CT"
+        },
+        {
+          "preservedSequence": "G*TAG*TAGC*AGCTAGCC"
+        },
+        {
+          "preservedSequence": "GC*AG**AGCTAG*TAGCT"
+        },
+        {
+          "preservedSequence": "*CTA*CT*GCTA*CTAGC*"
+        }
+      ]
+    },
+    {
+      "position": 59,
+      "generationFormed": 35,
+      "maxPreservedLength": 23,
+      "organismId": "Organism_8636",
+      "genes": [
+        {
+          "preservedSequence": "A*CG**CGATCGATC*ATCG***"
+        },
+        {
+          "preservedSequence": "ATCGATCGATC*ATCGATC****"
+        },
+        {
+          "preservedSequence": "AT**ATCGATCGATCGATCG***"
+        },
+        {
+          "preservedSequence": "**TA*CTAG*TAG*TAGCT****"
+        },
+        {
+          "preservedSequence": "*CTA*CTAGCTAGCTG*T**CT*"
+        },
+        {
+          "preservedSequence": "*CTAGCT*G*TAGCT**C*A***"
+        },
+        {
+          "preservedSequence": "GCTAGC*AGC*AGCT*GCTA***"
+        },
+        {
+          "preservedSequence": "*CTAGCTAG*TAGCTAGC*A***"
+        },
+        {
+          "preservedSequence": "GCTA**TA*CT*GCTA**T****"
+        },
+        {
+          "preservedSequence": "GCT*GCTATGCTAGCTAGCTA**"
+        }
+      ]
+    },
+    {
+      "position": 23,
+      "generationFormed": 36,
+      "maxPreservedLength": 21,
+      "organismId": "Organism_9096",
+      "genes": [
+        {
+          "preservedSequence": "AT*GATCGA**GA*CG*TC**"
+        },
+        {
+          "preservedSequence": "AT*GA*CGA*CGATCGAT***"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCG*ATCGA*C*"
+        },
+        {
+          "preservedSequence": "GCTAG*TA**TAGCTAGCT**"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAG*TA*"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCT**"
+        },
+        {
+          "preservedSequence": "G*TAGC*AGCT*G*TAGCT**"
+        },
+        {
+          "preservedSequence": "**TAG*TAGCTAGCTA**TA*"
+        },
+        {
+          "preservedSequence": "GC*AG*TAGC*A*CTA*CTA*"
+        },
+        {
+          "preservedSequence": "*CTAGCTAG**AG*TAGCTA*"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "generationFormed": 36,
+      "maxPreservedLength": 24,
+      "organismId": "Organism_7262",
+      "genes": [
+        {
+          "preservedSequence": "*TC*A*C*ATCGATTCGACG****"
+        },
+        {
+          "preservedSequence": "ATC**TCGATCGATCGATC*****"
+        },
+        {
+          "preservedSequence": "AT*GATCGATCGATCG**CG****"
+        },
+        {
+          "preservedSequence": "*CTAG*TA*CTAGCTAGCTA****"
+        },
+        {
+          "preservedSequence": "GCT*GCTAGCTAGCTAGCTA****"
+        },
+        {
+          "preservedSequence": "GCT*GAGCTAGCTA*CTA******"
+        },
+        {
+          "preservedSequence": "GCTA*C*AGCT*G*C*AGCTA***"
+        },
+        {
+          "preservedSequence": "GT*GCTAGCTAG*TAGCTA*****"
+        },
+        {
+          "preservedSequence": "GC**GCTAGCT**CTAGCTG*A**"
+        },
+        {
+          "preservedSequence": "GCTAG*TAGCTA*GC*A*******"
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "generationFormed": 37,
+      "maxPreservedLength": 22,
+      "organismId": "Organism_10442",
+      "genes": [
+        {
+          "preservedSequence": "AT*TC*ATCGATCGA*CTGACG"
+        },
+        {
+          "preservedSequence": "ATCGAT*GATCTCGA*CGATCG"
+        },
+        {
+          "preservedSequence": "*TCGATCG*TCGATCGATCG**"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAG*TAG*TA**"
+        },
+        {
+          "preservedSequence": "GCTA*CTA*CTAGCTAGCTA**"
+        },
+        {
+          "preservedSequence": "*C*AGCTATGCTA*CTAGC*A*"
+        },
+        {
+          "preservedSequence": "GCT**CT*GCTAG*TAGC****"
+        },
+        {
+          "preservedSequence": "GCTAGCTA*CT*G*TAGC*A**"
+        },
+        {
+          "preservedSequence": "GCTAGC**GCTA*CTAGCTA**"
+        },
+        {
+          "preservedSequence": "G*TAGCTAGCTAGCTAGCTA**"
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "generationFormed": 37,
+      "maxPreservedLength": 18,
+      "organismId": "Organism_10119",
+      "genes": [
+        {
+          "preservedSequence": "A*CGATCGATCGA*CGAT"
+        },
+        {
+          "preservedSequence": "ATCGATCGA*CGATCGAT"
+        },
+        {
+          "preservedSequence": "*TCGAT*GATCGATCGAT"
+        },
+        {
+          "preservedSequence": "G*TAGCT*GCTAGCTAGC"
+        },
+        {
+          "preservedSequence": "GCTAGCTAG*TA*CTAGC"
+        },
+        {
+          "preservedSequence": "G**AGCTAGCT*GCTAGC"
+        },
+        {
+          "preservedSequence": "GCT*GCTAGCT*GCT*GC"
+        },
+        {
+          "preservedSequence": "GCT**CT**CT***T*CG"
+        },
+        {
+          "preservedSequence": "GAGCTAAGC*AG*CTACT"
+        },
+        {
+          "preservedSequence": "GCTAGC*AG*TAGC*AG*"
+        }
+      ]
+    },
+    {
+      "position": 62,
+      "generationFormed": 37,
+      "maxPreservedLength": 24,
+      "organismId": "Organism_10891",
+      "genes": [
+        {
+          "preservedSequence": "ATC***C*ATCGATCGATCG****"
+        },
+        {
+          "preservedSequence": "AT*GATCGATCGA*CGATCG****"
+        },
+        {
+          "preservedSequence": "AT*GAATCGTCGA**GATCG****"
+        },
+        {
+          "preservedSequence": "GC*AGCTAGCTAGCTAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "GCTAGCT***TAGC*AGCTA****"
+        },
+        {
+          "preservedSequence": "GCTAG**AGCT*GC*C*GC*A***"
+        },
+        {
+          "preservedSequence": "GCTAG*TA*C*A*CT*G*TA****"
+        },
+        {
+          "preservedSequence": "GCT*GCTAGC**GCTAGCTA****"
+        },
+        {
+          "preservedSequence": "G**AGCT*GCTAGCT*GCTA****"
+        },
+        {
+          "preservedSequence": "**TAGCTAG*TAGC*CAGCTA***"
+        }
+      ]
+    },
+    {
+      "position": 59,
+      "generationFormed": 37,
+      "maxPreservedLength": 24,
+      "organismId": "Organism_10268",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGA*C*A*CGA**G****"
+        },
+        {
+          "preservedSequence": "AT*GATCGATCG*T*GA*CG****"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCGATCG****"
+        },
+        {
+          "preservedSequence": "*C*AG*CTAGC*A**TAGCTA***"
+        },
+        {
+          "preservedSequence": "G*T*GCTAGCTA*G*CTAGTA***"
+        },
+        {
+          "preservedSequence": "GCTAGA*CTAGC*AGC*A******"
+        },
+        {
+          "preservedSequence": "GCTAGC*AGCCTAGCC*A**TA**"
+        },
+        {
+          "preservedSequence": "GCTAGCT*GCTA*CTAGCTA****"
+        },
+        {
+          "preservedSequence": "GC*AGCTA*CT*GC*AGCTA****"
+        },
+        {
+          "preservedSequence": "*CTAGCT*GCTA*CTAGCTA****"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "generationFormed": 37,
+      "maxPreservedLength": 21,
+      "organismId": "Organism_9510",
+      "genes": [
+        {
+          "preservedSequence": "*TCGAT*GATCG*TCGATCG*"
+        },
+        {
+          "preservedSequence": "*TCG*TG*ATCGATCGATCG*"
+        },
+        {
+          "preservedSequence": "ATC*AT*GATCGATCGAT*G*"
+        },
+        {
+          "preservedSequence": "GC*AGC*A*CTAG**AGC*A*"
+        },
+        {
+          "preservedSequence": "GCTGAGCTAGCTAGCTCTA**"
+        },
+        {
+          "preservedSequence": "GCTAGCTAA*CTA*CTA****"
+        },
+        {
+          "preservedSequence": "GCT*G*T*GC*AGCTAGCTA*"
+        },
+        {
+          "preservedSequence": "*GCT**C*AGCTAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "GCTAG*TAGCTA*CTAG*T**"
+        },
+        {
+          "preservedSequence": "GCTAGC*AGC*AGCTAGCTA*"
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "generationFormed": 37,
+      "maxPreservedLength": 20,
+      "organismId": "Organism_11127",
+      "genes": [
+        {
+          "preservedSequence": "AATCGTCGATCGATCGATCG"
+        },
+        {
+          "preservedSequence": "***GATCG*TCGA*CGATCG"
+        },
+        {
+          "preservedSequence": "*TCGATCGATCGATC*ATCG"
+        },
+        {
+          "preservedSequence": "GGCTACTAGC*AGC*AGCT*"
+        },
+        {
+          "preservedSequence": "*CTA*CTAGCTAGCTAGCT*"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAG*TA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAAGCTA***"
+        },
+        {
+          "preservedSequence": "G*TAGCTAG**AGCTAGCA*"
+        },
+        {
+          "preservedSequence": "GCTAGC*AGCTAG*TAGC*A"
+        },
+        {
+          "preservedSequence": "GCTAGC*AGCT*GCTCAGCT"
+        }
+      ]
+    },
+    {
+      "position": 89,
+      "generationFormed": 37,
+      "maxPreservedLength": 18,
+      "organismId": "Organism_10768",
+      "genes": [
+        {
+          "preservedSequence": "AT*GATC*AT*G*T*GAT"
+        },
+        {
+          "preservedSequence": "ATCGATC*ATCGATCGAT"
+        },
+        {
+          "preservedSequence": "*TCGATCGATCGATC*AT"
+        },
+        {
+          "preservedSequence": "GCTA*CTAGCTAGCTA*C"
+        },
+        {
+          "preservedSequence": "GCT*GCTAGCTAG*TAGC"
+        },
+        {
+          "preservedSequence": "*CTAG*G*TAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "GCTAGCCTA*CTAGC***"
+        },
+        {
+          "preservedSequence": "GCTAGCT**C**GCTAG*"
+        },
+        {
+          "preservedSequence": "GCT*GTCAGCTAG**AG*"
+        },
+        {
+          "preservedSequence": "*CTAG*TAGCTA*CTAGC"
+        }
+      ]
+    },
+    {
+      "position": 74,
+      "generationFormed": 38,
+      "maxPreservedLength": 18,
+      "organismId": "Organism_9535",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGATC*AT*GA*"
+        },
+        {
+          "preservedSequence": "AT*G*TC***C*ATCG*T"
+        },
+        {
+          "preservedSequence": "ATCGA*CGAT*G*TCGAT"
+        },
+        {
+          "preservedSequence": "GCTAG*TAGCTAGCTT**"
+        },
+        {
+          "preservedSequence": "*CTA*CTAGC*AGCTAGC"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTA*CT*GC"
+        },
+        {
+          "preservedSequence": "*CTAGCTATAG*TAGCTA"
+        },
+        {
+          "preservedSequence": "G**AGCTAGCTAGCTA*C"
+        },
+        {
+          "preservedSequence": "**TAGCTAGCAGC*G*A*"
+        },
+        {
+          "preservedSequence": "GC*AGCTAGC*AGCTAGC"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "generationFormed": 38,
+      "maxPreservedLength": 19,
+      "organismId": "Organism_11174",
+      "genes": [
+        {
+          "preservedSequence": "ATCGAT*GAT*GAAT*GAT"
+        },
+        {
+          "preservedSequence": "ATCGATCGATC*ATCGT*C"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCGA**"
+        },
+        {
+          "preservedSequence": "*CTAGCATGCT*GCTA*CT"
+        },
+        {
+          "preservedSequence": "*C*AG*TAG*T*GCTA*CT"
+        },
+        {
+          "preservedSequence": "CTAGC**GCTAGC**GC*A"
+        },
+        {
+          "preservedSequence": "GCTAGCTAG**AG*TATGC"
+        },
+        {
+          "preservedSequence": "GCTAGCT*G*TAGCTAGCT"
+        },
+        {
+          "preservedSequence": "GCT**CT**CTAGCTAGC*"
+        },
+        {
+          "preservedSequence": "G*TA*CTAGCTA*CTAGCT"
+        }
+      ]
+    },
+    {
+      "position": 38,
+      "generationFormed": 38,
+      "maxPreservedLength": 22,
+      "organismId": "Organism_11244",
+      "genes": [
+        {
+          "preservedSequence": "AT*GA*CGATCG*TCG*TCG**"
+        },
+        {
+          "preservedSequence": "ATCG**C*AT*GAT*G*TCG**"
+        },
+        {
+          "preservedSequence": "AT**ATCGATCGATCG*TC***"
+        },
+        {
+          "preservedSequence": "G**AGCTA*C*A*CTAGCTA**"
+        },
+        {
+          "preservedSequence": "G*TGCAGCTA**T**CTAGCTA"
+        },
+        {
+          "preservedSequence": "GC**GA*CTAGCT*GCTA****"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCC*AGCTA*"
+        },
+        {
+          "preservedSequence": "GCTAG*T*GCT*G*TAGCT***"
+        },
+        {
+          "preservedSequence": "*CTAGCTAG*TAGCTAGCT*A*"
+        },
+        {
+          "preservedSequence": "GCTATAGCTAGCT*GCTAG*T*"
+        }
+      ]
+    },
+    {
+      "position": 41,
+      "generationFormed": 38,
+      "maxPreservedLength": 19,
+      "organismId": "Organism_11198",
+      "genes": [
+        {
+          "preservedSequence": "ATC*ATCGA**GATCG*TC"
+        },
+        {
+          "preservedSequence": "AT*GATCGATCGATCGA*C"
+        },
+        {
+          "preservedSequence": "A*CGAT*GATCGATCGATC"
+        },
+        {
+          "preservedSequence": "GGCT*CTA**TAGCTAG**"
+        },
+        {
+          "preservedSequence": "GCTAG*TAT*CT**CTAGC"
+        },
+        {
+          "preservedSequence": "GCTAGCT*GCT*GCTAGCT"
+        },
+        {
+          "preservedSequence": "G*TAGCTAGC*AGC*AGCT"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCT"
+        },
+        {
+          "preservedSequence": "GCTAGCT**CTAGCTAGCT"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAG*T*AGC"
+        }
+      ]
+    },
+    {
+      "position": 64,
+      "generationFormed": 39,
+      "maxPreservedLength": 18,
+      "organismId": "Organism_10682",
+      "genes": [
+        {
+          "preservedSequence": "AT*GATCGATCGATCCG*"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCG*T"
+        },
+        {
+          "preservedSequence": "ATCGATTCG*T*GA*C*A"
+        },
+        {
+          "preservedSequence": "G*T*GCTTA*CAGCTAGC"
+        },
+        {
+          "preservedSequence": "GC*AGCT*GCTAGCTAGT"
+        },
+        {
+          "preservedSequence": "GC**GCTA**TAGCTAGC"
+        },
+        {
+          "preservedSequence": "*CTAGCTAGC*AGC*AG*"
+        },
+        {
+          "preservedSequence": "GCTAGCTGCTA**TAGCT"
+        },
+        {
+          "preservedSequence": "GCTA**TAGCTAGCTAGC"
+        },
+        {
+          "preservedSequence": "*CTAGCTAGCT*GTA*CT"
+        }
+      ]
+    },
+    {
+      "position": 35,
+      "generationFormed": 39,
+      "maxPreservedLength": 21,
+      "organismId": "Organism_11869",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGATCGATCGAT*G*"
+        },
+        {
+          "preservedSequence": "ATCGA*C*ATCG*T*GAT*G*"
+        },
+        {
+          "preservedSequence": "ATCG*TCGATCGATCGATCG*"
+        },
+        {
+          "preservedSequence": "GGCTACTAGCTAGACTGC*A*"
+        },
+        {
+          "preservedSequence": "*C*AGCTA*CTAGCTAGC*A*"
+        },
+        {
+          "preservedSequence": "GCTAGCTAG*TAGCTA*CTT*"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTA*CT*GCTA*"
+        },
+        {
+          "preservedSequence": "*CTAGCT**CTAGCTAGCTA*"
+        },
+        {
+          "preservedSequence": "GCTCTAGCTA*CTGCTA****"
+        },
+        {
+          "preservedSequence": "GC*AGC*AGCTAGCTCA*CTA"
+        }
+      ]
+    },
+    {
+      "position": 73,
+      "generationFormed": 40,
+      "maxPreservedLength": 16,
+      "organismId": "Organism_9446",
+      "genes": [
+        {
+          "preservedSequence": "*T*GATCGATCGAT*G"
+        },
+        {
+          "preservedSequence": "ATCG*TCGATCGATCG"
+        },
+        {
+          "preservedSequence": "ATCGAT*GATCGAT**"
+        },
+        {
+          "preservedSequence": "GCTA*CTA*CT*GC*A"
+        },
+        {
+          "preservedSequence": "GCTA*CTAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCCT*GCT"
+        },
+        {
+          "preservedSequence": "GCT*GCTAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "GCT**C*AGCTAAGCT"
+        },
+        {
+          "preservedSequence": "GCTAGCTA*C*T***T"
+        },
+        {
+          "preservedSequence": "*CTA*CTAGCTAG*TA"
+        }
+      ]
+    },
+    {
+      "position": 59,
+      "generationFormed": 40,
+      "maxPreservedLength": 16,
+      "organismId": "Organism_10766",
+      "genes": [
+        {
+          "preservedSequence": "ATCGACGATCGAATCG"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCG"
+        },
+        {
+          "preservedSequence": "A*CGA*CTGATCGA*C"
+        },
+        {
+          "preservedSequence": "GCTA*C*AGCTA*CTA"
+        },
+        {
+          "preservedSequence": "GCT*GCTAGCTAGTAG"
+        },
+        {
+          "preservedSequence": "GCTA*CTAGCTA*CTA"
+        },
+        {
+          "preservedSequence": "GCTAGC*ACTAGCT*G"
+        },
+        {
+          "preservedSequence": "GCT*C*AGCTAGCTAG"
+        },
+        {
+          "preservedSequence": "GCTAGCTAG*TAGCTA"
+        },
+        {
+          "preservedSequence": "*CT*GCTAG***GC*A"
+        }
+      ]
+    },
+    {
+      "position": 93,
+      "generationFormed": 40,
+      "maxPreservedLength": 17,
+      "organismId": "Organism_11519",
+      "genes": [
+        {
+          "preservedSequence": "*TCGATCGATC*ATCGA"
+        },
+        {
+          "preservedSequence": "*TCGAT*GATCGA*CG*"
+        },
+        {
+          "preservedSequence": "ATCGAT**ATCGATCGA"
+        },
+        {
+          "preservedSequence": "TGGCACT*GCTAG*TAG"
+        },
+        {
+          "preservedSequence": "G*TAGCTA*CTAGCTAG"
+        },
+        {
+          "preservedSequence": "GCTAG*TA*CTAGCTAG"
+        },
+        {
+          "preservedSequence": "G*TA*CTA*CTAGCTAG"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAG"
+        },
+        {
+          "preservedSequence": "GC*AGCTAGCTAGCTAA"
+        },
+        {
+          "preservedSequence": "GCTAGC*AGC*AGCTCA"
+        }
+      ]
+    },
+    {
+      "position": 95,
+      "generationFormed": 40,
+      "maxPreservedLength": 15,
+      "organismId": "Organism_12333",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGATCGATC"
+        },
+        {
+          "preservedSequence": "AT*GAT*GATCA**C"
+        },
+        {
+          "preservedSequence": "AT*GATCGATCG*TC"
+        },
+        {
+          "preservedSequence": "GGCTACTAGCTAGCT"
+        },
+        {
+          "preservedSequence": "GC*AGCTAGCTAGCT"
+        },
+        {
+          "preservedSequence": "GCTAGCTAG*T*G**"
+        },
+        {
+          "preservedSequence": "GCTAGCTA**TAGCT"
+        },
+        {
+          "preservedSequence": "G*TAGCTAGCTAGCT"
+        },
+        {
+          "preservedSequence": "GCT*GCT*GC**GCT"
+        },
+        {
+          "preservedSequence": "G*TAGCTAG*TAGCT"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "generationFormed": 40,
+      "maxPreservedLength": 16,
+      "organismId": "Organism_11637",
+      "genes": [
+        {
+          "preservedSequence": "A*CGA*CGATCGA*CG"
+        },
+        {
+          "preservedSequence": "ATCGATCCGA*GAT*G"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATC*"
+        },
+        {
+          "preservedSequence": "GCTAGCTAG*TAGC*C"
+        },
+        {
+          "preservedSequence": "GCTAGCTAG*TAGCTA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCT*GCTA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCT*G*TA"
+        },
+        {
+          "preservedSequence": "*C*TA*CT*GCTAGCT"
+        },
+        {
+          "preservedSequence": "*CTAGCGTACT*G**C"
+        }
+      ]
+    },
+    {
+      "position": 79,
+      "generationFormed": 40,
+      "maxPreservedLength": 18,
+      "organismId": "Organism_12674",
+      "genes": [
+        {
+          "preservedSequence": "ATCG*TCGA*CGATC*AT"
+        },
+        {
+          "preservedSequence": "ATCG*TCGA**GATCGAT"
+        },
+        {
+          "preservedSequence": "AT*GATCG*TCGATC*AT"
+        },
+        {
+          "preservedSequence": "GC*AGA*TAGCTAGCTA*"
+        },
+        {
+          "preservedSequence": "GCTAGCT*GC*ATGCC*A"
+        },
+        {
+          "preservedSequence": "*CTAGAGC*AGCTAGC*A"
+        },
+        {
+          "preservedSequence": "G*TAGCTA*CC*AGC*TA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTA*CT*GC"
+        },
+        {
+          "preservedSequence": "GC*AGCTAGCTA**TA*C"
+        },
+        {
+          "preservedSequence": "GCTAGC*AGCTAGCTAGC"
+        }
+      ]
+    },
+    {
+      "position": 35,
+      "generationFormed": 40,
+      "maxPreservedLength": 13,
+      "organismId": "Organism_11257",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGA*CGA"
+        },
+        {
+          "preservedSequence": "*TCGATCGATCG*"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGA"
+        },
+        {
+          "preservedSequence": "*CTAGC*AGCTAG"
+        },
+        {
+          "preservedSequence": "GCTAGCTAG*TAG"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAG"
+        },
+        {
+          "preservedSequence": "GCT*GC*AGCT*G"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGC*AG"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTA*"
+        },
+        {
+          "preservedSequence": "GCTA*CTAGCTA*"
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "generationFormed": 41,
+      "maxPreservedLength": 18,
+      "organismId": "Organism_10701",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGATCGATCGAT"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGA*CGAT"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCGAT"
+        },
+        {
+          "preservedSequence": "GCTA*CTAGCTAGCTAGC"
+        },
+        {
+          "preservedSequence": "GCTAGC*AGCTAGCTAGC"
+        },
+        {
+          "preservedSequence": "GCTAGCTA*CTAGCTA*C"
+        },
+        {
+          "preservedSequence": "G*TAGTCAGCTAGC*AGC"
+        },
+        {
+          "preservedSequence": "GCTAG*TAGC*AGCTAGC"
+        },
+        {
+          "preservedSequence": "*C*AGCTAGCTAGCTAGC"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTA*C**GC"
+        }
+      ]
+    },
+    {
+      "position": 72,
+      "generationFormed": 41,
+      "maxPreservedLength": 23,
+      "organismId": "Organism_13151",
+      "genes": [
+        {
+          "preservedSequence": "*TCGATTC*ACGA*CGATCG***"
+        },
+        {
+          "preservedSequence": "ATC*ATCGATCGATTCGCGATCG"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCGA*C****"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAG*T**CTA***"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTAT*G"
+        },
+        {
+          "preservedSequence": "GCT*TGCTCAGCT*GCTAGCTA*"
+        },
+        {
+          "preservedSequence": "GCTAG*T*GCTAGCTAGCTA***"
+        },
+        {
+          "preservedSequence": "GCT*GCTAGCTAAGCT*GTAGCT"
+        },
+        {
+          "preservedSequence": "*CTAGCTAGC*AGCTAGCTA***"
+        },
+        {
+          "preservedSequence": "*CTAGCTAG*TAGCTAGCTA***"
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "generationFormed": 41,
+      "maxPreservedLength": 24,
+      "organismId": "Organism_12587",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATC*ATCGATCGATCG****"
+        },
+        {
+          "preservedSequence": "ATCG*TCGATCGATCGATC*****"
+        },
+        {
+          "preservedSequence": "ATC*A*CGATCGAT*GA*CG****"
+        },
+        {
+          "preservedSequence": "GCTAGCTAG*TAGCT*GCTA****"
+        },
+        {
+          "preservedSequence": "GCT*GC*AGCTAGCTAGCT*****"
+        },
+        {
+          "preservedSequence": "*CTAGCTAGCTAGCTAGCTA****"
+        },
+        {
+          "preservedSequence": "GCT*GCTAGCTAGCTAGCTA****"
+        },
+        {
+          "preservedSequence": "GCTA*CTAGCTA*CTAGCTA****"
+        },
+        {
+          "preservedSequence": "GCT*GCTA*CTAGCTAGCTA****"
+        },
+        {
+          "preservedSequence": "GCT*G*TA*C*AG*TAGCTA****"
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "generationFormed": 41,
+      "maxPreservedLength": 24,
+      "organismId": "Organism_10525",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGAT*GATC*ATCG****"
+        },
+        {
+          "preservedSequence": "ATCGATCGAT*GATCGTACG****"
+        },
+        {
+          "preservedSequence": "ATCGATCGA*CGATC*A*CG****"
+        },
+        {
+          "preservedSequence": "GCTAGCATGCGT*GC*AGCTA***"
+        },
+        {
+          "preservedSequence": "GCTAGCTA*CTA*CTAGCTA****"
+        },
+        {
+          "preservedSequence": "CTACTAGCTAG*TA*CT*******"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA****"
+        },
+        {
+          "preservedSequence": "GC**GCTAGCTAGCTAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "GCTAGCT**CTAG*T*GCTA****"
+        },
+        {
+          "preservedSequence": "GCT*GCTAGCT**CTAG*T*****"
+        }
+      ]
+    },
+    {
+      "position": 80,
+      "generationFormed": 41,
+      "maxPreservedLength": 21,
+      "organismId": "Organism_12927",
+      "genes": [
+        {
+          "preservedSequence": "A*CG*TCGATCGATTCGA*C*"
+        },
+        {
+          "preservedSequence": "ATCGAT*GATCG**T*AGA*C"
+        },
+        {
+          "preservedSequence": "ATCGATCGA*CGATCGATCG*"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAG*CTA"
+        },
+        {
+          "preservedSequence": "GCTAGCCTAGTAGC*AGCTAG"
+        },
+        {
+          "preservedSequence": "GCTAGAGCTAGCTAGCTA***"
+        },
+        {
+          "preservedSequence": "GCTAGCTAG*TAGCTAGCTA*"
+        },
+        {
+          "preservedSequence": "GC*AGCGTAC**GCTAGCTA*"
+        },
+        {
+          "preservedSequence": "GTAGCTA*CTAGCTA*CTA**"
+        },
+        {
+          "preservedSequence": "AGGCTAGCTAGCT*GCTAG*T"
+        }
+      ]
+    },
+    {
+      "position": 51,
+      "generationFormed": 41,
+      "maxPreservedLength": 21,
+      "organismId": "Organism_11264",
+      "genes": [
+        {
+          "preservedSequence": "*T*GATCGATCGATCGAT***"
+        },
+        {
+          "preservedSequence": "ATCGATC*ATCGATCAGATC*"
+        },
+        {
+          "preservedSequence": "ATCGATCGATC*ATCGATCG*"
+        },
+        {
+          "preservedSequence": "GCTAG*TAGCT***TAGCTA*"
+        },
+        {
+          "preservedSequence": "GC*AGCTAGCTAG*T*GCTA*"
+        },
+        {
+          "preservedSequence": "GCTAGC*AGCTAG*TAG*TA*"
+        },
+        {
+          "preservedSequence": "GCTAGCT*GCTC*GTAG****"
+        },
+        {
+          "preservedSequence": "GC*AGCTAGCTGAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "GCTAGCT*GCT*GCTAGCTA*"
+        },
+        {
+          "preservedSequence": "G**AGC*A**TAGCTAGCTA*"
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "generationFormed": 41,
+      "maxPreservedLength": 19,
+      "organismId": "Organism_11015",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGATCGATCGA*C"
+        },
+        {
+          "preservedSequence": "*TCATCG*TCGA*CGATCG"
+        },
+        {
+          "preservedSequence": "ATCGATCGCATGATC*ATC"
+        },
+        {
+          "preservedSequence": "GCTAGCT*GCTAGCTAGC*"
+        },
+        {
+          "preservedSequence": "GCTAG*TAGCTAG***GCT"
+        },
+        {
+          "preservedSequence": "GC*AGCTAGCTAAGCTAGC"
+        },
+        {
+          "preservedSequence": "*CTA*CTAGCT*GCTAGCA"
+        },
+        {
+          "preservedSequence": "GC*A*CTAGCTAGCTAGCT"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGC*"
+        },
+        {
+          "preservedSequence": "*CTA*CTAGCTAGCTAGCT"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "generationFormed": 42,
+      "maxPreservedLength": 23,
+      "organismId": "Organism_13461",
+      "genes": [
+        {
+          "preservedSequence": "A*CGATCGATC*ATCGATC****"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCGATCG***"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGAT*GATCG***"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAG*TA***"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTA*CTA***"
+        },
+        {
+          "preservedSequence": "GCTAGC*AGCTAGCTAGCTA***"
+        },
+        {
+          "preservedSequence": "GCTAG*TAGCTAGC*AGCTA***"
+        },
+        {
+          "preservedSequence": "GCTAGCTA*TAAGC*AGCTA***"
+        },
+        {
+          "preservedSequence": "GCTAGCT*GCAG*T*GCTAGC*A"
+        },
+        {
+          "preservedSequence": "GCTAGC*AGCTAGCTA*CTA***"
+        }
+      ]
+    },
+    {
+      "position": 47,
+      "generationFormed": 42,
+      "maxPreservedLength": 22,
+      "organismId": "Organism_12584",
+      "genes": [
+        {
+          "preservedSequence": "ATCGA*CGATCGATCGGATCG*"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCGA*C***"
+        },
+        {
+          "preservedSequence": "ATCGAT**ATCC*ATGATCG**"
+        },
+        {
+          "preservedSequence": "GCTAGC*AGCTAG**AGCTA**"
+        },
+        {
+          "preservedSequence": "GCTAGC*AG**AGCTAG*TA**"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTA*CTA**"
+        },
+        {
+          "preservedSequence": "GCATA*C*AG*TAGCTAGCTA*"
+        },
+        {
+          "preservedSequence": "GCTAG*TAGCTAGCCTAGCTA*"
+        },
+        {
+          "preservedSequence": "GCTAGCTAG*TAG*TA*CTA**"
+        },
+        {
+          "preservedSequence": "G*T*G*T*GCTAGCTA*CTA**"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "generationFormed": 42,
+      "maxPreservedLength": 21,
+      "organismId": "Organism_12442",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCG*TCGATCGATC**"
+        },
+        {
+          "preservedSequence": "ATCGATCG*TCG*TCGATCG*"
+        },
+        {
+          "preservedSequence": "*T*GA*CGATC*ATCGATCG*"
+        },
+        {
+          "preservedSequence": "GCTAGG*TAGC*AGCT*G*TA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGC*AGCTAGCTA*"
+        },
+        {
+          "preservedSequence": "GCT*GCT*GCTAGCTAGCT**"
+        },
+        {
+          "preservedSequence": "GCT**CTAGCTAGCTAG*TA*"
+        },
+        {
+          "preservedSequence": "GCCTAGC*AGCT*GCTAGCTA"
+        },
+        {
+          "preservedSequence": "GCC**GCT*GCTAGCTA****"
+        },
+        {
+          "preservedSequence": "GCTAGCGTAGCTTA*CAGCTA"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "generationFormed": 42,
+      "maxPreservedLength": 20,
+      "organismId": "Organism_13380",
+      "genes": [
+        {
+          "preservedSequence": "**CGATCGATCGATCGATCT"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCGATCG"
+        },
+        {
+          "preservedSequence": "AT*GATCGATCGATCGATC*"
+        },
+        {
+          "preservedSequence": "GCTAG*TAGCTAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "G*TAGCTAGC*A*CTAGCTA"
+        },
+        {
+          "preservedSequence": "GCTAGC*AGCT*GCTAGC*A"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCT*GCTA"
+        },
+        {
+          "preservedSequence": "GCAT*GCTAGCT*GCTAG**"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "GCTAG*TAGC*AGCTAGCTA"
+        }
+      ]
+    },
+    {
+      "position": 68,
+      "generationFormed": 42,
+      "maxPreservedLength": 18,
+      "organismId": "Organism_13628",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGAT**ATC*AT"
+        },
+        {
+          "preservedSequence": "ATC***C**T*GA*CGAT"
+        },
+        {
+          "preservedSequence": "ATCGAT*GATCGATCGAT"
+        },
+        {
+          "preservedSequence": "G*TAGGCTAGCTAGCTGA"
+        },
+        {
+          "preservedSequence": "*CTA*CTAG*TAGCTA*C"
+        },
+        {
+          "preservedSequence": "GCTAGCTAG*TAGCTAGC"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCT*G*T**C"
+        },
+        {
+          "preservedSequence": "*GCGCCTAGCT*GCTA*C"
+        },
+        {
+          "preservedSequence": "GC*TAGCTAGCT**CTA*"
+        },
+        {
+          "preservedSequence": "*CTAGCGTAGCTTAGCAG"
+        }
+      ]
+    },
+    {
+      "position": 86,
+      "generationFormed": 42,
+      "maxPreservedLength": 18,
+      "organismId": "Organism_12751",
+      "genes": [
+        {
+          "preservedSequence": "A*CGATCGATCGATCGAT"
+        },
+        {
+          "preservedSequence": "ATTCGACGAT*GATCGAT"
+        },
+        {
+          "preservedSequence": "ATCGACGATC*ATCGATC"
+        },
+        {
+          "preservedSequence": "GC*AGCA*GCT*GC*AGC"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGC*A*CT*G*"
+        },
+        {
+          "preservedSequence": "CTAGCAGA*TACGTAG*T"
+        },
+        {
+          "preservedSequence": "GCTAGC*AG*TAGCT*GC"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGC**GCTAGC"
+        },
+        {
+          "preservedSequence": "GCT*GC*AG*TAGCTAGC"
+        },
+        {
+          "preservedSequence": "*CTG*TAG*CTAGCTAGC"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "generationFormed": 42,
+      "maxPreservedLength": 22,
+      "organismId": "Organism_12542",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCG*TCGATCGA*CG**"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCGATCG**"
+        },
+        {
+          "preservedSequence": "**CGATCGATCGATCGATCG**"
+        },
+        {
+          "preservedSequence": "*CTA*CTAGCTAGCTAGC*A**"
+        },
+        {
+          "preservedSequence": "GCTATGCTAGCTAGACTGCTA*"
+        },
+        {
+          "preservedSequence": "GCTAG**AGCTAGCTAGCTA**"
+        },
+        {
+          "preservedSequence": "*CTAAG**AGCTAGCTAGCTA*"
+        },
+        {
+          "preservedSequence": "GCTA*GCCT*GC*AGCTAGCT*"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTA*C*AGCTA**"
+        },
+        {
+          "preservedSequence": "GCTAG*T*GCTAGGCTAGCTA*"
+        }
+      ]
+    },
+    {
+      "position": 82,
+      "generationFormed": 42,
+      "maxPreservedLength": 19,
+      "organismId": "Organism_13366",
+      "genes": [
+        {
+          "preservedSequence": "ATC*ATCGATAT*GATCGA"
+        },
+        {
+          "preservedSequence": "*TCGACTG*TCGA*CGATC"
+        },
+        {
+          "preservedSequence": "ATCGATC*AT*GA*CGAT*"
+        },
+        {
+          "preservedSequence": "G*TAGCTAGCTAG*T*GCT"
+        },
+        {
+          "preservedSequence": "GCTA**TAGCTAGCTAG*T"
+        },
+        {
+          "preservedSequence": "GCTA*CTAGC*AGCTA*CT"
+        },
+        {
+          "preservedSequence": "GCTAGCT*GCTAGCTAGC*"
+        },
+        {
+          "preservedSequence": "GCTA*CT*GCT*G*TA*CT"
+        },
+        {
+          "preservedSequence": "GCTAG*TAGCTAGCT*GC*"
+        },
+        {
+          "preservedSequence": "GCTAGCT**C**GCTC*GC"
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "generationFormed": 42,
+      "maxPreservedLength": 24,
+      "organismId": "Organism_10158",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGATCGATCGATCG****"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCG*TCG****"
+        },
+        {
+          "preservedSequence": "ATCGATC*A*CGATCGATCG****"
+        },
+        {
+          "preservedSequence": "GCTA*CTAGCTAGCTAGCTA****"
+        },
+        {
+          "preservedSequence": "G*TAGCTAGGCT**CTAGCCTA**"
+        },
+        {
+          "preservedSequence": "GCTAGCTAAGCTAGCTA*******"
+        },
+        {
+          "preservedSequence": "*CTAGCTAGCTA*C*T**TA****"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGC*AGCTA****"
+        },
+        {
+          "preservedSequence": "*CTAGCTA*CTAGCTAG*TA****"
+        },
+        {
+          "preservedSequence": "GCTAGCTAA*CT*CTG**TA****"
+        }
+      ]
+    },
+    {
+      "position": 61,
+      "generationFormed": 42,
+      "maxPreservedLength": 16,
+      "organismId": "Organism_13045",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGATCGATCG"
+        },
+        {
+          "preservedSequence": "ATC*ATCGA*CGA*CG"
+        },
+        {
+          "preservedSequence": "A**GA*CGATCGATC*"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "*CTAGCTAGCTAG*TA"
+        },
+        {
+          "preservedSequence": "GCTAGAGCTAGCTAG*"
+        },
+        {
+          "preservedSequence": "*CT*GCTAGCTA*CCT"
+        },
+        {
+          "preservedSequence": "*CTAGCTAGCTAGC*A"
+        },
+        {
+          "preservedSequence": "GCTA*CTAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTA"
+        }
+      ]
+    },
+    {
+      "position": 54,
+      "generationFormed": 43,
+      "maxPreservedLength": 23,
+      "organismId": "Organism_14189",
+      "genes": [
+        {
+          "preservedSequence": "ATCG**CGATCGATCG*TC****"
+        },
+        {
+          "preservedSequence": "ATC**TC*A*CGATCGATCG***"
+        },
+        {
+          "preservedSequence": "ATCGATCG*TCG*TCG*TCG***"
+        },
+        {
+          "preservedSequence": "G*TAG*TAGCTAGCTAGCTA***"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCT*TA*****"
+        },
+        {
+          "preservedSequence": "*C***C*A*CTAGCTAGCTA***"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCGCTAGCTACGTA*"
+        },
+        {
+          "preservedSequence": "*CTAGCTAGCGCTA*AGCT*G*T"
+        },
+        {
+          "preservedSequence": "GCTAG*TAGCTAGCTAGA*****"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA***"
+        }
+      ]
+    },
+    {
+      "position": 56,
+      "generationFormed": 43,
+      "maxPreservedLength": 20,
+      "organismId": "Organism_13228",
+      "genes": [
+        {
+          "preservedSequence": "ATCGA*CGATCGATCGATCG"
+        },
+        {
+          "preservedSequence": "ATCGATTCGACGGATCG**C"
+        },
+        {
+          "preservedSequence": "ATC*ATCGATCGATCGATCG"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "G*TA*CTAAGCTGCTA*CTA"
+        },
+        {
+          "preservedSequence": "*CTA*TCAGCTAGC*AGCTA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCT*GCTCTA**"
+        },
+        {
+          "preservedSequence": "GC*AGCT*GCTAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "G*TAGCTAGCTAGCTAGCTA"
+        }
+      ]
+    },
+    {
+      "position": 40,
+      "generationFormed": 43,
+      "maxPreservedLength": 20,
+      "organismId": "Organism_13438",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGATCGATC*ATCG"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCGTACG"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCGA*C*"
+        },
+        {
+          "preservedSequence": "*CTAGCATGCTAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "*CTA*CTAGCTAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "CTAGCTA*CGTACTAGCTA*"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGC*AGCTATGCT"
+        },
+        {
+          "preservedSequence": "TTAGCTAG*TAGC*AG*T**"
+        },
+        {
+          "preservedSequence": "*CTAGCTAGCTA*CTAGCTA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCT**CTAGCTA"
+        }
+      ]
+    },
+    {
+      "position": 49,
+      "generationFormed": 43,
+      "maxPreservedLength": 25,
+      "organismId": "Organism_13393",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGATCGATCGAT*G*****"
+        },
+        {
+          "preservedSequence": "*T*G*TCGATCGGATCATCG*****"
+        },
+        {
+          "preservedSequence": "ATCGATCGA*CGATCTGACG*****"
+        },
+        {
+          "preservedSequence": "G*TACTAGGCTAGCTAGCT**CTA*"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA*****"
+        },
+        {
+          "preservedSequence": "GC**GC*AGCTAGCTAGCTA*****"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGC*AGCTAGCTA*****"
+        },
+        {
+          "preservedSequence": "GCTAGCTAAGCTGCTAGCTA*****"
+        },
+        {
+          "preservedSequence": "GCT*GCT*GCTAGCTAGCTA*****"
+        },
+        {
+          "preservedSequence": "GCTAGC*AGCTAGC*CAG*TA****"
+        }
+      ]
+    },
+    {
+      "position": 61,
+      "generationFormed": 43,
+      "maxPreservedLength": 24,
+      "organismId": "Organism_13340",
+      "genes": [
+        {
+          "preservedSequence": "AT*GATCGATCGATCG*TCG****"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCG*TCGATCG****"
+        },
+        {
+          "preservedSequence": "ATCGATTCGATC*AT**ATCG***"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTA*CTA*CTA****"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGC*A*CTA****"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCT*****"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA****"
+        },
+        {
+          "preservedSequence": "GCTAGCTAG*TAGCTAGCTA****"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA****"
+        },
+        {
+          "preservedSequence": "*CTAGCTAGCTAGTAGCTA*****"
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "generationFormed": 43,
+      "maxPreservedLength": 20,
+      "organismId": "Organism_13410",
+      "genes": [
+        {
+          "preservedSequence": "AT*CGATCGATCG*TCGATC"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCG*TCGATCG"
+        },
+        {
+          "preservedSequence": "ATCGAATCGTCGATCG*TCG"
+        },
+        {
+          "preservedSequence": "GC*AGCTAGC*AGCTAGCTA"
+        },
+        {
+          "preservedSequence": "**TAGCTAGCTAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "GC*AGCTAGCTAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "*CTAGCTAGCT*GCTAGCTA"
+        },
+        {
+          "preservedSequence": "GCATAGCTAGCTAGCT*GCT"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCT*GCTAGCTA"
+        },
+        {
+          "preservedSequence": "GCTAGCT*GCTAGCT*AG*T"
+        }
+      ]
+    },
+    {
+      "position": 62,
+      "generationFormed": 43,
+      "maxPreservedLength": 27,
+      "organismId": "Organism_13575",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATC*ATCGATCGATCG*******"
+        },
+        {
+          "preservedSequence": "*TC*ATCGCATGA*CGATCG*******"
+        },
+        {
+          "preservedSequence": "ATCGATCG*TCGATCGAG*********"
+        },
+        {
+          "preservedSequence": "GGC*ACTAG*TAGCT*GTCTAA*****"
+        },
+        {
+          "preservedSequence": "GCTAGCTAG**A*CTAG*T********"
+        },
+        {
+          "preservedSequence": "GCT*GCTAGCTAGCT*GCT********"
+        },
+        {
+          "preservedSequence": "GC*AGCGTACTAG*T*GCTA*******"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGC*AGCTA*******"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCT*GCTAGCTA*******"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTCAGCTA******"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "generationFormed": 44,
+      "maxPreservedLength": 15,
+      "organismId": "Organism_14070",
+      "genes": [
+        {
+          "preservedSequence": "ATCGA*CGATC**AT"
+        },
+        {
+          "preservedSequence": "ATCGATC*ATCGATC"
+        },
+        {
+          "preservedSequence": "ATCGAT*GATCGATC"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCT"
+        },
+        {
+          "preservedSequence": "GC*AGCTACTAGCTA"
+        },
+        {
+          "preservedSequence": "G*TAGGCTACTAGCT"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCT*GCT"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTA*CT"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCT"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCGCTAG"
+        }
+      ]
+    },
+    {
+      "position": 58,
+      "generationFormed": 44,
+      "maxPreservedLength": 17,
+      "organismId": "Organism_13873",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGA*CGATCGA"
+        },
+        {
+          "preservedSequence": "ATCGATCG*TCGATCGA"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGA*C*A"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAG"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTA*ACTG"
+        },
+        {
+          "preservedSequence": "GCTAG*TAGCTAG**AG"
+        },
+        {
+          "preservedSequence": "GCTA*CTAGCTAGCTAG"
+        },
+        {
+          "preservedSequence": "GCTAGGCC***CTAGC*"
+        },
+        {
+          "preservedSequence": "GCTAGCTA*CTAGCTA*"
+        },
+        {
+          "preservedSequence": "GCTA*CTAGCTAGGCTA"
+        }
+      ]
+    },
+    {
+      "position": 41,
+      "generationFormed": 44,
+      "maxPreservedLength": 23,
+      "organismId": "Organism_13007",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATTCGATCGAT*GATCG**"
+        },
+        {
+          "preservedSequence": "ATC*ATCGATCGATCGAT*G***"
+        },
+        {
+          "preservedSequence": "ATCGA*CGATC*ATCGATCG***"
+        },
+        {
+          "preservedSequence": "GGCTACTAGCTA*CTAGCTA***"
+        },
+        {
+          "preservedSequence": "*CT*GCTAGC*AGCTAGCTA***"
+        },
+        {
+          "preservedSequence": "GCTAGCTAG*TAGCTAGCTA***"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA***"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCT*GCTAGCTA***"
+        },
+        {
+          "preservedSequence": "*TCTAGCTAGCTAGCTAGCT***"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGC*AGCTCAG*TA**"
+        }
+      ]
+    },
+    {
+      "position": 84,
+      "generationFormed": 44,
+      "maxPreservedLength": 22,
+      "organismId": "Organism_14358",
+      "genes": [
+        {
+          "preservedSequence": "ATCGAT*GATCGATCGATCG**"
+        },
+        {
+          "preservedSequence": "ATACG**GATCGATCGATCG**"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCGATCG**"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCATGCTAGCTAGC"
+        },
+        {
+          "preservedSequence": "GC*AGCTAGCTAG*TAGCTA**"
+        },
+        {
+          "preservedSequence": "GCGTACTAGCTAGCT*GCTA**"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTA*CTA*CTA**"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA**"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGC*AGC*A*CTA**"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA**"
+        }
+      ]
+    },
+    {
+      "position": 44,
+      "generationFormed": 44,
+      "maxPreservedLength": 24,
+      "organismId": "Organism_13120",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGATCGATATCGCGATCA"
+        },
+        {
+          "preservedSequence": "ATCGA*CGATCGATCGA*CG****"
+        },
+        {
+          "preservedSequence": "ATC*A*CGATCGA*CG*T*G****"
+        },
+        {
+          "preservedSequence": "*CTAGCTAG*TAG*TAGC*A****"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCT*GCTA****"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA****"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGC**GCTA****"
+        },
+        {
+          "preservedSequence": "GCATAGCTAGCTAGCTAGCTA***"
+        },
+        {
+          "preservedSequence": "GC*AGCTAGCTAGCT*GCTA****"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTTAGCTA***"
+        }
+      ]
+    },
+    {
+      "position": 29,
+      "generationFormed": 44,
+      "maxPreservedLength": 15,
+      "organismId": "Organism_14366",
+      "genes": [
+        {
+          "preservedSequence": "ATCGA*CGATCGATC"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATC"
+        },
+        {
+          "preservedSequence": "ATCGATGCGA*CGAT"
+        },
+        {
+          "preservedSequence": "GCT*GCTAGCTAGCT"
+        },
+        {
+          "preservedSequence": "G*TAGCT*GCTAGCT"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCT"
+        },
+        {
+          "preservedSequence": "GCTA*CTAGC*AGCT"
+        },
+        {
+          "preservedSequence": "GCTAG*TAGCTAGCT"
+        },
+        {
+          "preservedSequence": "GCTAG*TA*CTAGCT"
+        },
+        {
+          "preservedSequence": "*CTAGC*AGC*TAGC"
+        }
+      ]
+    },
+    {
+      "position": 31,
+      "generationFormed": 45,
+      "maxPreservedLength": 21,
+      "organismId": "Organism_14987",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGAT*GA*CGA*CG*"
+        },
+        {
+          "preservedSequence": "ATCGAATCGTCGAT*GAT***"
+        },
+        {
+          "preservedSequence": "ATCGA*CGATCGAAA*CGATC"
+        },
+        {
+          "preservedSequence": "GGCTACTAGCTAG*TAGCT**"
+        },
+        {
+          "preservedSequence": "GCT*GCTAAGCTGCCTAGTA*"
+        },
+        {
+          "preservedSequence": "G*T*GC*AGCTAAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "G*TAGC*AGCT**CTAGCTA*"
+        },
+        {
+          "preservedSequence": "*CT*GCTAGCGCT*GCTAGCT"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCT*TAGCTA***"
+        },
+        {
+          "preservedSequence": "*CTAGCTAGC**GC*C*GCTA"
+        }
+      ]
+    },
+    {
+      "position": 52,
+      "generationFormed": 45,
+      "maxPreservedLength": 19,
+      "organismId": "Organism_14768",
+      "genes": [
+        {
+          "preservedSequence": "A*CGA*CGAT*GATCGATC"
+        },
+        {
+          "preservedSequence": "AT*GATCGATCGATCGATC"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCCGATCG**"
+        },
+        {
+          "preservedSequence": "G*TAA*CATGCTAGCTAGC"
+        },
+        {
+          "preservedSequence": "*C*AGCTAGCTGCTAGCTA"
+        },
+        {
+          "preservedSequence": "CTAGCTAGCTAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "GC*AGCTAGCTA**TAGCT"
+        },
+        {
+          "preservedSequence": "CGCTAGCT*GCT*GCTAGC"
+        },
+        {
+          "preservedSequence": "GCTAGC*A*CTAGCT*GCT"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCT"
+        }
+      ]
+    },
+    {
+      "position": 50,
+      "generationFormed": 45,
+      "maxPreservedLength": 17,
+      "organismId": "Organism_14941",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGATCGATCGA"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCG*TC*A"
+        },
+        {
+          "preservedSequence": "ATCGATCGAT*GAT*G*"
+        },
+        {
+          "preservedSequence": "GGCTACTA*C*AGCT*G"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTA*"
+        },
+        {
+          "preservedSequence": "*CTAGCTAGCTAGCTAG"
+        },
+        {
+          "preservedSequence": "GC***CTAGCTAGCTAG"
+        },
+        {
+          "preservedSequence": "*CTAGCTAGCT*GCTAG"
+        },
+        {
+          "preservedSequence": "GCTA*CTAGCTAGCTAG"
+        },
+        {
+          "preservedSequence": "GCTAGCTAG*TAGCTCA"
+        }
+      ]
+    },
+    {
+      "position": 57,
+      "generationFormed": 45,
+      "maxPreservedLength": 18,
+      "organismId": "Organism_14927",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGATCGATCGAA"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCGAT"
+        },
+        {
+          "preservedSequence": "ATCGA*CGATCGATCGAT"
+        },
+        {
+          "preservedSequence": "*GCTACTAGCTAGCTA*C"
+        },
+        {
+          "preservedSequence": "GCTA*CCTA*CTAGCTA*"
+        },
+        {
+          "preservedSequence": "GCTAGAGCTAGC*AGCTA"
+        },
+        {
+          "preservedSequence": "GCTAGCCTAGCTAGCTA*"
+        },
+        {
+          "preservedSequence": "GCTAGCTCAGTAGCTAG*"
+        },
+        {
+          "preservedSequence": "G*TAGTCAGCTAGCTAGC"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGC*AGC"
+        }
+      ]
+    },
+    {
+      "position": 76,
+      "generationFormed": 45,
+      "maxPreservedLength": 19,
+      "organismId": "Organism_14879",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGAT*GATCGATC"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCGATC"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGAT*GATC"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCT"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCT*GCTA*CT"
+        },
+        {
+          "preservedSequence": "G*TAGCTAGCTAGC*AGC*"
+        },
+        {
+          "preservedSequence": "GCTAGCTATAGCTAGCTA*"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTA*CTAGCT"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCAGCGTAC*A"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCT"
+        }
+      ]
+    },
+    {
+      "position": 28,
+      "generationFormed": 46,
+      "maxPreservedLength": 17,
+      "organismId": "Organism_15056",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGATCGATCGA"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGCATCG"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCGA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAG*CAG*TAG"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGC*AG"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAG"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTTAGCAG"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAG"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAG*TAG"
+        },
+        {
+          "preservedSequence": "GC*GACTAGGCTAC*AG"
+        }
+      ]
+    },
+    {
+      "position": 81,
+      "generationFormed": 46,
+      "maxPreservedLength": 18,
+      "organismId": "Organism_15371",
+      "genes": [
+        {
+          "preservedSequence": "ATCGCATGATCGATCGAT"
+        },
+        {
+          "preservedSequence": "A*CGATCGATCGAT*GAT"
+        },
+        {
+          "preservedSequence": "ATCGATCG*TCGGATCAT"
+        },
+        {
+          "preservedSequence": "AGCTAGCTAGCTGACTA*"
+        },
+        {
+          "preservedSequence": "GCTAGCTATAGGCTAGCT"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCT*GC"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGC"
+        },
+        {
+          "preservedSequence": "G**AGC*AGCTAGCTAGC"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGC"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTA*CTAGC"
+        }
+      ]
+    },
+    {
+      "position": 86,
+      "generationFormed": 47,
+      "maxPreservedLength": 23,
+      "organismId": "Organism_14412",
+      "genes": [
+        {
+          "preservedSequence": "AT*TGTCGATCGATCGATCGATC"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCGATCG***"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCGATCG***"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA***"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTA*CTA***"
+        },
+        {
+          "preservedSequence": "C*TAGC*AGCTAGCTAGCTA***"
+        },
+        {
+          "preservedSequence": "CGCTAGCTAGCTCAGTAG*****"
+        },
+        {
+          "preservedSequence": "GCTAGCTACTAGCTAGCTA****"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTA*CTA***"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA***"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "generationFormed": 47,
+      "maxPreservedLength": 16,
+      "organismId": "Organism_14073",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGATTCGATC"
+        },
+        {
+          "preservedSequence": "A*CGATCGATC*ATCG"
+        },
+        {
+          "preservedSequence": "ATCGATC*AT*GAATC"
+        },
+        {
+          "preservedSequence": "GC*AGCTA*CTAGC*A"
+        },
+        {
+          "preservedSequence": "GCTAGACTGCTAGCTA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "*CTAGCAGCTAGCTAG"
+        },
+        {
+          "preservedSequence": "GCTAGCTTAGCAGCTA"
+        },
+        {
+          "preservedSequence": "TAGCTATG*AGCTAGC"
+        }
+      ]
+    },
+    {
+      "position": 23,
+      "generationFormed": 47,
+      "maxPreservedLength": 24,
+      "organismId": "Organism_13691",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGATCGATCGATCG****"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCGATCG****"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCGATCG****"
+        },
+        {
+          "preservedSequence": "G*TAGCTAGCTTAGCTAGCTA***"
+        },
+        {
+          "preservedSequence": "GC*AGCT*GCTAGCTCTA******"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA****"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCGCTAGCATAGCTA*"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCGCTATAGCT*GCTA"
+        },
+        {
+          "preservedSequence": "GCTAGCT*GCTTAGCAGA******"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA****"
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "generationFormed": 47,
+      "maxPreservedLength": 25,
+      "organismId": "Organism_16014",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGATCGATCGAGTCG****"
+        },
+        {
+          "preservedSequence": "ATCCGATCTGACGATCGATCG****"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCGATCG*****"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCT*GCTAGCTA*****"
+        },
+        {
+          "preservedSequence": "GCTAGCGTACT*GCT*GCTA*****"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA*****"
+        },
+        {
+          "preservedSequence": "GCTAGCT*AGCTACGCTA*******"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCT**GCTAGCTA****"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCGCTTATAGCTA****"
+        },
+        {
+          "preservedSequence": "GCTAGCTATAGCTAGCTA*******"
+        }
+      ]
+    },
+    {
+      "position": 75,
+      "generationFormed": 48,
+      "maxPreservedLength": 20,
+      "organismId": "Organism_13263",
+      "genes": [
+        {
+          "preservedSequence": "ATCGAT*GATCGATCGATCG"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCGATCG"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCGATCG"
+        },
+        {
+          "preservedSequence": "GCTAAGCA*GCTAGCTAGCT"
+        },
+        {
+          "preservedSequence": "G*TAGCTAGCTGCTAGCTA*"
+        },
+        {
+          "preservedSequence": "CTAGCT*GCTTAG*AGCTA*"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "CGCTAGCTAGCTAGCTAGCT"
+        },
+        {
+          "preservedSequence": "GCTATGCTAGCTAGCT*GCT"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGGCCTAGCTAGC"
+        }
+      ]
+    },
+    {
+      "position": 23,
+      "generationFormed": 48,
+      "maxPreservedLength": 18,
+      "organismId": "Organism_16594",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGATCGATCGAT"
+        },
+        {
+          "preservedSequence": "ATCGATCGA*CGATCGA*"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCG**CGAT"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGC"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGC"
+        },
+        {
+          "preservedSequence": "*CTAGCTAGCTAGCGCTA"
+        },
+        {
+          "preservedSequence": "G*TAGCTAGCTAGCTAGC"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCT*GC"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGC"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGC"
+        }
+      ]
+    },
+    {
+      "position": 66,
+      "generationFormed": 48,
+      "maxPreservedLength": 17,
+      "organismId": "Organism_15136",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGGAT*ATCGA"
+        },
+        {
+          "preservedSequence": "*TCGATCGATCGATCGA"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCGA"
+        },
+        {
+          "preservedSequence": "GCTAGCATGCCTAGCTA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGGCTA"
+        },
+        {
+          "preservedSequence": "CTAGCTAGCTAGCTAGC"
+        },
+        {
+          "preservedSequence": "GCTTAGCTAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAG"
+        },
+        {
+          "preservedSequence": "GCTAGCT*GCTAGCTAG"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAG"
+        }
+      ]
+    },
+    {
+      "position": 76,
+      "generationFormed": 48,
+      "maxPreservedLength": 19,
+      "organismId": "Organism_15914",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGATCGATCGATC"
+        },
+        {
+          "preservedSequence": "ATCGATATCGATCGATGC*"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCGATC"
+        },
+        {
+          "preservedSequence": "GCTAGC*AGCTAGCTAGCT"
+        },
+        {
+          "preservedSequence": "G*TAGCTAGCTAGCTAGCT"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGC*"
+        },
+        {
+          "preservedSequence": "GC*AGCTAGCTAGCTAGCT"
+        },
+        {
+          "preservedSequence": "GCTAG*TAGCTAGCTAGCT"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCAG*TAGC*A"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTACGT"
+        }
+      ]
+    },
+    {
+      "position": 31,
+      "generationFormed": 48,
+      "maxPreservedLength": 20,
+      "organismId": "Organism_15222",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGATCGATCGA*CG"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCGATCG"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCGATCG"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGC*AGCTA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCT*GCTA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAG*TAGCT*GCTA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA"
+        }
+      ]
+    },
+    {
+      "position": 98,
+      "generationFormed": 48,
+      "maxPreservedLength": 17,
+      "organismId": "Organism_15971",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGATCGATCGA"
+        },
+        {
+          "preservedSequence": "ATCGATCG*TCGATCGA"
+        },
+        {
+          "preservedSequence": "ATCGA*CGATCGATCGA"
+        },
+        {
+          "preservedSequence": "*GCTA*TAGCTCTAGCT"
+        },
+        {
+          "preservedSequence": "GCTAAGCTAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAG"
+        },
+        {
+          "preservedSequence": "*CTAGCTAGCTAGCTAG"
+        },
+        {
+          "preservedSequence": "GCT*GCTAGCTAGCTAG"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAG"
+        },
+        {
+          "preservedSequence": "GC*AGCTAGCTAGCTCA"
+        }
+      ]
+    },
+    {
+      "position": 70,
+      "generationFormed": 48,
+      "maxPreservedLength": 21,
+      "organismId": "Organism_15672",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGATCGATCGATCG*"
+        },
+        {
+          "preservedSequence": "ATTCGACGATCGATCGATCG*"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCGATCG*"
+        },
+        {
+          "preservedSequence": "GCTGCATGCTAGCTAGCTAC*"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA*"
+        },
+        {
+          "preservedSequence": "CTAGCTAGAGTCTAA******"
+        },
+        {
+          "preservedSequence": "GCTAGCTA*CTAGCTAGC*A*"
+        },
+        {
+          "preservedSequence": "*CTAGCTAGCTAGCTAGCTA*"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA*"
+        },
+        {
+          "preservedSequence": "GCTGAGCTAGCTAGGCTACTA"
+        }
+      ]
+    },
+    {
+      "position": 72,
+      "generationFormed": 49,
+      "maxPreservedLength": 22,
+      "organismId": "Organism_16369",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGATCGATCGATCGAT"
+        },
+        {
+          "preservedSequence": "ATCGATCGCATGATCGATCG**"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCAGTCGAG****"
+        },
+        {
+          "preservedSequence": "GGCTACTAGCTAGCTAGTCTAA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAG*TAGCTAGCTA**"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA**"
+        },
+        {
+          "preservedSequence": "GCTAGCGTACTAGCTAGCTA**"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA**"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA**"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTCAGCTA*"
+        }
+      ]
+    },
+    {
+      "position": 91,
+      "generationFormed": 49,
+      "maxPreservedLength": 14,
+      "organismId": "Organism_17043",
+      "genes": [
+        {
+          "preservedSequence": "ATCGAT*GATCGAT"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGAT"
+        },
+        {
+          "preservedSequence": "ATCGA*CGATCGAT"
+        },
+        {
+          "preservedSequence": "GGCTCACTAGCTAG"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGC"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGC"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGC"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGC"
+        },
+        {
+          "preservedSequence": "GCTCTAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGG"
+        }
+      ]
+    },
+    {
+      "position": 79,
+      "generationFormed": 49,
+      "maxPreservedLength": 19,
+      "organismId": "Organism_17151",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATTCGATCGATCGAT"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCGATC"
+        },
+        {
+          "preservedSequence": "ATTCGGATCGATCGATCG*"
+        },
+        {
+          "preservedSequence": "G*TAGCATGCTAGCTAGCT"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCT"
+        },
+        {
+          "preservedSequence": "CTAGCTAGCTAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCT"
+        },
+        {
+          "preservedSequence": "GCTAGCTATGCTAGCTAGC"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCT"
+        }
+      ]
+    },
+    {
+      "position": 59,
+      "generationFormed": 49,
+      "maxPreservedLength": 22,
+      "organismId": "Organism_16566",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGATCAGTCCGATG**"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCGATCG**"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCGATCG**"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA**"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA**"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA**"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA**"
+        },
+        {
+          "preservedSequence": "AGCTTAGGCTAGCTAGCTAGCT"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA**"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAG*TA**"
+        }
+      ]
+    },
+    {
+      "position": 48,
+      "generationFormed": 49,
+      "maxPreservedLength": 21,
+      "organismId": "Organism_14980",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGATCGATCGATCG*"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCGATCG*"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCGATCG*"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCCTAGCTA"
+        },
+        {
+          "preservedSequence": "GCTAGCT*GGCTACTAGCTA*"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCCTAGC*AGCTA"
+        },
+        {
+          "preservedSequence": "TGCTAGACTAGCTAGCTAGCT"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA*"
+        },
+        {
+          "preservedSequence": "GCTAGCTA*CTAGCTTA****"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA*"
+        }
+      ]
+    },
+    {
+      "position": 92,
+      "generationFormed": 50,
+      "maxPreservedLength": 21,
+      "organismId": "Organism_17638",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGATCGATCGATCG*"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCGATCG*"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATCGATCG*"
+        },
+        {
+          "preservedSequence": "GCTAGCTATGCAGCTAGCTA*"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA*"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA*"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA*"
+        },
+        {
+          "preservedSequence": "GCTAGCTATAGCTAGCTA***"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCAGCTAGCTAGC"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCTAGCTA*"
+        }
+      ]
+    },
+    {
+      "position": 30,
+      "generationFormed": 50,
+      "maxPreservedLength": 15,
+      "organismId": "Organism_16715",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATCGATCGATT"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATC"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATC"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCT"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCT"
+        },
+        {
+          "preservedSequence": "GCTAGAGCTAGCTAG"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCCTAGC"
+        },
+        {
+          "preservedSequence": "GTAGCTAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCT"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAAGC"
+        }
+      ]
+    },
+    {
+      "position": 91,
+      "generationFormed": 50,
+      "maxPreservedLength": 15,
+      "organismId": "Organism_16633",
+      "genes": [
+        {
+          "preservedSequence": "ATCGAGACGATCGAT"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATC"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGATC"
+        },
+        {
+          "preservedSequence": "GCTAAGCATGCTAGC"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTGCTA"
+        },
+        {
+          "preservedSequence": "CTAGCTAGCTAGCTA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGCT"
+        },
+        {
+          "preservedSequence": "CGCTAGCTAGCTAGC"
+        },
+        {
+          "preservedSequence": "GCTATGCTAGCTAGC"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGGCCTAG"
+        }
+      ]
+    },
+    {
+      "position": 51,
+      "generationFormed": 50,
+      "maxPreservedLength": 14,
+      "organismId": "Organism_16653",
+      "genes": [
+        {
+          "preservedSequence": "ATCGATACGATCGA"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGAT"
+        },
+        {
+          "preservedSequence": "ATCGATCGATCGAT"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCCTAG"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGC"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGC"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTCTA"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGC"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGC"
+        },
+        {
+          "preservedSequence": "GCTAGCTAGCTAGC"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "totalFossils": 175,
+    "fossilizationProbability": 0.01,
+    "fossilHalfLife": 50,
+    "decayApplied": true
+  }
+}

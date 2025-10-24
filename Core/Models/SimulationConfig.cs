@@ -16,4 +16,9 @@ public class SimulationConfig
     public int MaxGenerations { get; set; } = 1000;
     public bool LogProgress { get; set; } = true;
     public int LogInterval { get; set; } = 10;
+    
+    // Fossil record configuration
+    public bool EnableFossilRecord { get; set; } = true;
+    public double FossilizationProbability { get; set; } = 0.01;
+    public int FossilHalfLife { get; set; } = 50;
 }
