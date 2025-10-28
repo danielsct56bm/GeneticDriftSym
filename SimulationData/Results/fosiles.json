@@ -1,0 +1,2698 @@
+{
+  "fossils": [
+    {
+      "position": 12,
+      "generation": 17,
+      "organismId": "Organism_263",
+      "sequences": [
+        "*TCGTA**G*TCGATCG*TCG",
+        "*TCGATCGA*CGA**GA**G",
+        "**C**TCG*TC**TCGATCG",
+        "GG*T****GC**GC*AGCTA",
+        "GCTAG*TAGCTAG*TA*CT*",
+        "**TA*C*A*CTAGC***CT*",
+        "G***GC*A*CT*GCTAG***",
+        "GCTAGCTAG*T*GCTAGCTA",
+        "GCT***T*GC*A**TAGC*A",
+        "GCT*GCTAG**A*CT**GCT*"
+      ]
+    },
+    {
+      "position": 78,
+      "generation": 17,
+      "organismId": "Organism_1173",
+      "sequences": [
+        "*TCGAT**ATC**TCGAT*G",
+        "*TC*A*CG*T***T*GA*CG",
+        "***GATC*A**G*TCG*TCG",
+        "***AGC*A**T***T**CTA",
+        "GCT*G**A*C*A****G*TA",
+        "*CTAGC*AG***G*TAGCTA",
+        "*CT*GC*AGCTA*CTA*CT*",
+        "GC*AG*T**CTA*CTA***A",
+        "G*TA**TAGCT*GCTAGCTA",
+        "**TAG*TA*C****T***TA"
+      ]
+    },
+    {
+      "position": 96,
+      "generation": 17,
+      "organismId": "Organism_201",
+      "sequences": [
+        "A**G**C*ATCG*T**AT*G",
+        "*TCG**C*ATCG*T*G**CG",
+        "AT*G*TCGATC*AT*G*T*G",
+        "*CT***TA*C******GC*A",
+        "***AGCTAGCT*GCTAG*TA",
+        "*CTA*C*AG*TAG*T*GC**",
+        "G**AGCTA*C*****AG*TA",
+        "*CT*GC***CTAGCTAG*TA",
+        "*CTAGCTA***A****GCT*",
+        "G*TAGC*AGCT*G*TCA*C*A"
+      ]
+    },
+    {
+      "position": 81,
+      "generation": 17,
+      "organismId": "Organism_1140",
+      "sequences": [
+        "A*CGAT****CG*T*GA*CG",
+        "ATC*ATCG*TCG*T**ATCG",
+        "**CG***GA*CA**CG*TC*",
+        "GCTAG*T*GCTA*CTA**TA",
+        "G**AG*TAG*TAGCT*G***",
+        "GC*A**TAGCT*GC*AGTC*",
+        "*CT**CT**C***CT*GC*A",
+        "*CTAGC*A*CT*GCT*GCT*",
+        "*CTAGCTA**T*GC***CT*",
+        "GC**GC***CT**CT*A*C**"
+      ]
+    },
+    {
+      "position": 63,
+      "generation": 19,
+      "organismId": "Organism_1781",
+      "sequences": [
+        "ATCG*TC*ATC*ATCGAT*G",
+        "A**GA*CGATCGAT***TCG",
+        "AT*G*T*GAT****C****G",
+        "***A*C***CTAG*TAG*TA",
+        "*CTAG*T**CT**CT*G*TA",
+        "G**AG**CTA*CTA***A",
+        "GCTAGC**GCT*G*CT**CTA",
+        "G*TA*C**G**AG*T**CT*",
+        "G*TAG*T*GCTA*C*AGCTA",
+        "*CTA*CTA*****CTAGCT*"
+      ]
+    },
+    {
+      "position": 30,
+      "generation": 19,
+      "organismId": "Organism_1966",
+      "sequences": [
+        "**CGATCGATCGA*C*AT**",
+        "ATC*ATCGAT*GATCG*TCG",
+        "ATCGA*C*AT*GAT*GAT*G",
+        "GCTAGC*AGCTAGCT*GCTA",
+        "GC*AG*T**CTA********",
+        "********************",
+        "********************",
+        "********************",
+        "*********************",
+        "********************"
+      ]
+    },
+    {
+      "position": 6,
+      "generation": 19,
+      "organismId": "Organism_1621",
+      "sequences": [
+        "A*C**TC*ATC*A**GATCG",
+        "*TCGA**GATCG**C*A*C*",
+        "*TC*AT*GAT*GA*C*ATCG",
+        "GCTA****GCTAG*T*GCT*",
+        "GCT**CTA*CTAG*TAG***",
+        "**T*GCT*GCTAG*T*GC**",
+        "GCTAGC*T**CA*C*AG***",
+        "GCTAG*TAGC*AG*TAGCTA",
+        "**T*GC**G*AGCTAG**AG*T*",
+        "GCT*G*TA*CTAGCTA**TA"
+      ]
+    },
+    {
+      "position": 49,
+      "generation": 19,
+      "organismId": "Organism_2160",
+      "sequences": [
+        "**CGA*C*A**GA*CGATCG",
+        "****A*CGA*****CGA*CG",
+        "*T*GA*TCG*C*ATCGATCG",
+        "GCT*GCT***T*GCT**CTA",
+        "GCT*GCTCAGCTAGC*AGCTA",
+        "G**A*CT***T*G***GCTA",
+        "G*TAGCTAG***GC*A*A*GCTA",
+        "*C*AGCTA**TAGCT*GCTA",
+        "*CT*GC*AA*CTAGCTA*CTA",
+        "GC*AGCTAGCT*GCT*A*C**"
+      ]
+    },
+    {
+      "position": 49,
+      "generation": 19,
+      "organismId": "Organism_1942",
+      "sequences": [
+        "AT**AT****C*AT*G*T*G",
+        "AT*GA**GATCGA*C**T*G",
+        "A*C**TCG*T**AT*G*T*G",
+        "GCT**CT**CT*G***GC**",
+        "GC****TA*CTAG*TAG**A",
+        "G***G*TAT*CTAG***G*TA",
+        "GCTAG*T*GC*AG**AGC**",
+        "G*TAG*TAGCTG*TA*CTA",
+        "GC*AGC*AGCT**CT*GC*A",
+        "GCTA*C**GCTA*C*A*CTA"
+      ]
+    },
+    {
+      "position": 78,
+      "generation": 19,
+      "organismId": "Organism_944",
+      "sequences": [
+        "A**GAT*GA*C*AT**AT*G",
+        "A****TCGA*CG**CGAT*G",
+        "AT*GA*C*ATC*ATCGA*CG",
+        "G*CT**TAG*TA***TG**A",
+        "GC*AGC*AG***G*T*G***",
+        "GCTAG*TA*CT**C*AG*T*",
+        "*CT*GCT**C*AGC*AGC*A",
+        "*CTAG*T*GC****TAGC*A",
+        "GCTC**TA*C**GC*A",
+        "G*TA*CTAGC*AG**CA*C*A"
+      ]
+    },
+    {
+      "position": 53,
+      "generation": 19,
+      "organismId": "Organism_1468",
+      "sequences": [
+        "A*C*A*C*ATCG*TC*G**CG",
+        "*TCGAT*GA****TCGA*C*",
+        "A*C*AT*GATCGATC**TC*",
+        "G*TAG*TAGCT*G**AGCTA",
+        "G**AG*TA*CTA**TAGC*A",
+        "GCTA***A*CT***TA*CTA",
+        "GC*AG*TAGCTAGC*AGC**",
+        "GCTAG*TAGCT****AGCTA",
+        "G*TAG*T***TAGC***CTA",
+        "*A**TA*C*A****GC**"
+      ]
+    },
+    {
+      "position": 54,
+      "generation": 19,
+      "organismId": "Organism_1430",
+      "sequences": [
+        "*T**ATCGATCG*TCGAT*G",
+        "AT**AT***TC*A*CGATCG",
+        "*T*G*TC**TCGATCGATCG",
+        "G**AGC*AGCTA*CTAG*TA",
+        "GCTAGCT*G*TAGC**GC*A",
+        "*C*A***CTA*C*AGC*A",
+        "GC****T*G*TAGCCTA**TA",
+        "*C*A***AG*TAG*TAGCT*",
+        "GCTAG*T*G*T**CTAG*T*",
+        "GC**GCT*GC*AGCT**C*A"
+      ]
+    },
+    {
+      "position": 53,
+      "generation": 19,
+      "organismId": "Organism_2224",
+      "sequences": [
+        "ATCGAT*G**CGA***ATC*",
+        "*TCG*TCG***G*TC*ATC*",
+        "**CG****AT*GA*CGATCG",
+        "G*CT*CT**CT**C*AGC**",
+        "G**AGCT**CTAGCT*GCTA",
+        "**TAGCT*G*TAGC*A*CTA",
+        "**T*GCTAG*T*GCTA***A",
+        "G*TAGC*AGC***C*T**CT*",
+        "*C**TAG***GCTA*CT*",
+        "*CTAGC****T*G**CAGC*A"
+      ]
+    },
+    {
+      "position": 88,
+      "generation": 20,
+      "organismId": "Organism_2388",
+      "sequences": [
+        "A*C*A**G*TCG*T***TCG",
+        "A**G**C**TC*AT**TACG",
+        "A*CG*TC**TCGATCGATC*",
+        "GC*AGC*T*C**GCT**CTA*",
+        "GCTA*CTAG*T*GC*A**TA",
+        "**AGCTAG*TAGCTAGC**",
+        "*CT**CTAGC*A*CT**C**",
+        "G*TAGC**GC*A*C***CT*",
+        "G*TAGCTAGC*A***A*CTA",
+        "***AGC*A*CTAG*TAG*TA"
+      ]
+    },
+    {
+      "position": 54,
+      "generation": 20,
+      "organismId": "Organism_1475",
+      "sequences": [
+        "A*C**TC**TCGAT*G*T*G",
+        "*TCG**C*ATCGA*CGAT*G",
+        "AT**A******GAT*GAT*G",
+        "G*T*GCTAGCT**C**G*TA",
+        "GC*AG*TAGC*AGCT*GCTA",
+        "GCTA*CT*GCTAGCTA**T*",
+        "*****C*AGCT*GCT*G**A",
+        "GCT****AGCT*****GC*A",
+        "GCT**C*AG**G**AGCTA****",
+        "G**A*CT*G*TA*CT*GC*A"
+      ]
+    },
+    {
+      "position": 85,
+      "generation": 20,
+      "organismId": "Organism_250",
+      "sequences": [
+        "AT**A*C**TCGATC***CG",
+        "***G*T*GATC*A*C**T**",
+        "AT**ATC**TCGAT*GAT*G",
+        "G*TAAGC*TG*TAGCTAG*TA",
+        "GC*****AGCT*GCT*G**",
+        "CT**CTAG*TA*C*AG*T",
+        "GCTAGC*AG***G***GC*A",
+        "GC****TAG*TAGCTAG**A",
+        "GCTAGC**GC*AGCT*GCT*",
+        "*C**GC*AGCTAGCT*G**A"
+      ]
+    },
+    {
+      "position": 9,
+      "generation": 20,
+      "organismId": "Organism_912",
+      "sequences": [
+        "**CG*T***TCGA*C*ATCG",
+        "A**T***GA*C**TC*A**G",
+        "ATCGAT**AT**ATCGA**G",
+        "GCTA*CA*GCTAG*T**CTA*",
+        "G*TAGCTA*CT*G***G**A",
+        "**AGC*AG**A*C*AGCT*",
+        "GCTAG*TA*CT**C*A*C*A",
+        "GCT*GC****TAG*TAGC*A",
+        "*C**G*TAGCTAG*TA*C*A",
+        "**TAG*T*GC*AG*T*GCTA"
+      ]
+    },
+    {
+      "position": 99,
+      "generation": 20,
+      "organismId": "Organism_1952",
+      "sequences": [
+        "*TCGA******G**C**TC*",
+        "A*C*ATCGAT***TC*ATC*",
+        "*A*CG**C**TCGA*CGATCG",
+        "**T**CATGCTA*CT**CTA",
+        "*CTAGCTAGCTA*CT*GC*A",
+        "CTAGC*A*C**GCTA*CTA",
+        "GC*A*CTAG***GCT**C*A",
+        "GCTAGC**GCT*GCTAGCTA",
+        "*CTAGCT*G*TAG*TA*CT*",
+        "*GCT**CTAGC*AG*TAGC**"
+      ]
+    },
+    {
+      "position": 34,
+      "generation": 21,
+      "organismId": "Organism_638",
+      "sequences": [
+        "*TCG*T*GA*CGAT*G**C*",
+        "ATCG*C*C****GA****TC*",
+        "ATCGA*CGA*C*A*CG*TCG",
+        "GG**AC*AGCTA*A*TGCTA",
+        "GCT***TAGC*AG**AG***",
+        "G*TAGCTAG*TAGC*AG*TA",
+        "*C***C**G*TAG*TAG*T*",
+        "GC**G*TA**TA*C*AGCT*",
+        "G*T***G*TAGCTAGCT*",
+        "G*CTA*C**G*T**CTCAG*T*"
+      ]
+    },
+    {
+      "position": 87,
+      "generation": 21,
+      "organismId": "Organism_429",
+      "sequences": [
+        "ATC*ATCGA**GATCGAT*G",
+        "ATCGAT*A**TCGATC**T*G",
+        "A*CG*TCG*T****CGA*CG",
+        "GCTA*CTA*C*AG*TAG*TA",
+        "GCT*GC*AG*T*GCTCT*GCTA",
+        "G*TAG*T**CTAGCT*G*TA",
+        "***A*CTA*CTAGCTA*C**",
+        "C*CTA**TA*C*A*GCT*GC*A",
+        "**TAGC*A*C**GCT*G*CTA",
+        "GCT**CTAGC*****AGC*A"
+      ]
+    },
+    {
+      "position": 72,
+      "generation": 21,
+      "organismId": "Organism_2480",
+      "sequences": [
+        "AT*G*TC**TCGA*CG*TCG",
+        "A**GA*CG*TCG*T***T*G",
+        "A*C**TC*ATCGATCGA**G",
+        "**TAGCTAGC*AG**AGC**",
+        "GC*AGC*AG**AG*TAGCT*",
+        "*CTAG*TAGCTAGC*AGC**",
+        "*CT*G****GC*AG*T*G**A",
+        "GCTAGCTA**TA*CT*GCTA",
+        "G**AG***GCTA*CT*GCT*",
+        "*C*AG*TAGCTAGCT*G*TA"
+      ]
+    },
+    {
+      "position": 96,
+      "generation": 22,
+      "organismId": "Organism_312",
+      "sequences": [
+        "A*C**TCGA*C*A*C**T**",
+        "ATCGA**GAT***TCGATCG",
+        "A***A*CG*TCG**C**TC*",
+        "GC*AGCTA*CT**C*AG*TA",
+        "*C*AGCT****A*CT*GCT*",
+        "*CT*GCTAG*TAGC*A**T*",
+        "G*T*G*TAGCAT*GCTA*CTA",
+        "*CTA*CTA*CGTTACTAGCTA",
+        "G*T**C*AG*T*G*TA***A",
+        "**TAGCT*G***GCT**CTA"
+      ]
+    },
+    {
+      "position": 84,
+      "generation": 22,
+      "organismId": "Organism_3532",
+      "sequences": [
+        "**CGAT**AT*G**CG***G",
+        "**C*A**GAT*GA***ATCG",
+        "A*CGATCGAT****CGA*CG",
+        "GG*TAC*A*CTAGC**GC**",
+        "G*T***TAGCTAGCT**C*A",
+        "GC*AGCT**CTAG*TAG*TA",
+        "GCTAG****CTA*C*A*C*A",
+        "G**AG*T*G*T*GC**GC*A",
+        "*CTAG*TAG*TA***AG*TA",
+        "GCTAGCTAG*TA*CTCA*CTA"
+      ]
+    },
+    {
+      "position": 89,
+      "generation": 22,
+      "organismId": "Organism_3315",
+      "sequences": [
+        "*T**A*CG*TCGTCATC*ATCG",
+        "**C*AT*GATCG*TC**TCG",
+        "ATCGA*C*A*C*A*CG***G",
+        "G*TA*C**GCTAGCTAG*T*",
+        "G*CT*GCT*GCTA*CT*GCT*",
+        "GC*AGCTA***A*CT*GCT*",
+        "GCTA*CT*GCTAG**AGCT*",
+        "GCAT*GC*AGCT**C***CTA",
+        "G*TAGCTA*CTA*CTA***A",
+        "GCT*GCTA*CT**CTA**T*"
+      ]
+    },
+    {
+      "position": 16,
+      "generation": 22,
+      "organismId": "Organism_3729",
+      "sequences": [
+        "ATCGATC**T*G*TCGA*C*",
+        "*T***TCGATC*A*C*AT*G",
+        "A**G*TC*AT*GATCGAT*G",
+        "*C*GC*A**T**CTAG*T*",
+        "*CTAGCTAGC***CTAGC*A",
+        "***AG*TAGCT**CTAGCTA",
+        "*C*A*C*A*CTA*C*AGCTA",
+        "G*T*GCTAG**AG**A*CT*",
+        "GC*A*CTA*C****TT*G*A",
+        "GCT**C**ACTA*C*CAG**A"
+      ]
+    },
+    {
+      "position": 97,
+      "generation": 22,
+      "organismId": "Organism_3543",
+      "sequences": [
+        "A**C**CGATCG*TC**T*G",
+        "A*CGATC*A*CGA*****CG",
+        "ATCGATCGA*C*ATCGA*CG",
+        "GGCTACTAGCTA*CTA*CTA",
+        "G*T*GCTAGCTAG*TAGC*A",
+        "*GCTAGCTAG*TA***A**T*",
+        "G*TAG*T**C**GCTA**T*",
+        "GC*A***A**TAGCT*GCTA",
+        "G*C*GC***C*AGCTAG*T*",
+        "GCTA*CTAGCTAGCTCA*CT*"
+      ]
+    },
+    {
+      "position": 6,
+      "generation": 22,
+      "organismId": "Organism_3337",
+      "sequences": [
+        "*TC**TCGA*CG***G**CG",
+        "*TC*ATC*A*CGAT**ATCG",
+        "*TCG*TCG**C*ATC*AT**",
+        "G**AGCT*G***GCT**CTA",
+        "G*TAGCTA**TA*C*AGCT*",
+        "*CTAGAG*TAGCTA*C*TA",
+        "GCTAGC***C*AGCTAGCTA",
+        "GCT**C*A*CT*GCTAGC**",
+        "GC**G**A*C****TAGCT*",
+        "**T***TA*C***CT*G*TA"
+      ]
+    },
+    {
+      "position": 0,
+      "generation": 23,
+      "organismId": "Organism_2764",
+      "sequences": [
+        "A*CGA**GATCGA**GATC*",
+        "ATC*ATCGA*CGATCGA***",
+        "*TC*ATCG**C**TC*G**G",
+        "*C**GC**G*TAGC*A*CTA",
+        "GCTAGCTAGCT***T**C*A",
+        "GCT*GC*AGCTAGGCCTAGC**",
+        "G*TAGCTAGCTAGC*AGC*A",
+        "GCTAG*TA*C*AGCTAG*T*",
+        "GCT*G*T*GCTAGCT*GCTA",
+        "G*TAG*T*GCTAGCTAG*TA"
+      ]
+    },
+    {
+      "position": 0,
+      "generation": 23,
+      "organismId": "Organism_761",
+      "sequences": [
+        "A**GATCGATCGATC*ATCG",
+        "A*C*ATCGAT*GAT*****G",
+        "ATCG*TCGATCG*T**A*C*",
+        "G*TAGCTA*CTA*CT***TA",
+        "GCTAGCT*G*TAGCTAG*TA",
+        "GCTA*CT*G*T*GCTA*CTA",
+        "GC*AG*T*G*TAGC*AGCTA",
+        "GC**GCTA**TAGCT*GC**",
+        "GCTAGCTA*C*A*C**G*TA",
+        "GCTAG***G*T*GC****TA"
+      ]
+    },
+    {
+      "position": 5,
+      "generation": 23,
+      "organismId": "Organism_3327",
+      "sequences": [
+        "A**GATC***C*A**GA***",
+        "ATCG*T*GA*CGATCGATCG",
+        "*T*G**CGAT**A**GA*CG",
+        "*CTAGCTAG**AGCTAGCTA",
+        "G*T*GCTAGCTAG*TAGC*A",
+        "G*TGAG*CT*G*TAG*TA",
+        "**T*GCTAGCTA**TAGC*A",
+        "GCTAGC*A*CTAGCTAGT*A",
+        "GC*AG*TAGC*AG**AG***",
+        "*C*A*CTA***AGCTAGCT*"
+      ]
+    },
+    {
+      "position": 13,
+      "generation": 24,
+      "organismId": "Organism_4642",
+      "sequences": [
+        "*TCGATC*ATCGAT*GATC*",
+        "*TCG***G*T*GATCG*TCG",
+        "*T*G*T*GATCGAT*G*T**",
+        "*C*A*CTAGCTAG*TA*C**",
+        "GCTATAGCGCCTA***GCTAGC***C**",
+        "GCTAG**CTA****GCT*",
+        "*CTA*CT***TAGCTAGC**",
+        "GCTAGC*A**TAGC*AGCT*",
+        "GCTAG*TAGCTAG**AG*T*",
+        "AGGCTA*C*A***AG**A*CTA"
+      ]
+    },
+    {
+      "position": 6,
+      "generation": 24,
+      "organismId": "Organism_4537",
+      "sequences": [
+        "AT*GATCGA*CGATCG*TCG",
+        "ATCGATCGATCGA**G**CG",
+        "**CGA**GA*C*ATT**",
+        "GCTAG*TA**TAGCTAG*TA",
+        "GC*A*CTAG**A*CTAG**A",
+        "G**ACTA*C*AG*T*GCT*",
+        "GCTA*C*AGC*A*CTAGC**",
+        "GCTA*C*AG**AG**AGCTA",
+        "GC*AGCT*GCTAGCT**CTA",
+        "***AGCTA*CTAG*TA*CT*"
+      ]
+    },
+    {
+      "position": 26,
+      "generation": 24,
+      "organismId": "Organism_4723",
+      "sequences": [
+        "A*CGA*CGAT*GA*CG*TCG",
+        "*TCG******CGATCGAT*G",
+        "**C**TCGATCGATC*ATCG",
+        "G*CTACTAGC**G*TAGCT*",
+        "GCTAG*TAGCT*GC**GCTA",
+        "*CTAGC**AGC*G**AG*T*",
+        "GCT*GCTAGCTAGCT**CTA",
+        "*C*AGC*AG*TAGCTAG**A*",
+        "G*TA*CT*GCTA**TA*C*A",
+        "G**A*CTAG**AGCTCAGC*A"
+      ]
+    },
+    {
+      "position": 35,
+      "generation": 24,
+      "organismId": "Organism_2716",
+      "sequences": [
+        "AT*G*TCGATCGAT*GATCG",
+        "AT*G*TCG*TC**T*GA*C*",
+        "A*CG*TCGAT***TCGATC*",
+        "GCTAG*T**CTAGCTAGCTA",
+        "G*TAG***GCT*G*T**C*A",
+        "*CTA*CTA***A***AGCT*",
+        "GCT*GCTAG***GCTA*CT*",
+        "GCTAGCT*GCTA**TA*CTA",
+        "G*T**CCTAGA**TAG*TAGC**",
+        "**TAGCTAG**A*CT*GC*A"
+      ]
+    },
+    {
+      "position": 89,
+      "generation": 25,
+      "organismId": "Organism_3291",
+      "sequences": [
+        "ATCG*TCGATCG****ATCG",
+        "ATCGA*CGAT*GATCGA*CG",
+        "A*CGATCGA*C*A*CGATCG",
+        "GCT**GCAT*CTAG*TAGCTA",
+        "GCTA**TAGCTAGC*AGCT*",
+        "GCTA**T*G**A*CT*GCTA",
+        "G**A*CTA*CT*GC**GC*A",
+        "*C*AGCT*GCTA*C*AG*TA",
+        "GCTAG*TA*C**GC*AGCTA",
+        "GCT*G*T*G*T**CTAGCTA"
+      ]
+    },
+    {
+      "position": 76,
+      "generation": 25,
+      "organismId": "Organism_3101",
+      "sequences": [
+        "**CG**CGAT*GATCGA*CG",
+        "A*CGATC**TCG*T****C*",
+        "*TCGA*CGATC*AATC*ATCG",
+        "GG*TA*T*G*TA*CTAGC*A",
+        "G**AGCTAGCT*GCTAGCTA",
+        "GCTA*CTA*C*AG*TAGCTA",
+        "GCTA*CTAG*T***T*GCT*",
+        "G**AGCT*G**AGC*AGG*T*CTA",
+        "G***G*T*GCTAGC*AGCT*",
+        "G*TAG*TA***AGCTCA***A"
+      ]
+    },
+    {
+      "position": 47,
+      "generation": 25,
+      "organismId": "Organism_3963",
+      "sequences": [
+        "ATCGA*C*ATCGATCG**CG",
+        "ATCGA**GA*CGA****T*G",
+        "*TCG*TCGA*CGATCGT**A*CG",
+        "G*TAGCT***TAGCTAG*T*",
+        "G*CT*C**G*T*G*TAGC**",
+        "G*TAG*TAG**AGC*AGCTA",
+        "G***G**A*CTAGCTA**TA",
+        "GC*A*C*AG*TAGC*AGCTA",
+        "GCT*G*TA**TAGCTAGCT*",
+        "G*T*GC***CTAGC*AGCTA"
+      ]
+    },
+    {
+      "position": 14,
+      "generation": 25,
+      "organismId": "Organism_5023",
+      "sequences": [
+        "ATC*A***A**GAT*GATCG",
+        "A***AT*G*TCGATCGATCG",
+        "AT*GAT**ATC***CGATCG",
+        "G*TAGCT*GC***CTA*CTA",
+        "GCTAG*TAGC***CT**C*A",
+        "GCT*GC*AGCTA*****C**",
+        "GC*A*C*AGCT*GCT*GCTA",
+        "GCTA**TAGCT***TAGCAT",
+        "**TAGCTAGCA*CT*GCT**CT*",
+        "GC*AGC*AG**AGCTAG*T*"
+      ]
+    },
+    {
+      "position": 75,
+      "generation": 26,
+      "organismId": "Organism_2938",
+      "sequences": [
+        "*TCGATCGAT*G*TC*A**G",
+        "ATC**TCGA**GATCG*T*G",
+        "ATCGATCGATC*ACTCGATCG",
+        "G*T*GCTGA*C*AGCTA**T*",
+        "GCTAGCTA*CTAG***GCTA",
+        "*CT**C**GCTA*CT*GCT*",
+        "*CT*G**A*CTA**TAGCT*",
+        "*CTAG**A*C*AG*TA*CTA",
+        "G*TA*CT***TAGCT*G*TAC",
+        "GCTAGCTAGCT**C*CAGCTA"
+      ]
+    },
+    {
+      "position": 24,
+      "generation": 26,
+      "organismId": "Organism_4894",
+      "sequences": [
+        "ATCGA*CG*T**ATC**TCG",
+        "*TC*ATCGATCGATC*ATCG",
+        "AT***TC*AT*GATCGATCG",
+        "GCTAG*TA*CTAGC*AGCTA",
+        "GC**G*TA*CTAGCT*G*TA",
+        "*CTAG**AG*TAGCT*GCTA",
+        "GCTAGCTAGC**GC**G*TA",
+        "GCTAGCTAG*G*AGC*AGC*A",
+        "GC*A*CTAG*TAG*TA*C*A",
+        "GC*AGCTA*CTAGCTAG**A"
+      ]
+    },
+    {
+      "position": 46,
+      "generation": 26,
+      "organismId": "Organism_2548",
+      "sequences": [
+        "*TCGATCGA*C*AT*GATCG",
+        "ATCGATCGAT*GATCGATCG",
+        "A*CGA***ATC**TC*AT*G",
+        "GG*T*CTAGCTA*CTAG*TA",
+        "GCTAGC*AG*TAGCTA*CTA",
+        "GCT*G**A*C*AGCTAG*TA",
+        "***AG*TAG*T*GCTAGCT*",
+        "G**AGCT**CTA*A*T**CTA",
+        "*C*CTAGCTAGCT*GC**",
+        "GC*AG*TAGCTAG*TCAG*TA"
+      ]
+    },
+    {
+      "position": 22,
+      "generation": 26,
+      "organismId": "Organism_5532",
+      "sequences": [
+        "A*C*A*CGATCGATCGATCG",
+        "*TC*ATC**TC**TCGA*CG",
+        "ATC*A*TTCGACG*TCGATC*",
+        "**TAGCTAGCT*C*C*AG*T*",
+        "*C**G*T*GCTAGCTAG*TA",
+        "GC*AGCTAAG*TAG*TA",
+        "*CTAG*TA*CTA*C*AGCTA",
+        "**TAG*TAG*TAGCTAGCT*",
+        "GCT***T**GCT**CT*",
+        "GCTAGCTAGC**GC**GC**"
+      ]
+    },
+    {
+      "position": 71,
+      "generation": 26,
+      "organismId": "Organism_4502",
+      "sequences": [
+        "ATCGAT*G*T*G*CA*CGA*CG",
+        "AT**ATCG**CGATC**T*G",
+        "*TCGATCGATC*AT*G*TCG",
+        "G**A*CT*GC*A*C*AGCT*",
+        "GC**A*CT**C*AG*TAGCTA",
+        "GCTAGCTAGCT*GCTAGC*A",
+        "GCTA*CT*GCTAGCTAG*TA",
+        "GCT**CTA*CTA**TA*T*CTA",
+        "GC*AGC*AGCTAG**AGCTA",
+        "GCTA**T*GC**G*ATAGCTA"
+      ]
+    },
+    {
+      "position": 47,
+      "generation": 26,
+      "organismId": "Organism_4419",
+      "sequences": [
+        "*TC*A*C*ATCGA*C*ATC*",
+        "AT*GAT**ATCGAT**GA**G",
+        "*TC***TG***GATC*ATCG",
+        "GC*AGCT*GCTA**TA*C*A",
+        "*CT*GCT*GCTAGCTAGC*A",
+        "*CTA***AGC*AGCTA*C*A",
+        "***AG*TA*CTAG*TAGCTA",
+        "GCTAG**AGCTAGCTAG*TA",
+        "**T*GC*AGCTA*CT*GC*A",
+        "*CTAGC***CT*GCTAGCT*"
+      ]
+    },
+    {
+      "position": 65,
+      "generation": 26,
+      "organismId": "Organism_3939",
+      "sequences": [
+        "AT*GATCGAT*G*TC*ATCG",
+        "AT***TCGAT**A*CGATCG",
+        "A*C*AT**GATCGA*C*",
+        "***AG**AGCTAGC*A*C*A",
+        "GC**G****CT*GCTAGC*A",
+        "GCT*GGCT*GCG**AG***",
+        "G**AGC*AGCTAGCT*GCT*",
+        "G**AGCTA*CTAGCTAG**A",
+        "*CTAGCTAG*T*GC***C**",
+        "GC*A*CTAGC**GC***G**A"
+      ]
+    },
+    {
+      "position": 29,
+      "generation": 27,
+      "organismId": "Organism_1072",
+      "sequences": [
+        "***G****AT*GAT**ATCG",
+        "A*CGATCG*T*G*T*GAT*G",
+        "ATCGA*CGA**ATCGA**G",
+        "GCT**C*A*CTAGC*AGCTA",
+        "G*TAGC**GCTAGCT***TA",
+        "*C*AGCTAGC**CTA*C*A",
+        "GCTA*CTAGCT*GCTAGCTA",
+        "*CTAGC*AG*T*AGC*GCT*",
+        "GCT**CTAG**AGC**AC**",
+        "G**AG**A*CTAGCT**CTA"
+      ]
+    },
+    {
+      "position": 88,
+      "generation": 27,
+      "organismId": "Organism_5705",
+      "sequences": [
+        "ATCG**CGATC*AT*GATCG",
+        "ATCG*T*G*TCG*TCGATC*",
+        "A**GATCGAT*GA***AT**",
+        "G**AGC*AG*TA**TA*CTA",
+        "G*TA*CTAGCTA*CT*G*TA",
+        "*CTCG*A*T*GCTA*CTA",
+        "GCT*G*TAGCTAGC*AGCTA",
+        "GCT*GCT*GCT***T*GTA**TA",
+        "GCTA*CTAGCTAGCTAGCTA",
+        "G*TAGCTAGAC*AGCTA*CT*"
+      ]
+    },
+    {
+      "position": 90,
+      "generation": 27,
+      "organismId": "Organism_5322",
+      "sequences": [
+        "*T*GAA*CGA***ATCG",
+        "ATCGA*TC**C*AT**ATCG",
+        "A*C*A*CG**CGATCGATCG",
+        "GCTAGCTAGC**GCTAGCT*",
+        "*C**GC*AGCTAGCTAGC*A",
+        "GC***C**G*TAGC**GC*A",
+        "GCTAGCTAGC*AGCT*GCGTA",
+        "GCTA*CTAGCTAGCTA*CT*",
+        "**TAG*TAGCAGCTA*C*AG*TA",
+        "GCTA*CTAGCTA***AGCT*"
+      ]
+    },
+    {
+      "position": 99,
+      "generation": 27,
+      "organismId": "Organism_4365",
+      "sequences": [
+        "AT**AT*G***GA***AT*G",
+        "ATTC*ATCGATCGA*CG",
+        "*TC*AT**ATCG*TCGATCG",
+        "GC*CA*C**GCTAG*T***T*",
+        "G*T***CT*GCT*GCT*",
+        "*C**G**A*CTAG*T**C**",
+        "GC*A**TAG*TAGCTAGCTA",
+        "G*TAGCTAGCTAGCTATGC*A",
+        "GC***C**GCTA*C**GC*A",
+        "GCTAGCT*GC**GCT*AG*TA"
+      ]
+    },
+    {
+      "position": 64,
+      "generation": 28,
+      "organismId": "Organism_6406",
+      "sequences": [
+        "*T****TGATCGATC*ATCG",
+        "ATC*ATC*AT*GAT**ATC*",
+        "ATC*A**GATCGA*C*ATCG",
+        "GC**GCATGCTA*CTAG*T*",
+        "GCTA*CTA*CT*GG**A*T*",
+        "*TAGCTAGCTAGCTAGCTA",
+        "G**A*CTAG*TAGCTAGCT*",
+        "GCTA*CT*GCTAGCTAG*TA",
+        "*C*A**TA*C*AGCTAGC*AT",
+        "*C*AGCTAGC*AG*T*G*TA"
+      ]
+    },
+    {
+      "position": 33,
+      "generation": 28,
+      "organismId": "Organism_5393",
+      "sequences": [
+        "ATCGA*TCGATC**TCG*TCG",
+        "*TCGATCGATCGATC**TCG",
+        "*TC*ATC*ATC*ATCG*T*G",
+        "*C*A*CT*G*TAG*TAGCTA",
+        "G*TA*CTAG*TAGC*AGCTA",
+        "G*T*GCTA*CTA*C*AGCT*",
+        "GCTAG*T**CTAGCTA*CTA",
+        "G**A**TA*CG*AGCTAA*CTA",
+        "G**AGC*AGCTAGCTAG**A",
+        "GCTAGCTAGC**GC*AG*TA"
+      ]
+    },
+    {
+      "position": 99,
+      "generation": 29,
+      "organismId": "Organism_6292",
+      "sequences": [
+        "ATCGATCGA*CG*T*G*TCG",
+        "AT*GATCG*TCGATCG*TC*",
+        "A*C*AT**ATC*ATCG**CG",
+        "G*CTACTAG**A*CTAGC**",
+        "*C*AGCT*GCT*GC*AG**A",
+        "GCTAG*T**CTA*CTAGCTA",
+        "GCT*G**AGCTAGCT*GCTA",
+        "**TAG*TA**T*GCTA*CT*",
+        "GCTAGCTAGCT*GCTAG*T*",
+        "AG**A*CT*GC*CAGCTA"
+      ]
+    },
+    {
+      "position": 69,
+      "generation": 29,
+      "organismId": "Organism_2831",
+      "sequences": [
+        "ATCGAT*GATCGA*C*AT*G",
+        "ATCGATCG*TCG**CGATCG",
+        "ATC*ATC*AT*G*TCGAT*G",
+        "GCTAG*T*GCTAG*TAGC**",
+        "G*TAGCTA*C**G*T**CTA",
+        "GCTAGCTAGCTAGT**CTA",
+        "GC*AGCTA*CTA*CT**CT*",
+        "*CTAGCT**C*AGC*AG*TA",
+        "*CT*GCTA*CTAGCT**CT*",
+        "G**AGCTAG*TAGC*AGCTA"
+      ]
+    },
+    {
+      "position": 96,
+      "generation": 29,
+      "organismId": "Organism_5454",
+      "sequences": [
+        "AT*G*TCGATCGATCGATCG",
+        "A*CG**CGATCGATC*AT*G",
+        "A*C**ATCGATC*A**CG",
+        "GCT*G*TA*C*AGTC*G*TA",
+        "GCTAG*TAAGCT**CT**CT*",
+        "GCTAC*AAG*TAGCT*C**CT*",
+        "GGC***T*G*TA**TAG*T*",
+        "*CT*GCT*G*T*GCT*GC**",
+        "*CTAGCTAGCT**CTA*CT*A",
+        "GCTA**TA*CTAGC**G***"
+      ]
+    },
+    {
+      "position": 9,
+      "generation": 29,
+      "organismId": "Organism_5982",
+      "sequences": [
+        "A**GAT***TCGATC*AT*G",
+        "ATCG*TCGAT*GATCG*T*G",
+        "A*C*ATCGATC**T*GATC*",
+        "GCTAG*TAGCTA*CTA*CTA",
+        "G*TA*CTAG**AGCTAGC*A",
+        "G***GCTAGCG*TAGCTA",
+        "GCTAGC*AGCTAGCTAGCTA",
+        "GCTAGCT***TAGCTA***A",
+        "GCTA*C*AGC*AGCTAGCTA",
+        "***AGCT*GCTAGCTCAGCT*"
+      ]
+    },
+    {
+      "position": 64,
+      "generation": 30,
+      "organismId": "Organism_5583",
+      "sequences": [
+        "A*CGATC*A*CG***GATCG",
+        "ATCGATCGATCGATCGAT*G",
+        "A**GATCGATC*AT*G**CG",
+        "G*TAGCTAGC*AG*T**CTA",
+        "GCTAGCT***TAGCTA*C*A",
+        "G**AGC*A*CTA*CTA*CTA",
+        "GCTAGC*AGCTAGCT*GCTA",
+        "GCTAGCT*G*TA**TAGCTA",
+        "GC*A****AG*GCTA*CTA**T*",
+        "*C*AGC*AGC**TA**T*"
+      ]
+    },
+    {
+      "position": 58,
+      "generation": 30,
+      "organismId": "Organism_4002",
+      "sequences": [
+        "AT*GATCGA**GATC*A*CG",
+        "AT**ATCGAT*GATC*ATCG",
+        "AT**GATCGATCG*TCGATCG",
+        "GCTAG*AT*CTAGCTAGCTA",
+        "GCTAGCTAGC**GCT*G*TA",
+        "CT**C*AGC*AGCTAGCT*",
+        "GC*AGCT*G*TAGCT*GCTA",
+        "GC*AGCTA*CTAGCTAGC*A",
+        "GCTAGCTAGC**GCTA**T*",
+        "GCTAGCT**CTA**TAGC**"
+      ]
+    },
+    {
+      "position": 44,
+      "generation": 30,
+      "organismId": "Organism_4204",
+      "sequences": [
+        "ATCGATCGA*CG*T***T**",
+        "*TCGAT**ATCGAT*GAT**",
+        "ATCG*TCGATCGAT*GAT*G",
+        "G*TAGCTA**TA**T**CTA",
+        "*CTAGCTAGCT*GCTAG*TA",
+        "GCTCG**CTAG*TA**T*",
+        "GCTAGCTA*CT*G*TAGC*A",
+        "G*TA*CTAGCTAGC**GTA***A",
+        "GCTA*CTAGCTAGCTAGCTA",
+        "**TA*CT*GC*AGCT*GC**"
+      ]
+    },
+    {
+      "position": 66,
+      "generation": 30,
+      "organismId": "Organism_7278",
+      "sequences": [
+        "ATCGATCGA*CGATCG*TCG",
+        "ATCGA**GATCGA*CG*T**",
+        "*T*G*TCG*TCGA*C**T*G",
+        "GGC*ACTAG*TAGC*AGCTA",
+        "GCTAGCTAGCTAGCTAGCT*",
+        "*CTA***AGCTATAGCTAGCTA",
+        "GC*AGCTA*C*AGCTAGCTA",
+        "***AGTA*CTA**T*G***GTCA",
+        "**TA*CTAGCTAGC**GCTA",
+        "GCTAGC***CTA**TCAGCT**"
+      ]
+    },
+    {
+      "position": 63,
+      "generation": 30,
+      "organismId": "Organism_3615",
+      "sequences": [
+        "*T*CG**G*TCGAT*GATCG",
+        "A*CGATCGATCGATC*ATCG",
+        "ATCG*TCGAT*GATCGA*C*",
+        "*GCTACT*GCT*GCTAG*T*",
+        "G*T**C*A*CT**C*AGC*A",
+        "GCTA*CTA*CTAGGCTCTAGC*A",
+        "G*TAG*TAGCTA**TA*CTA",
+        "**TAG*TAGCTAG*TAG*TA",
+        "GC*CTA*CTAGC**GCTA",
+        "GCT*GCTAGCTAGCT*AGC**"
+      ]
+    },
+    {
+      "position": 12,
+      "generation": 30,
+      "organismId": "Organism_6609",
+      "sequences": [
+        "ATCG*TC*A***ATCGA*C*",
+        "**CGATCGATCG*T***TCG",
+        "AT*G*TCG*T**AT***TC*",
+        "GCT*GCT**CTAGCTAGC**",
+        "TGCTAGGCTAGCT**CTA",
+        "GCTAGCTAGC*AGC*TAGCT*",
+        "*CT**CT*GCTAAGCTGCTA",
+        "GCTAGCTA*CTAGCTAGCT*",
+        "GCT*GC*AG**AG*TAGCTA",
+        "GCTA**T*GCTA*CTA**CT*"
+      ]
+    },
+    {
+      "position": 88,
+      "generation": 30,
+      "organismId": "Organism_2836",
+      "sequences": [
+        "*TCGAT*GA*CGA*CGATCGATCG",
+        "AT**ATCGATCGATCGATC*",
+        "ATC**TC*ATCGATT*G",
+        "GCTAGCT**CTAGTCAG*TA",
+        "GC**GCTAGC*AG*TA**TA",
+        "GCTACTAGCTAGCTGCAG*TA",
+        "*G*TA*TA*CT*G**A***T*",
+        "GCTAGCTAGCTA**TA*C*A",
+        "**T*GCTAGCTAG*TAGCTA",
+        "*CTAGCT**CTAGCTAGC*A"
+      ]
+    },
+    {
+      "position": 19,
+      "generation": 31,
+      "organismId": "Organism_7076",
+      "sequences": [
+        "ATCGATCGATCG*T*GA**G",
+        "ATCGA*CG*TCGATC*ATCG",
+        "ATCGA**GA*CGATCGAT*G",
+        "**CTA*T*GCT*GCTAGCTA",
+        "GCT*GCTAGCT*GCTAGCTA",
+        "GCTA****GCTA**T*GC*A",
+        "*CAGCTAGC*AGC*AGC*A*CT*",
+        "GC**GCTAGC*AGC*AGCTA",
+        "*CT**AGC*AGACTG*TA",
+        "G**AGCTAG*T*GCT*AGCTA"
+      ]
+    },
+    {
+      "position": 10,
+      "generation": 31,
+      "organismId": "Organism_8154",
+      "sequences": [
+        "ATCGATC*A*CGATCG*TCG",
+        "A**GA**GA*CGA*A*GACGTCG",
+        "ATCGATCGATCGA*CGATCG",
+        "G*C***CT*GCT*GCTAG*TA",
+        "GCT*GC*AGCGTA*TAGC*A",
+        "GCTAGC*A**TAGC**GCTA",
+        "GCTAG*T*GCTAGCTAG*TA",
+        "G*TAGCTA*CT*GCT*GCTA",
+        "G*TAG*TAGC***C*A*CTA",
+        "GC**GCTAGCTAGCTAGCTA"
+      ]
+    },
+    {
+      "position": 39,
+      "generation": 31,
+      "organismId": "Organism_4454",
+      "sequences": [
+        "ATCGA*CG*T*GAT*GAT*G",
+        "*TC*A*CGA*CGATCGATCG",
+        "*TC*AT*GA**G**CGAT*G",
+        "G**AGCTA*CTA*CTAG*T*",
+        "*C*AGCTA***AGC*AGCT*",
+        "GC*AGTCTAG*TAGC*A*CTA",
+        "TGCAGCTA**TA*CT**CT*",
+        "GC*C*GCTAGCTAGTC*AGC*A",
+        "GCTAGCTA*CTAG*TAG**A",
+        "*CT*GCTAGCT*GCTAGCTA"
+      ]
+    },
+    {
+      "position": 22,
+      "generation": 31,
+      "organismId": "Organism_8129",
+      "sequences": [
+        "ATCGATC*ATCGATCGATCG",
+        "ATC*A**GATCGA*CGATC*",
+        "ATCGAATC*ATCG*TCG**CG",
+        "GCTAGCT*GCTAGCTAGC**",
+        "GC**G*TA*CTAGCTAGCTA",
+        "*CTAGCTA*GCTAG*TA",
+        "*CTA***A*ACTGCTAGCT*",
+        "G*TAGCTAGCTA***AG*TA",
+        "GCTAGC*AAG*T*GCT*",
+        "GC*AGCTAGCTAGCTA*CTA"
+      ]
+    },
+    {
+      "position": 75,
+      "generation": 31,
+      "organismId": "Organism_6179",
+      "sequences": [
+        "A**GA*CG*G**CGATCG",
+        "ATC*ATCGATCGATCGATCG",
+        "ATCGATCG*TCG***GA***",
+        "*G**ACTAGCTAGCTAGC*A",
+        "GCTCAGT*GCTAGCTAGCTA",
+        "***AAGCTA*CTAGCTA",
+        "GCTAG*TA**TAGC**G*TA",
+        "G**A*CTAGC*AG*******",
+        "******************",
+        "*********************"
+      ]
+    },
+    {
+      "position": 5,
+      "generation": 33,
+      "organismId": "Organism_8052",
+      "sequences": [
+        "ATCGAT*GAGATCGA*C*GATCG",
+        "**C*AT*GAT***TCG*TCG",
+        "*T*GAATCGATCGAT*GATCG",
+        "G*TAGCTAGGCTACTAGC*A",
+        "GCTAGCTAG*TAGCTA*CTA",
+        "*CTA*CT**CTAGC*AGCTA",
+        "GCTAGG**ACTAGCTAGC*A",
+        "*C*AGCTAGC*AGC**GCTA",
+        "GCTA*CTA*GCTAGCTA",
+        "GC*AG*TA*C*AG*TAG*TA"
+      ]
+    },
+    {
+      "position": 30,
+      "generation": 33,
+      "organismId": "Organism_4418",
+      "sequences": [
+        "*TCGATCGA*CGATC*A*C*",
+        "**GAC*AT*GAT*GATC*",
+        "ATCGAT**A***ATCGATC*",
+        "G*CTAGCTAGC*A*CT**CT*",
+        "*CT***TAGCTAGC*AGCTA",
+        "GCTA**TAGCTA*CTA*CT*",
+        "*CTAGCTAGCTAGCTAGCTA",
+        "GCTAGC*AGC*AGC*AGCT*",
+        "G*TAG*TAGCTA**TAGCT*",
+        "GCTAG*TA*C**GCTAG*TA"
+      ]
+    },
+    {
+      "position": 96,
+      "generation": 33,
+      "organismId": "Organism_7159",
+      "sequences": [
+        "ATCGATCGATCGAT*GAT*G",
+        "AT*G*TC*A*C**T*GATCG",
+        "*TCGA*CGATC*A*C*ATCG",
+        "GCTAG*G*TAG*TAGC*A",
+        "G*TAGCTAG*TAG*C*AC*T",
+        "CTAGC*AG*T*GCTA*CTA",
+        "GCTAG*TATGCA*CTA*CTA",
+        "GCTAG*TA**TAG*TAGC*A",
+        "GCT**C**G*TAG*T*GC*A",
+        "*CTAGCTAGC**GCTAGCTA"
+      ]
+    },
+    {
+      "position": 83,
+      "generation": 33,
+      "organismId": "Organism_8321",
+      "sequences": [
+        "*TCCGATGATCGATC*ATCG",
+        "*T*GATC*ATC**TCGATCG",
+        "ATCGAT*G*TCGATCGATCG",
+        "GGC**CTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTA*CTA",
+        "GCTAGCTAGCTA*GCTCTA*C*A",
+        "*C*AGCTAG**AGC*AGCT*",
+        "G*TA*CTAG*TAGCTAGCTA",
+        "GC*C*AGCTAG*T*GCTA",
+        "GCT*GCTA*CTAGC*CA*CTA"
+      ]
+    },
+    {
+      "position": 47,
+      "generation": 33,
+      "organismId": "Organism_9027",
+      "sequences": [
+        "ATCGATCGATCG***GATCG",
+        "ATCGAT*GATCGA***ATCG",
+        "ATCGAT**ATCGATCGAT*G",
+        "GC*AG*TAGCT**CTAGC*A",
+        "GCTAGCTA**T*G*T*GCT*",
+        "GC*AGCTAGC**CTA*CT*",
+        "GCTAG*TAGCTA*CTAG**A",
+        "GCTAGCTAGC*AGCTAGCTA",
+        "G*TAGCTA*CTAGCTGACTA",
+        "G*TAGCT*GC*A*CTAG*TA"
+      ]
+    },
+    {
+      "position": 7,
+      "generation": 33,
+      "organismId": "Organism_6927",
+      "sequences": [
+        "A*CGA*CG*TC*ATCGATCG",
+        "*TCGATC*AT*GAT**A*CG",
+        "*TCGATC*ATCGATCG*TCG",
+        "**TAGCTAGC*CA*CTAG**A",
+        "GCTA*C*AG**AGCTAGCTA",
+        "*CTAGC*AG**A*CTAGCGCT*",
+        "G**AGC**G*T*GCT*G*CA",
+        "GCTAGCTAGC**GCTAGCT*",
+        "GC*AGCTAGC**GCT*GCTA",
+        "G*TAGCTAG**A*CTAGC*A"
+      ]
+    },
+    {
+      "position": 14,
+      "generation": 33,
+      "organismId": "Organism_8484",
+      "sequences": [
+        "ATCGATCGATCG*TCGATCG",
+        "ATC*ATCGAT*GACTCGAT*G",
+        "*TCGATCGAT*G*TCG**CG",
+        "GCT*GCTAGCTAGC**GCTA",
+        "GCTAGCT*G*T**CT*GC*A",
+        "GCTA*CTA*CT*GC*AGCT*",
+        "GCTAGCTA*CTAGCT*GC*A",
+        "GCT*GC*AG*T*GCTAGCTA",
+        "GCTA*CT*GCTAGCTAGCTA",
+        "GC*AGCTAG*TAGCTAGCTA"
+      ]
+    },
+    {
+      "position": 96,
+      "generation": 33,
+      "organismId": "Organism_8532",
+      "sequences": [
+        "AT*GA*CGATCGA*C*AT*G",
+        "ATCG*TCGA*C*ATC*ATCG",
+        "ATCGA*C*ATCG*******G",
+        "GC*AGCTAGCTAGCTAGCTA",
+        "*C*AG**A**TAGCTAGC**",
+        "GCTAGCTAGCTAGCTAGC**",
+        "GC*A*CTAGCTAG*TAGC*A",
+        "GCTA*CT**C*AG*TAG*TA",
+        "GCT*GCT**CAGC*AGCTAG**A",
+        "*CT*GCTAGCTAGCTAGCTA"
+      ]
+    },
+    {
+      "position": 65,
+      "generation": 33,
+      "organismId": "Organism_8403",
+      "sequences": [
+        "ATC***CGAT*GA**GAT**",
+        "ATCGATCGATCGATATCG",
+        "*T*GAT*GA*CA*T*GATCG",
+        "GGCTACTAGCTAGCTAGCTA",
+        "GCTAGCT*GC*AGCT**CTA",
+        "*CTA*CTAG**AGC*AGCTA",
+        "G*TAG*TAGCTAGCT*GCTA",
+        "***AGCTA*CTAG*T*GCTA",
+        "GCTA*CTA*CTAGCAGTA*CT*",
+        "G*CTAGCT***TAG*T*AG*TA"
+      ]
+    },
+    {
+      "position": 13,
+      "generation": 33,
+      "organismId": "Organism_8765",
+      "sequences": [
+        "ATC*ATCGA**GAT*GGA*C",
+        "*TCG*T**ATCG*TCGAT*G",
+        "ATC*ATCGATCGATCGATCG",
+        "GC**GCTA**TAGC**GCTA",
+        "GCT**C*AGCTAGC**GCTA",
+        "GCTCGT**TAG**AGC*A",
+        "GCTAGCTA**TA*CT*GCT*",
+        "**TAGCTAGCTAG*TAGTAG*TA",
+        "GC**GCTA*CTAG***GC*A",
+        "G*TAGC*AGCTAG*TAGCTAG"
+      ]
+    },
+    {
+      "position": 82,
+      "generation": 34,
+      "organismId": "Organism_9546",
+      "sequences": [
+        "ATCGATCGA*CG*TCGA*CG",
+        "ATCGA**GA**GATC*ATC*",
+        "ATCGATCGATCGATTCG",
+        "GC*AGCTAG**AGCT*GCTA",
+        "*CTA*CTAGCGCTTAG*TA**TA",
+        "GC*AC*AG*T**CTAGC*A",
+        "G*TA*CTA*CTAGCTAGCTA",
+        "*CTA*CT*GGCTAGCTAGCTA",
+        "G*T*GCT*GCTA*CTAGCTA",
+        "*C*A*CT*GCTAGCTAGCTA"
+      ]
+    },
+    {
+      "position": 75,
+      "generation": 34,
+      "organismId": "Organism_8951",
+      "sequences": [
+        "ATCG*TC*ATCGATCGATCG",
+        "ATCG***GATCGATCGATCGG",
+        "ATCGA*C*ATCGAAT*GATCG",
+        "GCTAGCTAT*GCTAGC*A",
+        "GCT*GCTAG*TAGCT*GCTA",
+        "GCTAGAG*TAGCTAGC*A",
+        "GC*AGCTAG*T*G**A*CTA",
+        "GCTA*CT*GCT*GC**GC*A",
+        "GC**GTC*GCTAGCTA*CTA",
+        "G*TAG*T*GCT*GCTAGC*A"
+      ]
+    },
+    {
+      "position": 33,
+      "generation": 34,
+      "organismId": "Organism_8853",
+      "sequences": [
+        "AT****CG*TCG*TCGATTCG",
+        "AT*GAT*GATCGA*C*A**G",
+        "ATCG*T*GA*CGATC*A***",
+        "GCTAGCTAGCT*GCTAGCTA",
+        "GC*A*CT***TAGCTAGCTA",
+        "*CT*GCT**CT*GCT*G**A",
+        "GC*A*C*****AGC*T**TA",
+        "GCTAGCTAG*TAG*TAG**A",
+        "GCTA*CT**CT*GC*AGC*A",
+        "GCTAGC**GC*AGC*A*C*A"
+      ]
+    },
+    {
+      "position": 6,
+      "generation": 34,
+      "organismId": "Organism_9705",
+      "sequences": [
+        "A*CGA*CGATCGATCG**C*",
+        "ATCGATC*ATCG*TCGA*CG",
+        "ATCGATC*ATCGA**GATC*",
+        "G*TAGC*TGCTAGC*AG**AC",
+        "G**A*CTAGCT*GCTAGCTA",
+        "CTAGCT***TAGC*AGCT*",
+        "GCTGC*AG*TAGC*AGC*A",
+        "G*T*GCTA*CTAG*TAGCTA",
+        "GCTAGCTA***TAC**GCTA",
+        "GC*A*CTAGCTAGCT*GCTA"
+      ]
+    },
+    {
+      "position": 14,
+      "generation": 35,
+      "organismId": "Organism_9614",
+      "sequences": [
+        "ATCGA*CG*TCGATCGATCG",
+        "ATC*ATCGATCGATC**TCG",
+        "ATCGATCGATCAGTCGA**G",
+        "*GCT**T**CTA*CTAG**A",
+        "GCT**CTAGC***CTAGC*A",
+        "GCTAGCTAG*T*GCTAGCTA",
+        "GCTAGCTAGCTAGCTAG*TA",
+        "GCTAGCTAGCTAGCT*GCT*",
+        "*CTAGCTAGCTAG*TAG*TA",
+        "G*CT*GCTAG*T**CTCAGCTA"
+      ]
+    },
+    {
+      "position": 29,
+      "generation": 35,
+      "organismId": "Organism_10201",
+      "sequences": [
+        "ATC**TCGATC**TCGATCG",
+        "ATCGATCG*T*GAT*GA",
+        "A*C*ATC**T*GA*CGATCG",
+        "*CT**CTAG*TAGCTAG**A",
+        "GCTAGCTAGCT***TAA",
+        "*CTAGCTAGCTAGC*CTA",
+        "*C*AGCTAGC*AGCTAGCTA",
+        "*CTA*CTAGCT**CTAG***",
+        "G*TAGCTAGCTA*CTA*CTA",
+        "GC*A*CT*GCTAGC*A**TA"
+      ]
+    },
+    {
+      "position": 28,
+      "generation": 35,
+      "organismId": "Organism_9870",
+      "sequences": [
+        "ATCGAT*GATCGA*C*ATC*",
+        "ATC*A*CG*TC*ATCGATCG",
+        "**C*ATCG*TCGATCG*TCG",
+        "GCTAGCTAGCTG*CTAGCTA",
+        "GCTAGCTAGCTAG*TAGCTA",
+        "G*TAGA*CTAGC*AG*TA",
+        "GCTAGCTAGCTA*CTAGCTA",
+        "GCTA*CTT*G*TAG*TAGCTA",
+        "GCTGAGCTAG*GCAGTATGCAGCTA",
+        "GCT*G*TA*CTAGCT*GCTA"
+      ]
+    },
+    {
+      "position": 74,
+      "generation": 35,
+      "organismId": "Organism_9147",
+      "sequences": [
+        "ATCG*TCGA*CGAT*GATCG",
+        "ATCGAT*GATCGAT*GATCG",
+        "A*C*AA**GAT*GATCGATCG",
+        "G*TAGCTAGCTAGCTAGCTA",
+        "GCTAGCT*GCTAGCTAGCTA",
+        "GCTAGCTAG*TAGCTAGCTA",
+        "GCTA*GCTACTAGCAGCTA",
+        "GCT***TAGCTAG**AGCTA",
+        "GCTAGCTAA*CTAGCTA",
+        "TGCAGC*AGCTAGCT*GCTA"
+      ]
+    },
+    {
+      "position": 39,
+      "generation": 36,
+      "organismId": "Organism_10563",
+      "sequences": [
+        "AT*GA*C*ATCG**CGATCG",
+        "ATC**TC*ATCGA**G*TCG",
+        "ATCGATCGATCGAT*GAT**",
+        "GCTAGCTA*CT*G*TAGCT*",
+        "GCTAGCTA*CTAG*T*T***TA",
+        "GC**GCT*G*TA*CTAGC*A",
+        "GCT*GCTAT*CAGCTA*CTA",
+        "GCTAGC*AG*TAGCTAGCTA",
+        "GCTAGCTAGCT*GC***CTA",
+        "*CTA*CTAGCTAGCTAGC**"
+      ]
+    },
+    {
+      "position": 75,
+      "generation": 36,
+      "organismId": "Organism_8460",
+      "sequences": [
+        "ATC*ATC**TCGATCG*TCG",
+        "ATCGAT*G**CGATCGAT*G",
+        "ATCG*ATCG*TCGATCGATCG",
+        "GC*AG*TAGCT**C*AG***",
+        "*CTAGCTAGCTAGCTAGCTA",
+        "GCTAG*TAGCTAGCTAGC**",
+        "GCTAGCT*GCTAAG**G*TA",
+        "G*T****AGCTAGC*A*CT*",
+        "GCT*GC*A*CTA*CTAGCTA",
+        "GCTAGCT*GCTA*CTAGCTA"
+      ]
+    },
+    {
+      "position": 32,
+      "generation": 36,
+      "organismId": "Organism_9579",
+      "sequences": [
+        "ATCG*TCG***GATCG*TCG",
+        "ATCGATCG*TCGATCGATCG",
+        "AT*GA*CGATCGATTCG",
+        "GCTAGCTAGC*AGCTAG*TA",
+        "GCTAGCTA*CGCTTAGCTAGCT*",
+        "GC***TA*C*AG**AGCTA",
+        "GC*AG**CTAG*TAG*TA",
+        "GCTAGCTAGGC*AGCTA*CTA",
+        "G*TA*C*AGCTAGCTAGCT*",
+        "GCTAGC*A*CTAGC*A*CTA"
+      ]
+    },
+    {
+      "position": 80,
+      "generation": 36,
+      "organismId": "Organism_9405",
+      "sequences": [
+        "ATCG*TCGAT*GAT*GATCG",
+        "A*CGATCGATCG*TCGATCG",
+        "ATCGATCGATCGATCG*TC*",
+        "GCTAGCTA*C*AGCTAGCTA",
+        "GGCTAGCTAGCTC*AG**AAG",
+        "G*TAGCTAGCT**GCTAG*TA",
+        "GC*A*CTAGCTAGCTAGC*A",
+        "*CTAGCTAGCTA*CTA*C**",
+        "GCTAGCTAGCTA*C*AGCTA",
+        "G*TAGCTAGC*AGC*AGC*A"
+      ]
+    },
+    {
+      "position": 68,
+      "generation": 36,
+      "organismId": "Organism_9595",
+      "sequences": [
+        "ATCGATCGATCGATCGA*CG",
+        "ATCGATCGATCGATCG*TCG",
+        "ATC*ATCGATCGAT*GATCG",
+        "G*TAGCTAGC*AGCTA*CT*",
+        "GCT*GGCTAGCTAGCTA",
+        "A*CTAGC*AGCGTA*C*A",
+        "*CTA***AGC*AAGC*GCTA",
+        "*CTAGCTAGCTAGCTA*CT*",
+        "GC*A*C*AGCTAGCTAGCTA",
+        "*CT**CT*GCTAGC**GCTA"
+      ]
+    },
+    {
+      "position": 70,
+      "generation": 36,
+      "organismId": "Organism_10579",
+      "sequences": [
+        "AT*GATC*A*CGAT*CATC*",
+        "ATCGATCGATCGAT*GA",
+        "ATCGATCGATC*ATCGAT*G",
+        "GCT*GCTAGCTAGCT*GCTA",
+        "GCTA*CTA*CTA*CT*G*TA",
+        "GCTA*CTAGC*AGCTA***A",
+        "*C*AGCTAGCTAG*TAG*T*",
+        "GCTAG*TAGCT*GCTAGCTA",
+        "GCTAGCTAGCT*G*TTAGCTA",
+        "GCAGCTTA*C**GC*AGCTA**TA"
+      ]
+    },
+    {
+      "position": 94,
+      "generation": 36,
+      "organismId": "Organism_10303",
+      "sequences": [
+        "A*CG*TCG*TC**TCGATC*",
+        "ATCGAT*GATCGATCGATCG",
+        "ATCGATCG*TCGATCGATCG",
+        "*CTAGC*AGCTAGC*AGCTA",
+        "GC*AGCT*GCTCTAG*T*",
+        "GCT**CTCAGCTAGCT*GCTA",
+        "GCTAG*TAGCTAGGC**C*A",
+        "GCTAGCT*GCTA**TATGCTA",
+        "AGCTGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGC*AG*TC*GCTA"
+      ]
+    },
+    {
+      "position": 18,
+      "generation": 37,
+      "organismId": "Organism_10467",
+      "sequences": [
+        "ATCGAT*GATCG*TCGA*CG",
+        "ATCGA**GA*CGAT*TC*",
+        "ATCGATCGATCGAT*CG",
+        "*C*AG*TAGCTAGCT**CTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAC*AGC*AGCTAG",
+        "*CTAG*TAGC*AGCTGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "G*T*GCTAGCTAGAGCC*AG**A",
+        "*GCTAGC*AGCTAGCT*GCTA"
+      ]
+    },
+    {
+      "position": 92,
+      "generation": 37,
+      "organismId": "Organism_10732",
+      "sequences": [
+        "AA*CGTC*ATCGACG*TCG*TCG",
+        "ATCG*TC**TCGATCG*G",
+        "ATCGATCGTACGATCGAT*G",
+        "GGCTAC*TA*CTAGCTA",
+        "GCTAGCTAG*TAGCTAG*TA",
+        "GC*AGCTAGCGCTAG*T*",
+        "**TAGCTAGCT*AG*TA",
+        "GCT*GCTAGCTAGCTAGC*A",
+        "G*TAGCTAGCTAGC**GCTA",
+        "GC*AG**AGC*AGC*CAGCTA"
+      ]
+    },
+    {
+      "position": 97,
+      "generation": 38,
+      "organismId": "Organism_11643",
+      "sequences": [
+        "*TCGA*CGATCG*T*GATCG",
+        "ATCGA*CGAT*GATCGATCG",
+        "ATCGATC*A**GAT*GATCG",
+        "*CTAGCT**C*A*CTA**TA",
+        "GC*AGC*A**T*G**AGC*A",
+        "*CTAGCTAG*TA*CTAGCTA",
+        "GCTAGCTA*CTAGCTAGCTA",
+        "G*TAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTA*CTA",
+        "*CTAGCTAGCT*GC*AGCT*"
+      ]
+    },
+    {
+      "position": 51,
+      "generation": 38,
+      "organismId": "Organism_11105",
+      "sequences": [
+        "ATCG**CGATCGATCGATCG",
+        "AT*GATCGA*CGAGT*G**CG",
+        "*TCG*TC*ATCGATCGA*CG",
+        "*CTA*CTAGCTAGCTAGTA",
+        "GCTAGCTAGCT*GCTAGCTA",
+        "GCTAG**A**TAGCTAGCTA",
+        "GCTAGCTA*C*AGCTAGCTA",
+        "G*TAGCTAGCTAGCTAG*AT",
+        "GCTATAGCTAGC******",
+        "*******************"
+      ]
+    },
+    {
+      "position": 37,
+      "generation": 38,
+      "organismId": "Organism_9983",
+      "sequences": [
+        "ATC*A*CGATCGATC*ATCG",
+        "ATCGA*CG*TCGAT*GA*CG",
+        "*TCGATCA***A*CG**TCG",
+        "GG**AGCTAGCTAGCT**CTA",
+        "*CTAGCT*GCTAGC*AGCTT*",
+        "*CT**CT*GCTAGCTAG*TA",
+        "GCTAGCTAGCTAGCTAGC*A",
+        "G*TAGC*AGCTAGCTA*CTA",
+        "G*TAGCTAG*TAG*TA*C*A",
+        "GCTAGCTAGCTAGCTAGCTA"
+      ]
+    },
+    {
+      "position": 39,
+      "generation": 39,
+      "organismId": "Organism_9541",
+      "sequences": [
+        "GA***GTCGATCGATACTGCG",
+        "ATCGA*CGATCGATC*CATCG",
+        "ATCGAT*GATCGATCGATCG",
+        "*G*T*CT*GCTAGCTAGCTA",
+        "G**A*CT*G*TAGCT*GCTA",
+        "GCT*GCTATG*CTAGCTA",
+        "GCTAGCTAG**AGCT*GCTA",
+        "GCTA**AGCTAGCTAG*TAGCTA",
+        "*GTA*CTAGTC*G*T*G**A",
+        "GCTA*CTAGCT*GC*CAGCTA"
+      ]
+    },
+    {
+      "position": 59,
+      "generation": 39,
+      "organismId": "Organism_11356",
+      "sequences": [
+        "*TCGA*CGATCGATCGATC*",
+        "AT*GATCGATCGCGATCG",
+        "ATC*AT*GACG*TTCG",
+        "GCTAGCTAG*TA**T*GC*A",
+        "G*TAGCTA*CT*GCT*G*T*",
+        "GCTACTAGCTAG*T*GC*A",
+        "G*TAGCTAGC*AAGGC*",
+        "GCTA*CTAGC*AGCTAGCTA",
+        "G**AGCTAGCTAGCTAGCTA",
+        "GCTAGCT*GC*AG*TAGCTA"
+      ]
+    },
+    {
+      "position": 3,
+      "generation": 39,
+      "organismId": "Organism_9737",
+      "sequences": [
+        "ATCGAATC*ATCGATCG",
+        "A*C*ATCGT*GATCGATCG",
+        "ATCGATCG**CGA*C*AGATCTCG",
+        "GCTAG*TAGCTAGCTAGCTA",
+        "GCT**C*A*GTAGCTAGCTA",
+        "GCT*GCTAGC*A*CT*GCTA",
+        "GCTAG*TAGCTAGCTAGCGTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GC*AGCTAGCAGCTAG*TAG*TA",
+        "GCTAGCTAGCTA*CTAGCTA"
+      ]
+    },
+    {
+      "position": 24,
+      "generation": 40,
+      "organismId": "Organism_12703",
+      "sequences": [
+        "ATCGATCGCA**GA*CGA*CG",
+        "ATCG*TCGA*CGATCGATCG",
+        "GATCGATCGATCGATCGATCG",
+        "GCTAG*ATGCTAGCTCTA",
+        "GCCTAGT*G*TAGCTAGC*A",
+        "CTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GC*A*CTA*CT*GCT*GCT*",
+        "GCTAGCT*GC*AGCTAGCTA",
+        "GGCTAGCTA*C*TAGCTAGCTA"
+      ]
+    },
+    {
+      "position": 89,
+      "generation": 40,
+      "organismId": "Organism_8190",
+      "sequences": [
+        "ATCGATCG**CG***G*TCG",
+        "AT*GA*CGATCGAT*GATCG",
+        "ATC*ATCGATCGATCGA*CG",
+        "*CTAGC*GCTAGCTAGCTAGCTA",
+        "*CTAGC*AGCT*GCTAG*TA",
+        "*CT*GCTAGCTAGCTAGCTA",
+        "GCT*GCTAGCTAGCTAGCTA",
+        "GC*AG*T*GCTAG*TAGCTA",
+        "***AGCTA*CTAG*TAG**AG",
+        "GCTAGCTAGCTAGCT*GC**"
+      ]
+    },
+    {
+      "position": 30,
+      "generation": 40,
+      "organismId": "Organism_12718",
+      "sequences": [
+        "ATCGATCGATC*ATCGATCG",
+        "ATCGATCGAT*GATCGATCG",
+        "*TCGATCGATCGA*CGATC*",
+        "GCT***T*GCTAGCTACTAGCTA",
+        "GCTAGCTAGC*AGCTCTAGCTA",
+        "GCTAGCTAGGCTAGCTA",
+        "GCT*GCT*TGCAGCTAGCTA",
+        "GCT*GCT*GC**GCTA*CTA",
+        "GCTAGCTAGCTAGCTAGCT*",
+        "GCTAG*TAG*TAG*T*GCTA"
+      ]
+    },
+    {
+      "position": 77,
+      "generation": 40,
+      "organismId": "Organism_11378",
+      "sequences": [
+        "ATCG*TCGA*C**TCGATCG",
+        "AT*GATCGAT*GATCGA***",
+        "ATCGA*C*AT*GATCGATCG",
+        "GC*A*CTAG*TGAGCTA*CTA",
+        "GC*AGCTAGC*AG*TAGCTA",
+        "GCTAGCTAGC*AGCTAA",
+        "GCT*GCTAGCTAGC*AGC*A",
+        "GCTAGCTAGCTAGCTAG*TA",
+        "GCTAGCTAGCT*GCTAGCT*",
+        "GCTAGCTAG*TAGCT*GCT*"
+      ]
+    },
+    {
+      "position": 34,
+      "generation": 40,
+      "organismId": "Organism_10661",
+      "sequences": [
+        "ATC*AT**ATCGATTCGACG",
+        "AT*GA*CGATCGATCGAT*G",
+        "ATG*ATCG*TCGATCGATCG",
+        "GGCTACTAGCTAG*TAGC*A",
+        "G*T*GCTAGC*AGCTAGCTA",
+        "GC*AGC*AG*TAGCT*GCTA",
+        "GC**AGTA*CT*GCTAGCTAG",
+        "GCTAGCTAGCTAGCTAGC**",
+        "GCTCTAGCTAGC*AGCA",
+        "GCTAGCTAG*GC*CA*C*A"
+      ]
+    },
+    {
+      "position": 44,
+      "generation": 40,
+      "organismId": "Organism_12243",
+      "sequences": [
+        "ATCGATCGATCGATCGATCG",
+        "AT*GATCGATCGATCGATCG",
+        "ATCGATCGATC*ATCG*T*G",
+        "G*TA**TA*CTAGCT*GCTA",
+        "GCTAGCTA*C*A*CTAGCTA",
+        "GCTA*A*C*AGCTA*CTA",
+        "GCTAGGCTAGCTA*CTA",
+        "G**AGCTA*CTAG*TAG***",
+        "*CTAGCTAGCTAGCTA*CTA",
+        "GCT*GCTAGCTAG*TAGCTA"
+      ]
+    },
+    {
+      "position": 3,
+      "generation": 41,
+      "organismId": "Organism_13100",
+      "sequences": [
+        "ATCGAA*CGTCGATCGATCG",
+        "ATCGATCGAT*GATATCG",
+        "ATTC*ACGATCGATTCG",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCCT*",
+        "GCTACTAGCTAGC*AG",
+        "GCTAGCT*GCTAGCTGCTAGCTA",
+        "GCTAGC*AGCTAGCTAGCT*",
+        "GCTAGCTAGCTAGAGC*TAGCTA",
+        "T*C*AGCTAG*T*GCTAGC*A"
+      ]
+    },
+    {
+      "position": 53,
+      "generation": 41,
+      "organismId": "Organism_12872",
+      "sequences": [
+        "ATCGATCGA*CGATCGATC*",
+        "ATCGATCGATCGATCGA",
+        "AT*GAATCGTCGA*CGATCG",
+        "GCTA*CT*GCTA*CTAGCTA",
+        "*CTAGCTAGCTAGCTAGC*A",
+        "GCT*GCTAGCTAG*TAGCTA",
+        "GCT**CTAGCTAGCTAG**A",
+        "GCTA*CTAGCTAGCTAGCTA",
+        "*C*CT*GCTAGCTAGCTAGCTA",
+        "GCTA*CTAGC*AGCTCAGCTA"
+      ]
+    },
+    {
+      "position": 90,
+      "generation": 41,
+      "organismId": "Organism_12430",
+      "sequences": [
+        "ATCGATCGATCGA*CG*T*G",
+        "*TCGATCGATCGAT*GATCG",
+        "ATCGATCG*TCGAT**G",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAG*TAGCT*GAG*TA",
+        "GCTAGCTAGCTAG*TA*C*A",
+        "GCTAGCTAGCTAGC*AGC*A",
+        "GCTAGCTAGCTAG*TAGC*A",
+        "*CTAGC*AGCTAG*TAGCT*",
+        "GC*AGCTAGCTAGCT*G*TA"
+      ]
+    },
+    {
+      "position": 89,
+      "generation": 41,
+      "organismId": "Organism_8948",
+      "sequences": [
+        "ATCGATCGATCG*TCGA*CG",
+        "A*CGATCGATCGATCGATCG",
+        "ATCG*TCGA*CG*TCGATCG",
+        "G*TAGCTA*CTAGCTAGCCA*A",
+        "GCT**CTAGCTAGCTA*CTA",
+        "GCTAGCTA*C*AGCTA*CTA",
+        "GCTAGCTAGCTAGCT**CTA",
+        "G*C*AGCTAGCTAGCTAGC*A",
+        "GCTAGCT*GCTAGTCTAGCTA",
+        "*CTAGCA*GCTAGC*AGCTA"
+      ]
+    },
+    {
+      "position": 2,
+      "generation": 41,
+      "organismId": "Organism_12646",
+      "sequences": [
+        "A***ATCGA*CG*T**A*CG",
+        "A*CGA*CGATCGA**G*TCG",
+        "ATCGAT*G**CGATCGAT*G",
+        "GCTAGCTAGCTA*CTAGCTA",
+        "GCTAGCTAGCTAGCTAG*TA",
+        "G*T**CTAGC*A*CT*GCTA",
+        "GGCTACTAGCTAGCTAGCTA",
+        "*CGTCTA**TAGCTAGCTA",
+        "GCT*G**AGCTAG*TAGCT*",
+        "GC*AGC*AGCTA*CTAG*TA"
+      ]
+    },
+    {
+      "position": 88,
+      "generation": 41,
+      "organismId": "Organism_12155",
+      "sequences": [
+        "ATCG*TCGTACGATC*ATCG",
+        "A*CGA*CGATCG*TCGATCG",
+        "AT*GA*CGATC*AT*G**CG",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "TGCTAGGCTAGCTAG*TA",
+        "GCTAGCTAGCT*GCGTAGCTA",
+        "GCTAGC*AGCTAAGCTG*TA",
+        "GCTAGCTAGCT*GCTAGCTA",
+        "*CTAGCTAG*TAGCTAG*TA",
+        "GCTAGCTAGCTAGC*GCT*"
+      ]
+    },
+    {
+      "position": 5,
+      "generation": 41,
+      "organismId": "Organism_11716",
+      "sequences": [
+        "A*TCGTCGATCGACG*TCGA*CG",
+        "ATCGA*CGATC**TCG*G",
+        "ATCGATTCGTA*GATCGAT*G",
+        "GGCTACCTAGC*AGCT*",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GC**GCTAGCGCTAGCTA",
+        "G*T*GCTAG*TAAGCTA",
+        "GC*A*CTAGCTAGCTAGCTA",
+        "G*TAGC*AGCTAGCTAGCTA",
+        "GCTA*CTAGC*AGCT*AGCTA"
+      ]
+    },
+    {
+      "position": 11,
+      "generation": 42,
+      "organismId": "Organism_12708",
+      "sequences": [
+        "*TCG*TCGATCGATCGATCG",
+        "A*CGATC*ATCGATCGATCG",
+        "ATCGATCGATCGAT*GATCG",
+        "GC*AGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GC*AGC*A*CTA*CTAGCTA",
+        "GCTAGCTAGCTAGT*CTA",
+        "GCTAGCTAGCTAGC**GCTA",
+        "G***GCTAGCTA*CTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA"
+      ]
+    },
+    {
+      "position": 77,
+      "generation": 42,
+      "organismId": "Organism_13185",
+      "sequences": [
+        "ATC*ATC*ATCGATCGA*CG",
+        "ATCGATCG**CGATCGATCG",
+        "ATCGATCGA*CGATCGATCG",
+        "GCTAGCATGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCT*GCTA",
+        "CTA*CTAGCTAGCTAGCTA",
+        "GCTGCTAGCTAGCTAGCTA",
+        "*C**GCTAGCT*GCTAGCT*",
+        "GC*A*C*GCAGCTAGTACTAGCTA",
+        "G*TAGCTAGC*AGCTAGCTT*"
+      ]
+    },
+    {
+      "position": 21,
+      "generation": 42,
+      "organismId": "Organism_12221",
+      "sequences": [
+        "ATCGATC*GATCGATCG",
+        "ATCGATCGATCGATCGATCG",
+        "A*C*ATCGGATCGATCG",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCCTATGAGCTAGCTAGCT*",
+        "GCTAGAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCGCTAGC*A*CTAG*TA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "AGGCTA*CTAGCTAGCTAGCTA"
+      ]
+    },
+    {
+      "position": 9,
+      "generation": 42,
+      "organismId": "Organism_13284",
+      "sequences": [
+        "ATCGATCGATTCGACGATCCG",
+        "ATCGATCGATCGATCGATCG",
+        "AT*GATCGATCGATCAGTC*",
+        "GCTAGCGCTAGCGC*AGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCAT",
+        "GCTAGCTAG*TAGCTAGCT*",
+        "GC*A*CTAGCTATGCAGCTA",
+        "GCTAGCTAGC*AGCTAGCTA"
+      ]
+    },
+    {
+      "position": 40,
+      "generation": 43,
+      "organismId": "Organism_13854",
+      "sequences": [
+        "ATCGATCG*TC*ATCGATCG",
+        "ATCGATCGA*CG*TCCGATCG",
+        "ATCGATCGATCGATCGTCG",
+        "GGCTACTA*GCTACTAGCTA",
+        "*CT*GCTAGCTAGG*TA",
+        "GCTAGCTAGCTAGCTAGC**",
+        "GCTAGCTAG*TAGCT*GCTA",
+        "GCTAGCTAGCAGTAGCTAG*TA",
+        "GCTAGCTAGC*AGCTA",
+        "GC*A*CTA*CT*GCTCAGCTA"
+      ]
+    },
+    {
+      "position": 4,
+      "generation": 43,
+      "organismId": "Organism_11966",
+      "sequences": [
+        "ATCGATCGATC*ATCGATCG",
+        "A*C*ATCG*TCGATCGAGTCG",
+        "**CGATCGATCGATCGATCG",
+        "G*TAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCT*GCTAGCTA",
+        "GCT*GCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAG*TA",
+        "GCTAGCTAAGCTAGCTA",
+        "GCTAGCTAGC*AGCTAGCT*",
+        "GCT*GCTAGCT*CTAGCTA"
+      ]
+    },
+    {
+      "position": 64,
+      "generation": 43,
+      "organismId": "Organism_13328",
+      "sequences": [
+        "ATCGATCGATCGATCGATCG",
+        "ATCGATCGATCGATCGATCG",
+        "ATCGATCGATCAGTCGATCG",
+        "*GCTACTAGCT*G*TAGC*A",
+        "*CT*GCTAG*T*GCTAGCTA",
+        "*CTAGCTAGCTAGCTAGCT*",
+        "GCTAGCTAGC*AGCTAGCTA",
+        "GCTAGCTAGC*AGCTAGCTA",
+        "GCTAGCT**CTAGCTAGCTA",
+        "*TCTAGCTAA*CTCAGCTA"
+      ]
+    },
+    {
+      "position": 35,
+      "generation": 43,
+      "organismId": "Organism_14063",
+      "sequences": [
+        "ATCGATCATGATCGATCGATC*",
+        "A*CGATCGATCG*TCGATCG",
+        "A*CGATCGATCGATC*AT**",
+        "GCTAGCTAGCT*G*TAGCTA",
+        "GCT*GCT*GCTAGCTAGCTA",
+        "GCTAGCTAGCTAGC*AG*TA",
+        "GCTAGCTAGCATAG*TAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCT*GCTAGCTAT",
+        "GCTAGCTAAG*TAGCTA"
+      ]
+    },
+    {
+      "position": 90,
+      "generation": 43,
+      "organismId": "Organism_14202",
+      "sequences": [
+        "ATCGATCGAGATCGATCG",
+        "ATCGATCGATCGA*CGATCG",
+        "ATCGA**C*ATCGATCGA*CG",
+        "GCTAGCTAGCTAGCT*G*TA",
+        "GCTAGCTAGTA*CTAGCTA",
+        "GCTAGCTAGCTAGCTAGCT*",
+        "GCTAGCTAGCTAGCTAG*ATA",
+        "GCTAGCTAGAGC*TAGCTAGCAT",
+        "GCTAGCCTAAGCTAGCTA",
+        "AGCTGCTAGCTAGCTAGC*A"
+      ]
+    },
+    {
+      "position": 78,
+      "generation": 43,
+      "organismId": "Organism_13162",
+      "sequences": [
+        "ATCGATCGATCG*TCGATCG",
+        "ATC*ATCGATCGATCGATCG",
+        "*TCGATC*ATCG*TCGATC*",
+        "*CTA*CTA*CTAGCTAGCTA",
+        "*GCTAGCTAGCT*TAGCTAAG",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGC**GCTAGCTAGCTA",
+        "*CTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCT*GC*AGCT*",
+        "GCTAG*TAGCTAGCTAGCTA"
+      ]
+    },
+    {
+      "position": 41,
+      "generation": 44,
+      "organismId": "Organism_10460",
+      "sequences": [
+        "AT*GATCGATCGATCGATC*",
+        "A*CGA*CG*TCGATC*ATCG",
+        "ATCGATCGATCGATCGATTCG",
+        "GGCTACTAG*TA*CTA*CTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCT*GCTAGCTAGCTA",
+        "GCTAGCTAAG*TGCTAGCTA",
+        "GCTAGCTAGCTAG*TA*CTA",
+        "*CTAGCT*GCTAGCTAGCTA",
+        "GCTAGCTA*CTAGCTCAGCTA"
+      ]
+    },
+    {
+      "position": 6,
+      "generation": 44,
+      "organismId": "Organism_11735",
+      "sequences": [
+        "ATCGATCGATCGATCGATCG",
+        "ATTCGATCGATCG*TC*",
+        "ATCGATCGATCGATCGATCG",
+        "GCTCAGCT*GCTAGCTAGCAT",
+        "GCTAGCTAGCTAGCTAGCT*",
+        "GCT*GC*AGCTAGCTAGCTA",
+        "GCTAGCTAGCGCTTAGCTAGCTA",
+        "GCTGACTAGCTCAGCTATGCTA",
+        "G*TAGCTAGCTAGC*ACGTA",
+        "GC*AGCTAGCTAGCCAGCTA"
+      ]
+    },
+    {
+      "position": 47,
+      "generation": 44,
+      "organismId": "Organism_14738",
+      "sequences": [
+        "A*CGATCGATCG*TCGATCG",
+        "ATCG*TCG*TCGATCG*TC*",
+        "ATCGA*CGATCGATCGATCG",
+        "GCTAG*TAGCTAGCTAGCT*",
+        "GCCT**TAGCTAG**AGCAT",
+        "GCTAGCTCAGCTAGCTAGCTA",
+        "GCTAGCTAGCT*GCT*GCTA",
+        "G*T*GCTAGCTAGCTATGCTA",
+        "*CTA**TAGCTAAG**G*T*",
+        "GCTAG*T*GCTAGCTCAGCTA"
+      ]
+    },
+    {
+      "position": 63,
+      "generation": 44,
+      "organismId": "Organism_14573",
+      "sequences": [
+        "AT*GATCGATCGATCGATCG",
+        "ATCGATCGATCGATCGATCG",
+        "ATCGATCGATCGATCGA*CG",
+        "GCTA*GCATGCTAG*TAGC*A",
+        "GCTAGCTAGCTGCTAGAC*A",
+        "CTAGCTA*CT*GCTAGCTA",
+        "GCTAAG*TGCT*G*TAGCTA",
+        "GCTAG*TAGCTAGCTAGCTA",
+        "GCTAGCTAGC*AGCTAGCTA",
+        "GCTAGCTTAGCTAGCTA*CTA"
+      ]
+    },
+    {
+      "position": 76,
+      "generation": 44,
+      "organismId": "Organism_13956",
+      "sequences": [
+        "ATCGATCGATCGATCGAT*G",
+        "ATCGATCGATCGA*CGATCG",
+        "ATCGATCGATCGATCGATCG",
+        "GC*A*CTAGCTAGCCTT*GCTA",
+        "GCTAGCTAGCTAGC*AGCTA",
+        "GCTAGCT*GCTAGCTAGCTA",
+        "GC*AGCTAGCT*GCTAGCTA*",
+        "GCTAGCTA*CTAGCTAGCA*",
+        "GCTA*CTAG*T*GC**GCAT",
+        "GCTAGCTAGCTGCTAGCTA"
+      ]
+    },
+    {
+      "position": 69,
+      "generation": 45,
+      "organismId": "Organism_13796",
+      "sequences": [
+        "ATCGCAT*ATCGATCGATCG",
+        "ATCGGATCGAT*GATCG",
+        "ATCGATC*ATCGATCGTCG",
+        "GGCT*C*AGGCTACTAGCTA",
+        "GCTAGCTAGCTAGGCT*",
+        "GCTAG*TAGC*AGCTAGCTA",
+        "GCTA*CTAGCTAGCTAGCTA",
+        "GCT*GCAGC*GTAG*TAGCTA",
+        "GCTCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAG*TATCAGCT*"
+      ]
+    },
+    {
+      "position": 13,
+      "generation": 45,
+      "organismId": "Organism_14802",
+      "sequences": [
+        "AT*A*C*ATCGATCGATCGATCG",
+        "ATCGATC*CGATCGATCG",
+        "ATCGATCGATCGATCGATCG",
+        "GCTAGCTATA*GCTAGCTAGCTA",
+        "GC*A**TTAGCTAGCTAGCT*",
+        "GCCTAGTAGAGCTAGCTAGCTA",
+        "GCTATAGGCTAGCTAGCTAGCTA",
+        "GCTAG*TAGCT*GCTAGCTA",
+        "GCATAGCTAGCTAGCTAG*TA",
+        "GCTAGCTAGCTAGCTA*CTA"
+      ]
+    },
+    {
+      "position": 29,
+      "generation": 46,
+      "organismId": "Organism_15429",
+      "sequences": [
+        "ATCGATCGATCGATCGATCG",
+        "ATCGGA*TCGATCGATCGATC*",
+        "AT*GATCGATCGATG",
+        "GCTAGCTAGCTAGCT*G*TA",
+        "GCTAGCTTAGCTAGCTTA",
+        "GACTAGCTAGCTGCTA",
+        "GCTAGCTAGCCTAGCTAGCTA",
+        "GCTAGC*AGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTA*CTA"
+      ]
+    },
+    {
+      "position": 5,
+      "generation": 46,
+      "organismId": "Organism_14165",
+      "sequences": [
+        "ATCGATCGATCGACGATCGATCG",
+        "ATCGATCG*TCG*TCGATCG",
+        "ATCGATCGA*CGA*C*ATCG",
+        "*CTAGCTAGCTAGCTAG*TA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCT*GCTAG*TA*CTA",
+        "GCTAGCTAGCTAGCTACGTA",
+        "GCTAGCTAGCTAGCTATGCTA",
+        "GCTAG*TAGCTAGCCTAGTA",
+        "GCAGC*AGCTTAGCCAGCTA"
+      ]
+    },
+    {
+      "position": 15,
+      "generation": 46,
+      "organismId": "Organism_15205",
+      "sequences": [
+        "ATCGAT*GATCGATCGATCG",
+        "ATCGATCGATCG**CGATCG",
+        "ATCGGATCATCGATCGAT*G",
+        "GCTAGCTAGCTAG*TAGCTA",
+        "GCTAGCTAGCTAGCTAGCT*",
+        "GCTAAGCT*GCTAGCT*GCTA",
+        "GCTAGCTAGCT**GCCTGTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCT*GCTAGCTAGCT*GCTA",
+        "GCCTAGCTAGCTAGCTA"
+      ]
+    },
+    {
+      "position": 60,
+      "generation": 46,
+      "organismId": "Organism_12506",
+      "sequences": [
+        "A*CGATCTGATCG*TCGATCG",
+        "ATCGTCGA**GATCGATCG",
+        "ATCTGATCGATCGATCG",
+        "GCTAGCTAGCT*GCTAGCTA",
+        "GCTAGCTAGCTAGC*AGCTA",
+        "GCT*GCTAGCTAGC*AGCTA",
+        "GCTAGCTAGC*AGCTAGCTA",
+        "GCTAGCTAG*TAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAG*TAGCTAGCTA"
+      ]
+    },
+    {
+      "position": 92,
+      "generation": 47,
+      "organismId": "Organism_16036",
+      "sequences": [
+        "ATCGATCGATCGATCGATCG",
+        "ATCGATCGATCGATCGATCG",
+        "ATCGATCGATCGATCGATCG",
+        "GCTAGCTAGCTAGC*AGCTA",
+        "GGCTAGCTAGCTCTTAAG",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGC*AGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGC*AGCTA",
+        "GCTAGCTAGCTAGCTAGCTA"
+      ]
+    },
+    {
+      "position": 73,
+      "generation": 47,
+      "organismId": "Organism_15558",
+      "sequences": [
+        "ATCGA*CGATCGATCGAT*G",
+        "ATC*ATCGATCGATCGATCG",
+        "ATCGATCGATCGATCGATCG",
+        "GCTAGCTAGCTAGCT*GCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCT*GCTAGCTA",
+        "GCTAGCTAGTCTAGCTAG*TA",
+        "GCTAGCTAGCT*GCTAGCTA",
+        "GCTAGCT*GCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA"
+      ]
+    },
+    {
+      "position": 1,
+      "generation": 47,
+      "organismId": "Organism_16183",
+      "sequences": [
+        "A*CGATCGAGATCGATCG",
+        "ATCGA*CGATCG*TCGAT*G",
+        "ATCGATCGATCGATCGA*CG",
+        "GGCTAC*AGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAG*TA",
+        "GCTAA*CTAGCTTAGCA",
+        "GCTAGCTAGCTAGC*AG*T",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTCAGCTA"
+      ]
+    },
+    {
+      "position": 45,
+      "generation": 47,
+      "organismId": "Organism_15582",
+      "sequences": [
+        "ATCGAT*GATCGATCGATCG",
+        "ATCGATCGATCGATCGATCG",
+        "ATCGAATCGATCGA*CGATCG",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCT*GCTAGTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGC*AGCATA",
+        "GCTAGCTAGAGCCTAGCATAGACTA",
+        "GCTAGCCTAAG*TAGCTA",
+        "AGCTGCTAGCTAGCTAGCTA"
+      ]
+    },
+    {
+      "position": 24,
+      "generation": 47,
+      "organismId": "Organism_14847",
+      "sequences": [
+        "ATCGATCG**CGAGATCGATCG",
+        "ATCGAGTCGATCGATCGATCG",
+        "ACGATCGATCGATCGATCG",
+        "GCTAGCTAGCTAGCTAGCT*",
+        "G*T*GCTAGCTAAGCTAG*TA",
+        "GCTAGCTAGCTAGCTATGCA",
+        "GCTAGGCTACTAG*CT*A",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCT*GCTAGCTAGCT*GCTA"
+      ]
+    },
+    {
+      "position": 83,
+      "generation": 47,
+      "organismId": "Organism_14917",
+      "sequences": [
+        "ATCGA*CGATCGATCGATCG",
+        "ATCGATCGATCGATCGATCG",
+        "ATCGATCGATCGATCGATCG",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAG*TAGCTAGCTAGCAT",
+        "GCTA*CTCAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTATGCTA",
+        "GCTAGCTAGCTAAG*TG*TA",
+        "GCTAGCTAGCTAGCTCAGCTA"
+      ]
+    },
+    {
+      "position": 54,
+      "generation": 47,
+      "organismId": "Organism_13617",
+      "sequences": [
+        "ATCGATCCGATGATCGATCG",
+        "ATCGATCGATCGATCGATCG",
+        "ATCGATCGATCGATC*ATCG",
+        "G*TAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GGCTA*AGGCAGCTAGCTAGCTA",
+        "GCTA*CT*GCTGACTAGCTA"
+      ]
+    },
+    {
+      "position": 99,
+      "generation": 48,
+      "organismId": "Organism_16285",
+      "sequences": [
+        "AATCGTCGATCGACGATCGATCG",
+        "ATCGATCGATCGATCGCG",
+        "ATCGATCGTACGATCGATCG",
+        "GGCTACCTAGCTAGCTA",
+        "GCTAGCTA*CTAGCTAGCTA",
+        "GCTAGCTAGCGCTTA",
+        "GCTAGCTAGCTAAGC*A",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GC*A*CTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCT*A**TA"
+      ]
+    },
+    {
+      "position": 97,
+      "generation": 48,
+      "organismId": "Organism_16491",
+      "sequences": [
+        "ATCGATCGA*CGTCGATCG",
+        "ATCGATCGATCTGACGATCG",
+        "ATCGAT*GATCGATCGATCG",
+        "GCTAGCTTAGCAGCTTAGCTA",
+        "*CTAGCTAGCT*GCTAGCTA",
+        "GCTAGCTAGCTAGCTGACTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCAGCTAGCTAG*TA",
+        "GCTAGCTAGCTAGCTAGCTA"
+      ]
+    },
+    {
+      "position": 27,
+      "generation": 48,
+      "organismId": "Organism_15671",
+      "sequences": [
+        "ATCGATCGATCGATCGATCG",
+        "ATCGATCGATCGATCGATCG",
+        "ATCGATCGATCGATTCG",
+        "GCTAGCTAGCT**CTAG***",
+        "GCTAGCTAGCGCTTAGCTAGCTCA",
+        "GCTACTAGCTAGCTAGCTA",
+        "*CTAGCGCTAGCTAGCTA",
+        "GCTAGCTAGGC*AGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA"
+      ]
+    },
+    {
+      "position": 44,
+      "generation": 48,
+      "organismId": "Organism_15595",
+      "sequences": [
+        "ATCGATCGATCGATCGATCG",
+        "ATCGATCGATC*ATCGATCG",
+        "ATCGC*ATCGATCCG",
+        "*CTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCT*GCC*TCTAGCTA",
+        "GCT*GCTAGCGCTAATAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAAGCTGCTAGCTA",
+        "GCTAGCTAGCT*GCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCCTA"
+      ]
+    },
+    {
+      "position": 45,
+      "generation": 48,
+      "organismId": "Organism_16059",
+      "sequences": [
+        "ATCGATCGATCGATCTGATCG",
+        "ATCGATCGATCGATCGATCG",
+        "ATCGATCGATCGATCGATCG",
+        "CTAGCTAG*TAGCTAGCTA",
+        "GCTAGCTAGCTAGCT*GCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGTCCTAGCTA",
+        "GCTAGCT*GCTAGGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA"
+      ]
+    },
+    {
+      "position": 20,
+      "generation": 48,
+      "organismId": "Organism_16076",
+      "sequences": [
+        "ATCGATCGATCGATCGATCG",
+        "ATCGATCGATCGATCGATCG",
+        "ATCGATCGATCGATCGATCG",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCGCTAG*T*",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "G*TAGCTAGCTAGACTAGCTA",
+        "G*TAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTCAGCTA"
+      ]
+    },
+    {
+      "position": 98,
+      "generation": 48,
+      "organismId": "Organism_16269",
+      "sequences": [
+        "ATCGATCGATCGATTCGACG",
+        "ATCGATCGATCGATCGATCG",
+        "ATGCATCGATCGATCGATCG",
+        "GGCTACTAGCTAGCTAGCTA",
+        "GCT*GCTAGCTAGCT*GCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCCTAGTAGCTAGCTA*CTAG",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTCTA*CTAGCTAGCA",
+        "GCTAGCTAGC*CTCAGCTA"
+      ]
+    },
+    {
+      "position": 65,
+      "generation": 49,
+      "organismId": "Organism_16679",
+      "sequences": [
+        "ATCGATCGATCGATCGATCG",
+        "ATGACGATCGATCGATCG",
+        "ATCGATCGATCGATCGATCG",
+        "GACTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA"
+      ]
+    },
+    {
+      "position": 36,
+      "generation": 49,
+      "organismId": "Organism_15252",
+      "sequences": [
+        "ATCGATCGATCGATCGATCG",
+        "ATCGATCGATCGATCGATCG",
+        "AT*GATCGATCGATCGATCG",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGTAG*TA",
+        "GCTAGCT*GCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCCTA",
+        "GCTAGCTAGCTAGCTTAGCTA"
+      ]
+    },
+    {
+      "position": 34,
+      "generation": 49,
+      "organismId": "Organism_17177",
+      "sequences": [
+        "ATCGATCGATCGATCGATCG",
+        "ATCGATCGATCGATCGATCG",
+        "ATCGATCGATCGATCGATCG",
+        "GCTAGCATGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "CTAGCTAG*TAGCTAGCTA",
+        "GCTGCTAG*TAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTGCAGCTAGGCTACTAGCTA",
+        "GCTCAGTAGCT*GCTAGCTT*"
+      ]
+    },
+    {
+      "position": 72,
+      "generation": 49,
+      "organismId": "Organism_14946",
+      "sequences": [
+        "ATCGATCGATCGATCGATGC",
+        "ATCG*TCGA*CGATCGATCG",
+        "ATCGATCGATCGATCGATCG",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "*CTAGCTAGCTAGCTAGCTA",
+        "GCTAGAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTTAGCTAGCTAGCTA",
+        "GCTGAGCTAGCGCAGTATGCAGCTA",
+        "GCTAGCTAGCTAGCTACGTA"
+      ]
+    },
+    {
+      "position": 88,
+      "generation": 50,
+      "organismId": "Organism_16064",
+      "sequences": [
+        "ATCGACGATCGATCGCGATATCG",
+        "ATCGATCGATCGATCGAATCG",
+        "ATCGATCGATCGATCGATCG",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGGCTCTA",
+        "GCCTAGCTAGCTAGCTAGTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTAT",
+        "GCTAGCTAGCTACGTAGCTA"
+      ]
+    },
+    {
+      "position": 21,
+      "generation": 50,
+      "organismId": "Organism_16381",
+      "sequences": [
+        "ATCGATCGATCGATCGATCG",
+        "ATCGATCGATCGATCGATCG",
+        "ATCGATCGATCGATCGATCG",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCCTAAGTGCTAGCTAGCTA",
+        "GCTAGAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "AGGCTAGCTAGCTAGCTAGCTA"
+      ]
+    },
+    {
+      "position": 97,
+      "generation": 50,
+      "organismId": "Organism_17320",
+      "sequences": [
+        "ATCGATCGATCGATCGATCG",
+        "ATCGATCGATCGATCGATCG",
+        "ATCGATCGATCGATCGATCG",
+        "GCTAGCTAGCTAGCTGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "CGCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTGCTAGCTA"
+      ]
+    },
+    {
+      "position": 75,
+      "generation": 50,
+      "organismId": "Organism_17663",
+      "sequences": [
+        "TCATCGATCGATCGATCGATCG",
+        "ATCGATCGATCGATCGATCG",
+        "ATCGATCGATCGATCGATCG",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCCTAGTAGCTAGCTAGCTA",
+        "GCTAGAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "AGGCTAGCTAGAGCCGTACGCTA"
+      ]
+    },
+    {
+      "position": 50,
+      "generation": 50,
+      "organismId": "Organism_17558",
+      "sequences": [
+        "ATCGATCGATCGATCGATCG",
+        "ATCGATCGATCGATCGATCG",
+        "ATCGATCGATCGATCGATCG",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA"
+      ]
+    },
+    {
+      "position": 99,
+      "generation": 50,
+      "organismId": "Organism_17409",
+      "sequences": [
+        "ATCGATCGATCGATCGATCG",
+        "ATCGATCGATCGATCGATCG",
+        "AGTCATCGGATCGATCG",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCCTATGAGCTAGCTAA",
+        "GCTAGAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "GCTAGCTAGCTAGCTAGCTA",
+        "AGGCTAGCTAGCTAGCTAGTCA"
+      ]
+    }
+  ],
+  "metadata": {
+    "totalFossils": 158,
+    "totalGenes": 1580,
+    "fossilizationProbability": 0.01,
+    "fossilHalfLife": 50,
+    "optimized": true,
+    "damageApplied": true
+  }
+}

@@ -1,5 +1,6 @@
 using SimulationEvolucion.Core.Models;
 using SimulationEvolucion.Services;
+using SimulationEvolucion.SimulationData.Documentation;
 
 namespace SimulationEvolucion;
 
@@ -23,7 +24,10 @@ class Program
             SelectedGeneRatio = 0.3, // 30% genes seleccionados, 70% neutrales
             MaxGenerations = 50,
             LogProgress = true,
-            LogInterval = 10
+            LogInterval = 10,
+            EnableFossilRecord = true,          // Habilitar registro fósil para cladograma
+            FossilizationProbability = 0.01,   // 1% probabilidad de fosilización
+            FossilHalfLife = 50                 // Vida media de fósiles
         };
         
         // Crear y ejecutar simulación
@@ -39,6 +43,12 @@ class Program
         Console.WriteLine($"  Longitud de genes: {config.GeneLength}");
         Console.WriteLine($"  Proporción genes seleccionados: {config.SelectedGeneRatio:P}");
         Console.WriteLine($"  Generaciones: {config.MaxGenerations}");
+        Console.WriteLine($"  Registro fósil: {(config.EnableFossilRecord ? "Habilitado" : "Deshabilitado")}");
+        if (config.EnableFossilRecord)
+        {
+            Console.WriteLine($"  Probabilidad de fosilización: {config.FossilizationProbability:P}");
+            Console.WriteLine($"  Vida media de fósiles: {config.FossilHalfLife} generaciones");
+        }
         Console.WriteLine();
         
         // Inicializar simulación
@@ -51,10 +61,62 @@ class Program
         // Analizar resultados
         simulation.AnalyzeGeneticDrift();
         
+        // Generar y analizar cladograma
+        Console.WriteLine("\n" + new string('=', 60));
+        Console.WriteLine("GENERANDO CLADOGRAMA FILOGENÉTICO");
+        Console.WriteLine(new string('=', 60));
+        
+        try
+        {
+            // Analizar cladograma completo
+            simulation.AnalyzeCladogram();
+            
+            // Exportar cladogramas
+            simulation.ExportCladogramToText("SimulationData/Cladograms/cladograma_completo.txt");
+            simulation.ExportCladogramToNewick("SimulationData/Cladograms/cladograma_completo.newick");
+            
+            // Exportar cladograma solo de organismos vivos
+            simulation.ExportLivingOrganismsCladogramToText("SimulationData/Cladograms/cladograma_vivos.txt");
+            
+            // Exportar cladograma solo de fósiles
+            simulation.ExportFossilsCladogramToText("SimulationData/Cladograms/cladograma_fosiles.txt");
+            
+            Console.WriteLine("\nCladogramas exportados exitosamente:");
+            Console.WriteLine("  - SimulationData/Cladograms/cladograma_completo.txt (formato texto)");
+            Console.WriteLine("  - SimulationData/Cladograms/cladograma_completo.newick (formato Newick)");
+            Console.WriteLine("  - SimulationData/Cladograms/cladograma_vivos.txt (solo organismos vivos)");
+            Console.WriteLine("  - SimulationData/Cladograms/cladograma_fosiles.txt (solo fósiles)");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error al generar cladograma: {ex.Message}");
+        }
+        
         // Exportar resultados
-        var resultsPath = "simulation_results.csv";
+        var resultsPath = "SimulationData/Results/simulation_results.csv";
         simulation.ExportResults(resultsPath);
         Console.WriteLine($"\nResultados exportados a: {resultsPath}");
+        
+        // Exportar registro fósil
+        if (config.EnableFossilRecord)
+        {
+            var fossilsPath = "SimulationData/Results/fosiles.json";
+            simulation.ExportFossils(fossilsPath);
+            
+            // Mostrar estadísticas de fósiles
+            var fossilStats = simulation.GetFossilStatistics();
+            if (fossilStats != null)
+            {
+                Console.WriteLine("\n=== ESTADÍSTICAS DEL REGISTRO FÓSIL ===");
+                Console.WriteLine($"Total de fósiles: {fossilStats.TotalFossils}");
+                Console.WriteLine($"Promedio de genes por fósil: {fossilStats.AverageGenesPerFossil:F2}");
+                Console.WriteLine($"Longitud promedio preservada: {fossilStats.AveragePreservedLength:F2}");
+                Console.WriteLine($"Genes seleccionados: {fossilStats.SelectedGenesCount}");
+                Console.WriteLine($"Genes neutrales: {fossilStats.NeutralGenesCount}");
+                Console.WriteLine($"Genes vacíos: {fossilStats.EmptyGenesCount}");
+                Console.WriteLine($"Tasa de preservación: {fossilStats.PreservationRate:P2}");
+            }
+        }
         
         // Mostrar algunos organismos finales como ejemplo
         ShowSampleOrganisms(simulation);
@@ -77,6 +139,12 @@ class Program
                 simulation.ExportResults(resultsPath);
                 Console.WriteLine($"\nResultados actualizados exportados a: {resultsPath}");
                 
+                // Exportar registro fósil actualizado
+                if (config.EnableFossilRecord)
+                {
+                    simulation.ExportFossils("fosiles.json");
+                }
+                
                 // Mostrar algunos organismos finales como ejemplo
                 ShowSampleOrganisms(simulation);
             }
@@ -91,6 +159,19 @@ class Program
         }
         
         Console.WriteLine("\nSimulación completada. Presiona cualquier tecla para salir...");
+        Console.ReadKey();
+        
+        // Opción de demostrar cladograma
+        Console.WriteLine("\n¿Deseas ver una demostración del cladograma? (Y/N)");
+        var cladogramResponse = Console.ReadLine()?.ToUpper();
+        
+        if (cladogramResponse == "Y" || cladogramResponse == "YES")
+        {
+            Console.WriteLine("\nEjecutando demostración del cladograma...");
+            CladogramDemo.RunDemo();
+        }
+        
+        Console.WriteLine("\nPresiona cualquier tecla para salir...");
         Console.ReadKey();
     }
     

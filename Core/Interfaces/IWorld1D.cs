@@ -1,4 +1,5 @@
 using SimulationEvolucion.Core.Models;
+using SimulationEvolucion.Services;
 
 namespace SimulationEvolucion.Core.Interfaces;
 
@@ -12,6 +13,12 @@ public interface IWorld1D
     
     /// <summary>Organismos en el mundo</summary>
     List<IOrganism> Organisms { get; }
+    
+    /// <summary>Optimized fossil manager for recording deaths</summary>
+    OptimizedFossilManager? FossilManager { get; set; }
+    
+    /// <summary>Current generation number</summary>
+    int CurrentGeneration { get; set; }
     
     /// <summary>Agrega un organismo al mundo</summary>
     void AddOrganism(IOrganism organism);

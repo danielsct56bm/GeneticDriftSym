@@ -24,4 +24,7 @@ public interface IOrganism
     
     /// <summary>Obtiene genes por tipo</summary>
     List<IGene> GetGenesByType(GeneType type);
+    
+    /// <summary>Mark fitness as dirty when organism changes (for caching optimization)</summary>
+    void MarkFitnessDirty();
 }
