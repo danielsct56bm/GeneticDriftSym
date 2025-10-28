@@ -12,7 +12,8 @@ public class SimulationEngine : ISimulationEngine
     public IWorld1D World { get; private set; }
     public SimulationConfig Config { get; private set; }
     public List<PopulationStatistics> History { get; private set; }
-    public FossilManager? FossilManager { get; private set; }
+    public OptimizedFossilManager? FossilManager { get; private set; }
+    public CladogramBuilder? CladogramBuilder { get; private set; }
     
     private Random _random;
     private int _currentGeneration;
@@ -31,12 +32,15 @@ public class SimulationEngine : ISimulationEngine
             config.CarryingCapacity
         );
         
-        // Initialize fossil manager if fossil record is enabled
+        // Initialize optimized fossil manager if fossil record is enabled
         if (config.EnableFossilRecord)
         {
-            FossilManager = new FossilManager(config.FossilizationProbability, config.FossilHalfLife);
+            FossilManager = new OptimizedFossilManager(config.FossilizationProbability, config.FossilHalfLife);
             World.FossilManager = FossilManager;
         }
+        
+        // Initialize cladogram builder
+        CladogramBuilder = new CladogramBuilder(seed);
     }
     
     public void Initialize(Random? random = null)
@@ -76,36 +80,37 @@ public class SimulationEngine : ISimulationEngine
     
     public void RunSimulation(int generations)
     {
-        Console.WriteLine($"Iniciando simulación de {generations} generaciones...");
+        Console.WriteLine($"Starting simulation of {generations} generations...");
         
         for (int generation = 1; generation <= generations; generation++)
         {
             RunGeneration();
             
+            // Only calculate expensive statistics when needed for logging
             if (Config.LogProgress && generation % Config.LogInterval == 0)
             {
                 var stats = GetCurrentStatistics();
                 LogStatistics(generation, stats);
             }
             
-            // Log cada 5 generaciones para ver crecimiento
+            // Log every 5 generations for growth monitoring (lightweight stats only)
             if (generation % 5 == 0)
             {
                 var stats = GetCurrentStatistics();
-                Console.WriteLine($"Gen {generation}: {stats.TotalOrganisms} organismos, " +
+                Console.WriteLine($"Gen {generation}: {stats.TotalOrganisms} organisms, " +
                                 $"diversidad neutral: {stats.GeneDiversity.GetValueOrDefault("neutral", 0):F3}, " +
                                 $"diversidad seleccionada: {stats.GeneDiversity.GetValueOrDefault("selected", 0):F3}");
             }
         }
         
-        Console.WriteLine("\nSimulación completada!");
+        Console.WriteLine("\nSimulation completed!");
         
         // Apply fossil decay if fossil record is enabled
         if (Config.EnableFossilRecord && FossilManager != null)
         {
-            Console.WriteLine("Aplicando decadencia de fósiles...");
-            FossilManager.ApplyDecay(_currentGeneration, _random);
-            Console.WriteLine($"Fósiles después de decadencia: {FossilManager.TotalFossils}");
+            Console.WriteLine("Applying final fossil damage...");
+            FossilManager.ApplyFinalDamage(_currentGeneration);
+            Console.WriteLine($"Fossils after final damage: {FossilManager.TotalFossils}");
         }
     }
     
@@ -114,13 +119,42 @@ public class SimulationEngine : ISimulationEngine
         _currentGeneration++;
         World.CurrentGeneration = _currentGeneration;
         World.Evolve(_random);
-        var stats = World.GetStatistics();
+        
+        // Only calculate full statistics when needed (for history)
+        // Use lightweight stats for frequent monitoring
+        var stats = GetLightweightStatistics();
         History.Add(stats);
     }
     
     public PopulationStatistics GetCurrentStatistics()
     {
         return World.GetStatistics();
+    }
+    
+    /// <summary>
+    /// Get lightweight statistics for frequent monitoring (without expensive diversity calculations)
+    /// </summary>
+    public PopulationStatistics GetLightweightStatistics()
+    {
+        var stats = new PopulationStatistics
+        {
+            TotalOrganisms = World.Organisms.Count
+        };
+        
+        if (World.Organisms.Any())
+        {
+            var fitnesses = World.Organisms.Select(o => o.CalculateFitness()).ToList();
+            stats.AverageFitness = fitnesses.Average();
+            stats.FitnessVariance = fitnesses.Variance();
+            
+            // Count genes by type (fast operations)
+            stats.SelectedGenesCount = World.Organisms.SelectMany(o => o.GetGenesByType(GeneType.Selected)).Count();
+            stats.NeutralGenesCount = World.Organisms.SelectMany(o => o.GetGenesByType(GeneType.Neutral)).Count();
+            
+            // Skip expensive diversity calculations for lightweight stats
+        }
+        
+        return stats;
     }
     
     private void LogStatistics(int generation, PopulationStatistics stats)
@@ -147,6 +181,13 @@ public class SimulationEngine : ISimulationEngine
     
     public void ExportResults(string filePath)
     {
+        // Asegurar que la carpeta existe
+        var directory = Path.GetDirectoryName(filePath);
+        if (!string.IsNullOrEmpty(directory) && !Directory.Exists(directory))
+        {
+            Directory.CreateDirectory(directory);
+        }
+
         using var writer = new StreamWriter(filePath);
         
         // Escribir encabezado
@@ -162,6 +203,8 @@ public class SimulationEngine : ISimulationEngine
             writer.WriteLine($"{i},{stats.TotalOrganisms},{stats.AverageFitness:F6},{stats.FitnessVariance:F6}," +
                            $"{stats.SelectedGenesCount},{stats.NeutralGenesCount},{neutralDiversity:F6},{selectedDiversity:F6}");
         }
+        
+        Console.WriteLine($"✅ Resultados exportados a {filePath}");
     }
     
     public void AnalyzeGeneticDrift()
@@ -243,20 +286,231 @@ public class SimulationEngine : ISimulationEngine
     {
         if (Config.EnableFossilRecord && FossilManager != null)
         {
+            // Asegurar que la carpeta existe
+            var directory = Path.GetDirectoryName(filePath);
+            if (!string.IsNullOrEmpty(directory) && !Directory.Exists(directory))
+            {
+                Directory.CreateDirectory(directory);
+            }
+            
             FossilManager.SaveToJson(filePath);
-            Console.WriteLine($"Registro fósil exportado a: {filePath}");
+            Console.WriteLine($"✅ Registro fósil exportado a: {filePath}");
         }
     }
     
     /// <summary>
     /// Gets fossil statistics
     /// </summary>
-    public FossilStatistics? GetFossilStatistics()
+    public OptimizedFossilStatistics? GetFossilStatistics()
     {
         if (Config.EnableFossilRecord && FossilManager != null)
         {
             return FossilManager.GetStatistics();
         }
         return null;
+    }
+    
+    /// <summary>
+    /// Builds a cladogram from current living organisms and fossils
+    /// </summary>
+    public Cladogram BuildCladogram()
+    {
+        if (CladogramBuilder == null)
+        {
+            throw new InvalidOperationException("CladogramBuilder not initialized");
+        }
+        
+        var livingOrganisms = World.Organisms.ToList();
+        var fossils = FossilManager?.GetAllFossils() ?? new List<LazyFossil>();
+        
+        return CladogramBuilder.BuildCladogram(livingOrganisms, fossils, _currentGeneration);
+    }
+    
+    /// <summary>
+    /// Builds a cladogram from only living organisms
+    /// </summary>
+    public Cladogram BuildLivingOrganismsCladogram()
+    {
+        if (CladogramBuilder == null)
+        {
+            throw new InvalidOperationException("CladogramBuilder not initialized");
+        }
+        
+        var livingOrganisms = World.Organisms.ToList();
+        return CladogramBuilder.BuildLivingOrganismsCladogram(livingOrganisms, _currentGeneration);
+    }
+    
+    /// <summary>
+    /// Builds a cladogram from only fossils
+    /// </summary>
+    public Cladogram BuildFossilsCladogram()
+    {
+        if (CladogramBuilder == null)
+        {
+            throw new InvalidOperationException("CladogramBuilder not initialized");
+        }
+        
+        var fossils = FossilManager?.GetAllFossils() ?? new List<LazyFossil>();
+        return CladogramBuilder.BuildFossilsCladogram(fossils);
+    }
+    
+    /// <summary>
+    /// Exports cladogram to text file
+    /// </summary>
+    public void ExportCladogramToText(string filePath)
+    {
+        // Asegurar que la carpeta existe
+        var directory = Path.GetDirectoryName(filePath);
+        if (!string.IsNullOrEmpty(directory) && !Directory.Exists(directory))
+        {
+            Directory.CreateDirectory(directory);
+        }
+        
+        var cladogram = BuildCladogram();
+        var text = cladogram.ExportToText();
+        
+        File.WriteAllText(filePath, text);
+        Console.WriteLine($"✅ Cladograma exportado a: {filePath}");
+    }
+    
+    /// <summary>
+    /// Exports cladogram to Newick format file
+    /// </summary>
+    public void ExportCladogramToNewick(string filePath)
+    {
+        // Asegurar que la carpeta existe
+        var directory = Path.GetDirectoryName(filePath);
+        if (!string.IsNullOrEmpty(directory) && !Directory.Exists(directory))
+        {
+            Directory.CreateDirectory(directory);
+        }
+        
+        var cladogram = BuildCladogram();
+        var newick = cladogram.ExportToNewick();
+        
+        File.WriteAllText(filePath, newick);
+        Console.WriteLine($"✅ Cladograma en formato Newick exportado a: {filePath}");
+    }
+    
+    /// <summary>
+    /// Exports living organisms cladogram to text file
+    /// </summary>
+    public void ExportLivingOrganismsCladogramToText(string filePath)
+    {
+        // Asegurar que la carpeta existe
+        var directory = Path.GetDirectoryName(filePath);
+        if (!string.IsNullOrEmpty(directory) && !Directory.Exists(directory))
+        {
+            Directory.CreateDirectory(directory);
+        }
+        
+        var cladogram = BuildLivingOrganismsCladogram();
+        var text = cladogram.ExportToText();
+        
+        File.WriteAllText(filePath, text);
+        Console.WriteLine($"✅ Cladograma de organismos vivos exportado a: {filePath}");
+    }
+    
+    /// <summary>
+    /// Exports fossils cladogram to text file
+    /// </summary>
+    public void ExportFossilsCladogramToText(string filePath)
+    {
+        // Asegurar que la carpeta existe
+        var directory = Path.GetDirectoryName(filePath);
+        if (!string.IsNullOrEmpty(directory) && !Directory.Exists(directory))
+        {
+            Directory.CreateDirectory(directory);
+        }
+        
+        var cladogram = BuildFossilsCladogram();
+        var text = cladogram.ExportToText();
+        
+        File.WriteAllText(filePath, text);
+        Console.WriteLine($"✅ Cladograma de fósiles exportado a: {filePath}");
+    }
+    
+    /// <summary>
+    /// Analyzes and displays cladogram statistics
+    /// </summary>
+    public void AnalyzeCladogram()
+    {
+        Console.WriteLine("=== ANÁLISIS DEL CLADOGRAMA ===");
+        
+        try
+        {
+            var cladogram = BuildCladogram();
+            var stats = cladogram.GetStatistics();
+            
+            Console.WriteLine($"Total nodos: {stats.TotalNodes}");
+            Console.WriteLine($"Total hojas: {stats.TotalLeaves}");
+            Console.WriteLine($"  - Fósiles: {stats.TotalFossils}");
+            Console.WriteLine($"  - Organismos vivos: {stats.TotalLiving}");
+            Console.WriteLine($"Profundidad del árbol: {stats.TreeDepth}");
+            Console.WriteLine($"Longitud total del árbol: {stats.TreeLength:F3}");
+            
+            if (stats.MinGeneration.HasValue && stats.MaxGeneration.HasValue)
+            {
+                Console.WriteLine($"Rango de generaciones: {stats.MinGeneration} - {stats.MaxGeneration} (span: {stats.GenerationSpan})");
+            }
+            
+            if (stats.MinPosition.HasValue && stats.MaxPosition.HasValue)
+            {
+                Console.WriteLine($"Rango de posiciones: {stats.MinPosition} - {stats.MaxPosition} (span: {stats.PositionSpan})");
+            }
+            
+            Console.WriteLine();
+            
+            // Display tree structure
+            Console.WriteLine("Estructura del árbol:");
+            Console.WriteLine(cladogram.ExportToText());
+            
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error al construir el cladograma: {ex.Message}");
+        }
+    }
+    
+    /// <summary>
+    /// Analyzes and displays cladogram with enhanced visualization
+    /// </summary>
+    public void AnalyzeCladogramWithVisualization()
+    {
+        Console.WriteLine("=== ANÁLISIS DEL CLADOGRAMA CON VISUALIZACIÓN ===");
+        
+        try
+        {
+            var cladogram = BuildCladogram();
+            var visualizer = new CladogramVisualizer();
+            
+            // Show comprehensive visualization
+            Console.WriteLine(visualizer.CreateComprehensiveVisualization(cladogram));
+            
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error al construir el cladograma: {ex.Message}");
+        }
+    }
+    
+    /// <summary>
+    /// Exports cladogram with enhanced visualization to text file
+    /// </summary>
+    public void ExportCladogramWithVisualization(string filePath)
+    {
+        // Asegurar que la carpeta existe
+        var directory = Path.GetDirectoryName(filePath);
+        if (!string.IsNullOrEmpty(directory) && !Directory.Exists(directory))
+        {
+            Directory.CreateDirectory(directory);
+        }
+        
+        var cladogram = BuildCladogram();
+        var visualizer = new CladogramVisualizer();
+        var visualization = visualizer.CreateComprehensiveVisualization(cladogram);
+        
+        File.WriteAllText(filePath, visualization);
+        Console.WriteLine($"✅ Cladograma con visualización exportado a: {filePath}");
     }
 }

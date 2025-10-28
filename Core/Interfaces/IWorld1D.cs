@@ -14,8 +14,8 @@ public interface IWorld1D
     /// <summary>Organismos en el mundo</summary>
     List<IOrganism> Organisms { get; }
     
-    /// <summary>Fossil manager for recording deaths</summary>
-    FossilManager? FossilManager { get; set; }
+    /// <summary>Optimized fossil manager for recording deaths</summary>
+    OptimizedFossilManager? FossilManager { get; set; }
     
     /// <summary>Current generation number</summary>
     int CurrentGeneration { get; set; }
