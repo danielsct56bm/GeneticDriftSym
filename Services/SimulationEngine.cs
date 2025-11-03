@@ -47,18 +47,11 @@ public class SimulationEngine : ISimulationEngine
     {
         var rng = random ?? _random;
         
-        // Secuencias iniciales comunes para todos los organismos
-        var initialSequences = new Dictionary<GeneType, string>
-        {
-            { GeneType.Selected, "ATCGATCGATCGATCGATCG" },  // 20 nucleótidos
-            { GeneType.Neutral, "GCTAGCTAGCTAGCTAGCTA" }    // 20 nucleótidos
-        };
-        
-        // Crear población inicial
+        // Crear población inicial con genes aleatorios por organismo
         for (int i = 0; i < Config.InitialPopulationSize; i++)
         {
             var position = rng.Next(Config.WorldSize);
-            var organism = new Organism(position, rng, Config.GeneCount, Config.GeneLength, initialSequences);
+            var organism = new Organism(position, rng, Config.GeneCount, Config.GeneLength, initialSequences: null);
             
             World.AddOrganism(organism);
         }
@@ -70,9 +63,7 @@ public class SimulationEngine : ISimulationEngine
         if (Config.LogProgress)
         {
             Console.WriteLine($"Simulación inicializada: {initialStats.TotalOrganisms} organismos");
-            Console.WriteLine($"Todos los organismos empiezan con las mismas secuencias:");
-            Console.WriteLine($"  Genes seleccionados: {initialSequences[GeneType.Selected]}");
-            Console.WriteLine($"  Genes neutrales: {initialSequences[GeneType.Neutral]}");
+            Console.WriteLine($"Genes iniciales generados aleatoriamente por organismo (secuencias distintas).");
             LogStatistics(0, initialStats);
         }
     }

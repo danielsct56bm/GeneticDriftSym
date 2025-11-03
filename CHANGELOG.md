@@ -1,5 +1,95 @@
 # Changelog
 
+## Versión 3.0.0 - Sistema de Menú Interactivo
+
+### 🎯 Características Principales
+
+#### 🖥️ Sistema de Menú Inicial
+- **MenuManager**: Gestor completo de menús interactivos
+- **Menú principal**: 4 opciones principales (Iniciar Simulación, Configuración, Generar Cladograma, Salir)
+- **Navegación intuitiva**: Sistema de menús con validación de entrada
+- **Interfaz limpia**: Pantallas claras con información contextual
+
+#### ⚙️ Configuración Interactiva
+- **Submenú de configuración**: Tres modos de configuración disponibles
+- **Configuración Completa**: Todos los parámetros editables (WorldSize, InitialPopulationSize, CarryingCapacity, MutationRate, SelectionStrength, GeneCount, GeneLength, SelectedGeneRatio, MaxGenerations, FossilizationProbability, FossilHalfLife)
+- **Configuración Básica**: Parámetros principales (InitialPopulationSize, MaxGenerations, MutationRate, SelectionStrength)
+- **Configuración Predeterminada**: Restauración rápida a valores por defecto
+- **Validación de entrada**: Rangos válidos para cada parámetro
+- **Configuración en memoria**: Mantiene configuración durante la sesión
+
+#### 🌳 Generación de Cladogramas desde Menú
+- **Acceso directo**: Opción dedicada en menú principal
+- **Validación de datos**: Verifica que exista simulación previa
+- **Exportación automática**: Genera todos los formatos de cladograma
+- **Estadísticas integradas**: Muestra estadísticas de fósiles si están disponibles
+
+#### 🔄 Refactorización del Programa Principal
+- **Program.cs simplificado**: Solo instancia MenuManager
+- **Separación de responsabilidades**: Lógica de menú separada de lógica de simulación
+- **Código más limpio**: Eliminación de código duplicado y métodos no utilizados
+
+### 🔧 Mejoras Técnicas
+
+#### MenuManager
+- Gestión completa de estados de menú
+- Validación robusta de entrada del usuario
+- Manejo de errores con mensajes informativos
+- Configuración persistente durante la sesión
+- Integración completa con SimulationEngine
+
+#### Experiencia de Usuario
+- Navegación clara entre opciones
+- Confirmaciones para acciones importantes
+- Mensajes informativos de progreso
+- Validación en tiempo real de parámetros
+- Opción de cancelar operaciones
+
+#### Organización de Código
+- Separación clara entre interfaz y lógica
+- Métodos específicos para cada tipo de configuración
+- Reutilización de código para validación
+- Manejo consistente de errores
+
+### 📝 Documentación
+
+#### Nuevas Funcionalidades
+- Sistema de menú completamente documentado
+- Guía de uso de configuración interactiva
+- Instrucciones para generación de cladogramas
+- Validación de parámetros explicada
+
+### 🚀 Mejoras de Usabilidad
+
+#### Flujo de Trabajo Optimizado
+- **Configuración rápida**: Acceso directo a parámetros más importantes
+- **Simulación guiada**: Proceso paso a paso con confirmaciones
+- **Resultados accesibles**: Generación de cladogramas sin re-ejecutar simulación
+- **Configuración flexible**: Tres niveles de personalización
+
+#### Interfaz Intuitiva
+- Menús numerados para selección fácil
+- Información contextual en cada pantalla
+- Validación inmediata de entrada
+- Mensajes de error claros y útiles
+
+### 🔄 Compatibilidad
+
+#### Migración desde 2.0
+- Todas las funcionalidades anteriores preservadas
+- Configuración predeterminada idéntica a versión anterior
+- Archivos de salida en mismos formatos
+- APIs de SimulationEngine sin cambios
+
+### 🐛 Correcciones
+
+- Eliminación de código duplicado en Program.cs
+- Mejor manejo de errores en configuración
+- Validación más robusta de parámetros de entrada
+- Prevención de estados inconsistentes
+
+---
+
 ## Versión 2.0.0 - Cladogramas, Fósiles y Optimizaciones de Rendimiento
 
 ### 🎯 Características Principales
